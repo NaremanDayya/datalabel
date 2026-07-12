@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Karama Data — Enterprise-grade Arabic dialect data annotation services for AI companies. NLP, ASR, and conversational AI annotation with rigorous QA standards.">
+    <meta name="description" content="Karama Data — Native-speaker Arabic dialect annotation for AI companies. Your Arabic AI is only as good as the humans who train it. NLP, ASR, RLHF. US LLC.">
     <title>Karama Data | Arabic AI Data Annotation</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -18,6 +18,7 @@
                 Karama Data
             </a>
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="#why-arabic" class="hover:text-[#1e3a5f] transition-colors">Why Arabic</a>
                 <a href="#services" class="hover:text-[#1e3a5f] transition-colors">Services</a>
                 <a href="#about" class="hover:text-[#1e3a5f] transition-colors">About</a>
                 <a href="#workforce" class="hover:text-[#1e3a5f] transition-colors">Our Workforce</a>
@@ -34,6 +35,7 @@
         </div>
         {{-- Mobile nav --}}
         <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 bg-white px-6 py-4 space-y-3 text-sm font-medium">
+            <a href="#why-arabic" class="block text-slate-700 hover:text-[#1e3a5f]">Why Arabic</a>
             <a href="#services" class="block text-slate-700 hover:text-[#1e3a5f]">Services</a>
             <a href="#about" class="block text-slate-700 hover:text-[#1e3a5f]">About</a>
             <a href="#workforce" class="block text-slate-700 hover:text-[#1e3a5f]">Our Workforce</a>
@@ -53,17 +55,17 @@
                         Arabic AI Data Annotation
                     </span>
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight mb-6">
-                        High-Quality Arabic Dialect Annotation at Enterprise Scale
+                        Your Arabic AI is only as good as the humans who train it.
                     </h1>
                     <p class="text-lg text-slate-300 leading-relaxed mb-10 max-w-2xl">
-                        Karama Data delivers rigorously quality-controlled Arabic language annotation for NLP, ASR, and conversational AI systems — with a workforce invested in the outcomes they produce.
+                        Karama Data provides native-speaker Arabic dialect annotation with documented quality metrics. US-incorporated. Worker-owned. No shortcuts.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="#contact" class="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-medium px-8 py-3 rounded-md transition-colors">
                             Start a Conversation
                         </a>
-                        <a href="#services" class="inline-flex items-center justify-center border border-slate-500 hover:border-slate-300 text-slate-300 hover:text-white font-medium px-8 py-3 rounded-md transition-colors">
-                            Explore Our Services
+                        <a href="#contact" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-8 py-3 rounded-md transition-colors">
+                            Request a Pilot
                         </a>
                     </div>
                 </div>
@@ -75,13 +77,13 @@
         ========================================================= --}}
         <section class="bg-[#1e3a5f] py-6">
             <div class="max-w-6xl mx-auto px-6">
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
                     <div>
                         <div class="text-2xl font-semibold text-white">US LLC</div>
                         <div class="text-sm text-blue-200 mt-1">Domestic Ownership</div>
                     </div>
                     <div>
-                        <div class="text-2xl font-semibold text-white">4+</div>
+                        <div class="text-2xl font-semibold text-white">5+</div>
                         <div class="text-sm text-blue-200 mt-1">Arabic Dialect Variants</div>
                     </div>
                     <div>
@@ -91,6 +93,53 @@
                     <div>
                         <div class="text-2xl font-semibold text-white">Arabic Only</div>
                         <div class="text-sm text-blue-200 mt-1">No Content Moderation</div>
+                    </div>
+                    <div>
+                        <div class="text-lg font-semibold text-blue-300">Kappa Scores</div>
+                        <div class="text-sm text-blue-200 mt-1">Quality metrics coming soon</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- =========================================================
+             WHY ARABIC? WHY NOW?
+        ========================================================= --}}
+        <section id="why-arabic" class="py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="mb-14">
+                    <span class="text-blue-600 text-sm font-medium tracking-widest uppercase">The Opportunity</span>
+                    <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Why Arabic? Why Now?</h2>
+                    <p class="mt-4 text-slate-600 max-w-2xl leading-relaxed">
+                        Arabic is one of the most spoken languages on earth — and one of the most underserved in AI. That gap is why enterprise buyers are reaching out, and why the quality of annotation data has never mattered more.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-[#f8fafc] rounded-xl border border-slate-200 p-8">
+                        <div class="text-4xl font-bold text-[#0f2040] mb-2">400M+</div>
+                        <div class="text-blue-600 font-medium mb-3">Arabic speakers worldwide</div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Arabic is the fifth most spoken language in the world, spanning 22 countries across the Middle East and North Africa — yet AI systems routinely fail to understand the people who speak it.</p>
+                    </div>
+                    <div class="bg-[#f8fafc] rounded-xl border border-slate-200 p-8">
+                        <div class="text-4xl font-bold text-[#0f2040] mb-2">&lt;1%</div>
+                        <div class="text-blue-600 font-medium mb-3">of NLP research covers Arabic</div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Despite hundreds of millions of speakers, Arabic receives a fraction of the research attention that English does. The training data infrastructure is just getting started — and the companies who invest now will have a significant head start.</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="border-l-4 border-blue-500 pl-6 py-2">
+                        <div class="font-semibold text-[#0f2040] mb-2">The Translation Shortcut</div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Most "Arabic" AI training data is machine-translated English. It misses cultural context, dialect nuance, and the way Arabic is actually spoken day to day.</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-6 py-2">
+                        <div class="font-semibold text-[#0f2040] mb-2">The MSA Assumption</div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-6 py-2">
+                        <div class="font-semibold text-[#0f2040] mb-2">The Market Moment</div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Gulf states are investing billions in AI development. The demand for high-quality Arabic training data is growing faster than the supply of annotators who can deliver it.</p>
                     </div>
                 </div>
             </div>
@@ -161,10 +210,15 @@
 
                 </div>
 
-                <div class="mt-12 p-6 bg-slate-50 rounded-xl border border-slate-200">
-                    <p class="text-slate-700 text-sm leading-relaxed">
-                        <strong class="text-[#0f2040]">Pricing is project-specific.</strong> We work with clients to scope engagements based on volume, dialect requirements, and QA depth. Contact us to discuss your project needs.
-                    </p>
+                <div class="mt-12 p-6 bg-slate-50 rounded-xl border border-slate-200 flex flex-col sm:flex-row sm:items-center gap-6">
+                    <div class="flex-1">
+                        <p class="text-slate-700 text-sm leading-relaxed">
+                            <strong class="text-[#0f2040]">We price for quality, not volume.</strong> Engagements are scoped based on dialect requirements, QA depth, and throughput needs — not race-to-the-bottom per-task rates. Contact us to discuss your project.
+                        </p>
+                    </div>
+                    <a href="#contact" class="shrink-0 inline-flex items-center justify-center bg-[#0f2040] hover:bg-[#1e3a5f] text-white text-sm font-medium px-6 py-2.5 rounded-md transition-colors whitespace-nowrap">
+                        Request a Pilot
+                    </a>
                 </div>
             </div>
         </section>
@@ -307,7 +361,7 @@
                         <div class="mt-8 space-y-4 text-sm text-slate-600">
                             <div class="flex items-center gap-3">
                                 <svg class="w-5 h-5 text-blue-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                                <span>contact@karamadata.com</span>
+                                <span>laura@karamadata.ai</span>
                             </div>
                             <div class="flex items-start gap-3">
                                 <svg class="w-5 h-5 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
@@ -419,7 +473,7 @@
                 </div>
                 <div>
                     <div class="text-white font-medium mb-3 text-sm">Contact</div>
-                    <p class="text-sm">contact@karamadata.com</p>
+                    <p class="text-sm">laura@karamadata.ai</p>
                     <div class="mt-4 text-sm space-y-1">
                         <p>Arabic Language Annotation Only</p>
                         <p>No Content Moderation Services</p>
