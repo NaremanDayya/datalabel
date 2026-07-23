@@ -43,6 +43,7 @@
             </a>
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
                 <a href="#why-arabic" class="hover:text-[#1e3a5f] transition-colors">Why Arabic</a>
+                <a href="#quality" class="hover:text-[#1e3a5f] transition-colors">Results</a>
                 <a href="#services" class="hover:text-[#1e3a5f] transition-colors">Services</a>
                 <a href="#about" class="hover:text-[#1e3a5f] transition-colors">About</a>
                 <a href="#workforce" class="hover:text-[#1e3a5f] transition-colors">Our Workforce</a>
@@ -60,6 +61,7 @@
         {{-- Mobile nav --}}
         <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 bg-white px-6 py-4 space-y-3 text-sm font-medium">
             <a href="#why-arabic" class="block text-slate-700 hover:text-[#1e3a5f]">Why Arabic</a>
+            <a href="#quality" class="block text-slate-700 hover:text-[#1e3a5f]">Results</a>
             <a href="#services" class="block text-slate-700 hover:text-[#1e3a5f]">Services</a>
             <a href="#about" class="block text-slate-700 hover:text-[#1e3a5f]">About</a>
             <a href="#workforce" class="block text-slate-700 hover:text-[#1e3a5f]">Our Workforce</a>
@@ -119,8 +121,8 @@
                         <div class="text-sm text-blue-200 mt-1">No Content Moderation</div>
                     </div>
                     <div>
-                        <div class="text-2xl font-semibold text-white">Kappa Scores</div>
-                        <div class="text-sm text-blue-200 mt-1">Quality metrics coming soon</div>
+                        <div class="text-2xl font-semibold text-white">Kappa 0.62</div>
+                        <div class="text-sm text-blue-200 mt-1">RLHF Agreement Score</div>
                     </div>
                 </div>
             </div>
@@ -165,6 +167,150 @@
                         <div class="font-semibold text-[#0f2040] mb-2">The Market Moment</div>
                         <p class="text-slate-600 text-sm leading-relaxed">Gulf states are investing billions in AI development. The demand for high-quality Arabic training data is growing faster than the supply of annotators who can deliver it.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- =========================================================
+             QUALITY METRICS
+        ========================================================= --}}
+        <section id="quality" class="py-24 bg-[#f8fafc]">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="mb-14">
+                    <span class="text-blue-600 text-sm font-medium tracking-widest uppercase">Pilot Results</span>
+                    <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Quality We Can Prove</h2>
+                    <p class="mt-4 text-slate-600 max-w-2xl leading-relaxed">
+                        In our first structured pilot, two Palestinian annotators in Gaza completed 3,031 annotation tasks across three task types — every result benchmarked against published international standards.
+                    </p>
+                </div>
+
+                {{-- Headline stats --}}
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mb-12">
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
+                        <div class="text-3xl font-bold text-[#0f2040]">3,031</div>
+                        <div class="text-sm text-slate-500 mt-1">Tasks completed</div>
+                        <div class="text-xs text-blue-600 font-medium mt-1">100% completion rate</div>
+                    </div>
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
+                        <div class="text-3xl font-bold text-[#0f2040]">91.4%</div>
+                        <div class="text-sm text-slate-500 mt-1">Top accuracy</div>
+                        <div class="text-xs text-blue-600 font-medium mt-1">Preference Ranking</div>
+                    </div>
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
+                        <div class="text-3xl font-bold text-[#0f2040]">0.623</div>
+                        <div class="text-sm text-slate-500 mt-1">RLHF Kappa score</div>
+                        <div class="text-xs text-green-600 font-medium mt-1">↑ vs 0.27–0.39 (OpenAI/NVIDIA)</div>
+                    </div>
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
+                        <div class="text-3xl font-bold text-[#0f2040]">470/hr</div>
+                        <div class="text-sm text-slate-500 mt-1">Team throughput</div>
+                        <div class="text-xs text-blue-600 font-medium mt-1">2-labeler pilot team</div>
+                    </div>
+                </div>
+
+                {{-- Detailed scorecard --}}
+                <div class="grid md:grid-cols-3 gap-6 mb-10">
+
+                    {{-- Preference Ranking --}}
+                    <div class="bg-white rounded-xl border-2 border-blue-200 p-7">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-semibold text-[#0f2040]">Preference Ranking</h3>
+                            <span class="text-xs bg-green-100 text-green-700 font-semibold px-2.5 py-1 rounded-full">Above Benchmark</span>
+                        </div>
+                        <div class="text-slate-500 text-xs mb-4">667 items · RLHF / Model Alignment</div>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="flex justify-between text-sm mb-1">
+                                    <span class="text-slate-600">Avg accuracy</span>
+                                    <span class="font-semibold text-[#0f2040]">88.6%</span>
+                                </div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:88.6%"></div></div>
+                                <div class="text-xs text-slate-400 mt-1">Benchmark: 83–87% (major AI labs)</div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between text-sm mb-1">
+                                    <span class="text-slate-600">Cohen's Kappa</span>
+                                    <span class="font-semibold text-[#0f2040]">0.623</span>
+                                </div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:62.3%"></div></div>
+                                <div class="text-xs text-slate-400 mt-1">Benchmark: 0.27–0.39 (OpenAI / NVIDIA)</div>
+                            </div>
+                            <div class="pt-2 border-t border-slate-100 text-xs text-slate-500">
+                                Best labeler: <span class="font-semibold text-[#0f2040]">91.4%</span> · No Arabic RLHF benchmark exists — first-of-kind data
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Dialect Identification --}}
+                    <div class="bg-white rounded-xl border border-slate-200 p-7">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-semibold text-[#0f2040]">Dialect Identification</h3>
+                            <span class="text-xs bg-blue-100 text-blue-700 font-semibold px-2.5 py-1 rounded-full">On Par</span>
+                        </div>
+                        <div class="text-slate-500 text-xs mb-4">960 items · MSA, Levantine, Gulf, Egyptian, Iraqi, Maghrebi</div>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="flex justify-between text-sm mb-1">
+                                    <span class="text-slate-600">Avg accuracy</span>
+                                    <span class="font-semibold text-[#0f2040]">71.2%</span>
+                                </div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:71.2%"></div></div>
+                                <div class="text-xs text-slate-400 mt-1">Benchmark: 65–80% (NADI 2024)</div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between text-sm mb-1">
+                                    <span class="text-slate-600">Cohen's Kappa</span>
+                                    <span class="font-semibold text-[#0f2040]">0.572</span>
+                                </div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:57.2%"></div></div>
+                                <div class="text-xs text-slate-400 mt-1">Benchmark: 0.59 (NADI 2024, Palestinian Arabic)</div>
+                            </div>
+                            <div class="pt-2 border-t border-slate-100 text-xs text-slate-500">
+                                Best labeler: <span class="font-semibold text-[#0f2040]">77%</span> · Compared against the largest Arabic dialect competition globally
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Sentiment Tagging --}}
+                    <div class="bg-white rounded-xl border border-slate-200 p-7">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-semibold text-[#0f2040]">Sentiment Tagging</h3>
+                            <span class="text-xs bg-yellow-100 text-yellow-700 font-semibold px-2.5 py-1 rounded-full">Near Target</span>
+                        </div>
+                        <div class="text-slate-500 text-xs mb-4">999 items · Arabic social media text</div>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="flex justify-between text-sm mb-1">
+                                    <span class="text-slate-600">Avg accuracy</span>
+                                    <span class="font-semibold text-[#0f2040]">62.5%</span>
+                                </div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:62.5%"></div></div>
+                                <div class="text-xs text-slate-400 mt-1">Benchmark: 60–75% (AraSenTi-Tweet)</div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between text-sm mb-1">
+                                    <span class="text-slate-600">Cohen's Kappa</span>
+                                    <span class="font-semibold text-[#0f2040]">0.532</span>
+                                </div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:53.2%"></div></div>
+                                <div class="text-xs text-slate-400 mt-1">Target: 0.55–0.70 (Arabic NLP)</div>
+                            </div>
+                            <div class="pt-2 border-t border-slate-100 text-xs text-slate-500">
+                                Best labeler: <span class="font-semibold text-[#0f2040]">73.2%</span> · Guideline improvement identified &amp; incorporated into SOP
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                {{-- Benchmark note --}}
+                <div class="bg-[#0f2040] rounded-2xl p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-6">
+                    <div class="flex-1 text-slate-300 text-sm leading-relaxed">
+                        <span class="text-white font-semibold">Benchmarked against published research:</span> NADI 2024 (ACL/WANLP) · AraSenTi-Tweet · ASAD Corpus · MultiPref 2024 · HelpSteer2 2024. On Preference Ranking — the highest-value task for AI companies — our Kappa of 0.623 significantly outperforms figures published by OpenAI and NVIDIA.
+                    </div>
+                    <a href="#contact" class="shrink-0 inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-medium px-6 py-3 rounded-md transition-colors text-sm whitespace-nowrap">
+                        Request a Pilot
+                    </a>
                 </div>
             </div>
         </section>
@@ -585,6 +731,7 @@
                     <div class="text-white font-medium mb-3 text-sm">Navigation</div>
                     <ul class="space-y-2 text-sm">
                         <li><a href="#why-arabic" class="hover:text-white transition-colors">Why Arabic</a></li>
+                        <li><a href="#quality" class="hover:text-white transition-colors">Results</a></li>
                         <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
                         <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
                         <li><a href="#workforce" class="hover:text-white transition-colors">Our Workforce</a></li>
