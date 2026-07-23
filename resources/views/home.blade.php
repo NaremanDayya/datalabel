@@ -82,7 +82,7 @@
                         Your Arabic AI is only as good as the humans who train it.
                     </h1>
                     <p class="text-lg text-slate-300 leading-relaxed mb-10 max-w-2xl">
-                        91% accuracy, benchmarked against published research. US-incorporated. Worker-owned. No shortcuts.
+                        91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="#contact" class="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-medium px-8 py-3 rounded-md transition-colors">
@@ -277,12 +277,6 @@
                                 We are a US LLC with US-based board leadership and domestic ownership — a structure that meets enterprise compliance requirements and instills client confidence. Our operational presence is in the region, giving us authentic access to the linguistic talent our clients need.
                             </p>
                         </div>
-                        <div>
-                            <h3 class="font-semibold text-[#0f2040] text-lg mb-3">Worker Ownership Model</h3>
-                            <p class="text-slate-600 leading-relaxed">
-                                Our annotators participate in a profits interest units model — a structural investment in quality, not a charitable gesture. Worker-owners have a direct stake in project outcomes, which produces measurably lower error rates and lower churn than transactional annotation models. This is the operational differentiator that benefits our clients.
-                            </p>
-                        </div>
                         <div class="pt-2">
                             <a href="#contact" class="inline-flex items-center justify-center bg-[#0f2040] hover:bg-[#1e3a5f] text-white text-sm font-medium px-6 py-2.5 rounded-md transition-colors">
                                 Start Your Project
@@ -303,33 +297,53 @@
                             <div class="flex items-start gap-4">
                                 <div class="w-10 h-10 rounded-full bg-[#0f2040] flex items-center justify-center text-white font-semibold text-sm shrink-0">LM</div>
                                 <div>
-                                    <div class="font-semibold text-[#0f2040]">Laura Mather</div>
+                                    <div class="flex items-center gap-2">
+                                        <span class="font-semibold text-[#0f2040]">Laura Mather</span>
+                                        <a href="https://www.linkedin.com/in/laura-mather/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition-colors" aria-label="Laura Mather on LinkedIn">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                        </a>
+                                    </div>
                                     <div class="text-sm text-blue-600 mb-1">Chief Executive Officer</div>
-                                    <p class="text-sm text-slate-600">CEO and board member, providing executive leadership and enterprise AI industry expertise.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <div class="w-10 h-10 rounded-full bg-[#0f2040] flex items-center justify-center text-white font-semibold text-sm shrink-0">DH</div>
-                                <div>
-                                    <div class="font-semibold text-[#0f2040]">David Hasan</div>
-                                    <div class="text-sm text-blue-600 mb-1">Board of Directors</div>
-                                    <p class="text-sm text-slate-600">Board member with ties to GCV partnership, ensuring strategic alignment between the company mission and operational delivery.</p>
+                                    <p class="text-sm text-slate-600">Silicon Valley Founder and CEO with AI and Cybersecurity expertise.</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-4">
                                 <div class="w-10 h-10 rounded-full bg-[#0f2040] flex items-center justify-center text-white font-semibold text-sm shrink-0">ME</div>
                                 <div>
-                                    <div class="font-semibold text-[#0f2040]">Mike Eynon</div>
-                                    <div class="text-sm text-blue-600 mb-1">Board of Directors</div>
-                                    <p class="text-sm text-slate-600">Board member contributing strategic oversight and organizational governance.</p>
+                                    <div class="flex items-center gap-2">
+                                        <span class="font-semibold text-[#0f2040]">Mike Eynon</span>
+                                        <a href="https://www.linkedin.com/in/mikeeynon/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition-colors" aria-label="Mike Eynon on LinkedIn">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="text-sm text-blue-600 mb-1">Chief Technology Officer</div>
+                                    <p class="text-sm text-slate-600">Silicon Valley Founder and CTO.</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-4">
                                 <div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-600 font-semibold text-sm shrink-0">ND</div>
                                 <div>
-                                    <div class="font-semibold text-[#0f2040]">Nareman Dayya</div>
+                                    <div class="flex items-center gap-2">
+                                        <span class="font-semibold text-[#0f2040]">Nareman Dayya</span>
+                                        <a href="https://www.linkedin.com/in/nareman-dayya-18840723a/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition-colors" aria-label="Nareman Dayya on LinkedIn">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                        </a>
+                                    </div>
                                     <div class="text-sm text-blue-600 mb-1">Palestine Operations Advisor</div>
                                     <p class="text-sm text-slate-600">In-region operations advisor ensuring on-the-ground operational credibility, annotator welfare, and delivery quality.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-full bg-[#0f2040] flex items-center justify-center text-white font-semibold text-sm shrink-0">DH</div>
+                                <div>
+                                    <div class="flex items-center gap-2">
+                                        <span class="font-semibold text-[#0f2040]">David Hasan</span>
+                                        <a href="https://www.linkedin.com/in/david-hasan-621663104/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition-colors" aria-label="David Hasan on LinkedIn">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                        </a>
+                                    </div>
+                                    <div class="text-sm text-blue-600 mb-1">Advisor</div>
+                                    <p class="text-sm text-slate-600">CEO of Gaza Children Village.</p>
                                 </div>
                             </div>
                         </div>
@@ -384,20 +398,8 @@
                     </div>
                     <div class="text-center p-8 bg-[#f8fafc] rounded-xl border border-slate-200">
                         <div class="text-3xl font-semibold text-[#0f2040] mb-1">Invested</div>
-                        <div class="text-blue-600 text-sm font-medium mb-2">Worker-owners, not gig workers</div>
-                        <div class="text-slate-600 text-sm">Profit participation model aligns annotator incentives with quality outcomes — lower error rates, lower churn, better data</div>
-                    </div>
-                </div>
-
-                <div class="bg-[#0f2040] rounded-2xl p-8 md:p-12 text-white">
-                    <div class="max-w-2xl">
-                        <h3 class="text-2xl font-semibold mb-4">Why Workforce Investment Produces Better Data</h3>
-                        <p class="text-slate-300 leading-relaxed mb-6">
-                            Transactional gig-annotation models produce inconsistent quality as annotators churn and training investment is lost. Our workforce participates in profits interest units — a structural mechanism that creates long-term retention and shared accountability for the quality of every dataset we deliver.
-                        </p>
-                        <p class="text-slate-300 leading-relaxed">
-                            This isn't a social mission claim. It's a measurable operational difference: higher inter-annotator agreement, better training data, and lower rework costs for our clients.
-                        </p>
+                        <div class="text-blue-600 text-sm font-medium mb-2">Long-term retention, not gig churn</div>
+                        <div class="text-slate-600 text-sm">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</div>
                     </div>
                 </div>
 
@@ -419,7 +421,7 @@
                         <div class="text-5xl text-blue-200 font-serif leading-none shrink-0">"</div>
                         <div>
                             <p class="text-[#0f2040] text-lg leading-relaxed font-medium mb-4">
-                                Our annotators are not vendors — they are co-owners. That changes everything about how they approach the work. The precision, the care, the accountability. It shows in every dataset we deliver.
+                                Our annotators are not vendors — they are deeply invested in the outcomes. That changes everything about how they approach the work. The precision, the care, the accountability. It shows in every dataset we deliver.
                             </p>
                             <div class="flex items-center gap-3">
                                 <div class="w-8 h-8 rounded-full bg-[#0f2040] flex items-center justify-center text-white text-xs font-semibold shrink-0">ND</div>
@@ -443,10 +445,6 @@
                             <div class="flex items-center gap-3">
                                 <svg class="w-5 h-5 text-blue-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                                 <span>info@karamadata.ai</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <svg class="w-5 h-5 text-blue-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                                <span>laura@karamadata.ai</span>
                             </div>
                             <div class="flex items-start gap-3">
                                 <svg class="w-5 h-5 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
@@ -556,12 +554,6 @@
                     </div>
                     <span class="text-sm font-medium">US-Incorporated LLC</span>
                 </div>
-                <div class="flex items-center gap-3 text-slate-600">
-                    <div class="w-8 h-8 rounded bg-[#0f2040] flex items-center justify-center">
-                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
-                    </div>
-                    <span class="text-sm font-medium">Worker Ownership Model</span>
-                </div>
             </div>
         </div>
     </section>
@@ -602,7 +594,6 @@
                 <div>
                     <div class="text-white font-medium mb-3 text-sm">Contact</div>
                     <p class="text-sm">info@karamadata.ai</p>
-                    <p class="text-sm mt-1">laura@karamadata.ai</p>
                     <div class="mt-4 text-sm space-y-1">
                         <p>Arabic Language Annotation Only</p>
                         <p>No Content Moderation Services</p>
