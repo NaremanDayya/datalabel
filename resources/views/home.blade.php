@@ -163,10 +163,6 @@
                         <div class="font-semibold text-[#0f2040] mb-2">The MSA Assumption</div>
                         <p class="text-slate-600 text-sm leading-relaxed">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
                     </div>
-                    <div class="border-l-4 border-blue-500 pl-6 py-2">
-                        <div class="font-semibold text-[#0f2040] mb-2">The Market Moment</div>
-                        <p class="text-slate-600 text-sm leading-relaxed">Gulf states are investing billions in AI development. The demand for high-quality Arabic training data is growing faster than the supply of annotators who can deliver it.</p>
-                    </div>
                 </div>
             </div>
         </section>
