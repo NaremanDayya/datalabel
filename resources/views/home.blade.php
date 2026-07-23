@@ -119,7 +119,7 @@
                         <div class="text-sm text-blue-200 mt-1">No Content Moderation</div>
                     </div>
                     <div>
-                        <div class="text-lg font-semibold text-blue-300">Kappa Scores</div>
+                        <div class="text-2xl font-semibold text-white">Kappa Scores</div>
                         <div class="text-sm text-blue-200 mt-1">Quality metrics coming soon</div>
                     </div>
                 </div>
