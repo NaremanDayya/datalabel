@@ -58,14 +58,14 @@
                         Your Arabic AI is only as good as the humans who train it.
                     </h1>
                     <p class="text-lg text-slate-300 leading-relaxed mb-10 max-w-2xl">
-                        Karama Data provides native-speaker Arabic dialect annotation with documented quality metrics. US-incorporated. Worker-owned. No shortcuts.
+                        91% accuracy, benchmarked against published research. US-incorporated. Worker-owned. No shortcuts.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="#contact" class="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-medium px-8 py-3 rounded-md transition-colors">
-                            Start a Conversation
+                            Start Your Project
                         </a>
-                        <a href="#contact" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-8 py-3 rounded-md transition-colors">
-                            Request a Pilot
+                        <a href="#about" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-8 py-3 rounded-md transition-colors">
+                            See Our Results
                         </a>
                     </div>
                 </div>
@@ -79,8 +79,8 @@
             <div class="max-w-6xl mx-auto px-6">
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
                     <div>
-                        <div class="text-2xl font-semibold text-white">US LLC</div>
-                        <div class="text-sm text-blue-200 mt-1">Domestic Ownership</div>
+                        <div class="text-base font-semibold text-white leading-tight">AI &amp; Cybersecurity<br>Veterans</div>
+                        <div class="text-sm text-blue-200 mt-1">Founded by</div>
                     </div>
                     <div>
                         <div class="text-2xl font-semibold text-white">5+</div>
@@ -164,7 +164,8 @@
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/></svg>
                         </div>
-                        <h3 class="font-semibold text-[#0f2040] text-lg mb-2">NLP Annotation</h3>
+                        <h3 class="font-semibold text-[#0f2040] text-lg mb-1">NLP Annotation</h3>
+                        <p class="text-blue-600 text-xs font-medium mb-3">Native dialect labels that improve your model's real-world accuracy.</p>
                         <p class="text-slate-600 text-sm leading-relaxed">Named entity recognition, sentiment analysis, intent classification, and text categorization across Levantine, Gulf, Egyptian, and Maghrebi dialects.</p>
                     </div>
 
@@ -172,39 +173,47 @@
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
                         </div>
-                        <h3 class="font-semibold text-[#0f2040] text-lg mb-2">ASR Data Annotation</h3>
+                        <h3 class="font-semibold text-[#0f2040] text-lg mb-1">ASR Data Annotation</h3>
+                        <p class="text-blue-600 text-xs font-medium mb-3">Speech models that actually understand how Arabic is spoken, not just written.</p>
                         <p class="text-slate-600 text-sm leading-relaxed">Speech transcription, phonetic labeling, speaker diarization, and audio quality validation for Arabic automatic speech recognition training pipelines.</p>
+                    </div>
+
+                    <div class="border-2 border-blue-200 bg-blue-50/30 rounded-xl p-7 hover:border-blue-400 hover:shadow-sm transition-all">
+                        <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-5">
+                            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                        </div>
+                        <div class="flex items-center gap-2 mb-1">
+                            <h3 class="font-semibold text-[#0f2040] text-lg">RLHF &amp; Preference Ranking</h3>
+                            <span class="text-xs bg-blue-600 text-white px-2 py-0.5 rounded-full font-medium">Key Capability</span>
+                        </div>
+                        <p class="text-blue-600 text-xs font-medium mb-3">Human feedback data that makes your Arabic LLM safer, more helpful, and culturally aligned.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Response ranking, preference pair collection, and reinforcement learning from human feedback (RLHF) data — delivered by native Arabic speakers who understand dialect nuance and cultural context.</p>
                     </div>
 
                     <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
                         </div>
-                        <h3 class="font-semibold text-[#0f2040] text-lg mb-2">Conversational AI</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Dialogue annotation, response ranking, RLHF data collection, and conversation flow labeling for Arabic-language chatbots and virtual assistants.</p>
+                        <h3 class="font-semibold text-[#0f2040] text-lg mb-1">Conversational AI</h3>
+                        <p class="text-blue-600 text-xs font-medium mb-3">Chatbot training data that feels natural to real Arabic speakers, not translated English.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Dialogue annotation, response ranking, and conversation flow labeling for Arabic-language chatbots and virtual assistants.</p>
                     </div>
 
                     <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         </div>
-                        <h3 class="font-semibold text-[#0f2040] text-lg mb-2">Quality Assurance</h3>
+                        <h3 class="font-semibold text-[#0f2040] text-lg mb-1">Quality Assurance</h3>
+                        <p class="text-blue-600 text-xs font-medium mb-3">Documented QA reports with every delivery — no black-box quality claims.</p>
                         <p class="text-slate-600 text-sm leading-relaxed">Multi-layer review with inter-annotator agreement measurement, senior reviewer sign-off, and structured QA reporting delivered with every project.</p>
-                    </div>
-
-                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
-                        <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
-                            <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
-                        </div>
-                        <h3 class="font-semibold text-[#0f2040] text-lg mb-2">Dialect Coverage</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Native-speaker annotators covering Levantine, Gulf (Khaleeji), Egyptian, Moroccan/Maghrebi dialects, and Modern Standard Arabic (MSA).</p>
                     </div>
 
                     <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
                         </div>
-                        <h3 class="font-semibold text-[#0f2040] text-lg mb-2">Enterprise Compliance</h3>
+                        <h3 class="font-semibold text-[#0f2040] text-lg mb-1">Enterprise Compliance</h3>
+                        <p class="text-blue-600 text-xs font-medium mb-3">A vendor your procurement team can approve on the first pass.</p>
                         <p class="text-slate-600 text-sm leading-relaxed">US-incorporated, domestically owned. No content moderation work. Structured data handling with privacy-first practices that meet enterprise procurement requirements.</p>
                     </div>
 
@@ -217,7 +226,7 @@
                         </p>
                     </div>
                     <a href="#contact" class="shrink-0 inline-flex items-center justify-center bg-[#0f2040] hover:bg-[#1e3a5f] text-white text-sm font-medium px-6 py-2.5 rounded-md transition-colors whitespace-nowrap">
-                        Request a Pilot
+                        Start Your Project
                     </a>
                 </div>
             </div>
@@ -249,6 +258,11 @@
                             <p class="text-slate-600 leading-relaxed">
                                 Our annotators participate in a profits interest units model — a structural investment in quality, not a charitable gesture. Worker-owners have a direct stake in project outcomes, which produces measurably lower error rates and lower churn than transactional annotation models. This is the operational differentiator that benefits our clients.
                             </p>
+                        </div>
+                        <div class="pt-2">
+                            <a href="#contact" class="inline-flex items-center justify-center bg-[#0f2040] hover:bg-[#1e3a5f] text-white text-sm font-medium px-6 py-2.5 rounded-md transition-colors">
+                                Start Your Project
+                            </a>
                         </div>
                         <div>
                             <h3 class="font-semibold text-[#0f2040] text-lg mb-3">GCV Partnership</h3>
@@ -313,17 +327,40 @@
                     </p>
                 </div>
 
+                {{-- Arabic geometric pattern visual --}}
+                <div class="mb-10 rounded-2xl overflow-hidden bg-[#f8fafc] border border-slate-200 flex items-center justify-center py-8 px-6">
+                    <svg viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-2xl opacity-60" aria-hidden="true">
+                        <defs>
+                            <pattern id="arabesque" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+                                <polygon points="30,2 58,16 58,44 30,58 2,44 2,16" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+                                <polygon points="30,10 50,20 50,40 30,50 10,40 10,20" fill="none" stroke="#3b82f6" stroke-width="0.5"/>
+                                <circle cx="30" cy="30" r="4" fill="none" stroke="#1e3a5f" stroke-width="0.8"/>
+                                <line x1="30" y1="2" x2="30" y2="10" stroke="#1e3a5f" stroke-width="0.5"/>
+                                <line x1="30" y1="50" x2="30" y2="58" stroke="#1e3a5f" stroke-width="0.5"/>
+                                <line x1="2" y1="16" x2="10" y2="20" stroke="#1e3a5f" stroke-width="0.5"/>
+                                <line x1="50" y1="40" x2="58" y2="44" stroke="#1e3a5f" stroke-width="0.5"/>
+                                <line x1="58" y1="16" x2="50" y2="20" stroke="#1e3a5f" stroke-width="0.5"/>
+                                <line x1="10" y1="40" x2="2" y2="44" stroke="#1e3a5f" stroke-width="0.5"/>
+                            </pattern>
+                        </defs>
+                        <rect width="600" height="120" fill="url(#arabesque)"/>
+                    </svg>
+                </div>
+
                 <div class="grid md:grid-cols-3 gap-8 mb-14">
                     <div class="text-center p-8 bg-[#f8fafc] rounded-xl border border-slate-200">
-                        <div class="text-3xl font-semibold text-[#0f2040] mb-2">Native</div>
+                        <div class="text-3xl font-semibold text-[#0f2040] mb-1">Native</div>
+                        <div class="text-blue-600 text-sm font-medium mb-2">91% top accuracy</div>
                         <div class="text-slate-600 text-sm">Arabic dialect speakers with deep linguistic and cultural competency in their assigned dialect family</div>
                     </div>
                     <div class="text-center p-8 bg-[#f8fafc] rounded-xl border border-slate-200">
-                        <div class="text-3xl font-semibold text-[#0f2040] mb-2">Trained</div>
+                        <div class="text-3xl font-semibold text-[#0f2040] mb-1">Trained</div>
+                        <div class="text-blue-600 text-sm font-medium mb-2">3,031 annotations delivered</div>
                         <div class="text-slate-600 text-sm">Structured onboarding in annotation methodologies, quality standards, and task-specific guidelines before any production work</div>
                     </div>
                     <div class="text-center p-8 bg-[#f8fafc] rounded-xl border border-slate-200">
-                        <div class="text-3xl font-semibold text-[#0f2040] mb-2">Invested</div>
+                        <div class="text-3xl font-semibold text-[#0f2040] mb-1">Invested</div>
+                        <div class="text-blue-600 text-sm font-medium mb-2">Worker-owners, not gig workers</div>
                         <div class="text-slate-600 text-sm">Profit participation model aligns annotator incentives with quality outcomes — lower error rates, lower churn, better data</div>
                     </div>
                 </div>
@@ -351,14 +388,38 @@
         ========================================================= --}}
         <section id="contact" class="py-24 bg-[#f8fafc]">
             <div class="max-w-6xl mx-auto px-6">
+
+                {{-- Quote above form --}}
+                <div class="mb-14 bg-white rounded-2xl border border-slate-200 p-8 md:p-10">
+                    <div class="flex items-start gap-6">
+                        <div class="text-5xl text-blue-200 font-serif leading-none shrink-0">"</div>
+                        <div>
+                            <p class="text-[#0f2040] text-lg leading-relaxed font-medium mb-4">
+                                Our annotators are not vendors — they are co-owners. That changes everything about how they approach the work. The precision, the care, the accountability. It shows in every dataset we deliver.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-[#0f2040] flex items-center justify-center text-white text-xs font-semibold shrink-0">ND</div>
+                                <div>
+                                    <div class="text-sm font-semibold text-[#0f2040]">Nareman Dayya</div>
+                                    <div class="text-xs text-slate-500">Palestine Operations Advisor, Karama Data</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="grid md:grid-cols-2 gap-16 items-start">
                     <div>
                         <span class="text-blue-600 text-sm font-medium tracking-widest uppercase">Contact</span>
-                        <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Start a Conversation</h2>
+                        <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Start Your Project</h2>
                         <p class="mt-4 text-slate-600 leading-relaxed">
                             Tell us about your project. We'll follow up to discuss scope, dialect requirements, QA standards, and how we can fit into your annotation pipeline.
                         </p>
                         <div class="mt-8 space-y-4 text-sm text-slate-600">
+                            <div class="flex items-center gap-3">
+                                <svg class="w-5 h-5 text-blue-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                <span>info@karamadata.ai</span>
+                            </div>
                             <div class="flex items-center gap-3">
                                 <svg class="w-5 h-5 text-blue-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                                 <span>laura@karamadata.ai</span>
@@ -440,7 +501,7 @@
                                 type="submit"
                                 class="w-full bg-[#0f2040] hover:bg-[#1e3a5f] text-white font-medium py-3 px-6 rounded-md transition-colors text-sm"
                             >
-                                Send Inquiry
+                                Start Your Project
                             </button>
 
                             <p class="text-xs text-slate-500 text-center">We respond to all inquiries within one business day.</p>
@@ -453,18 +514,53 @@
     </main>
 
     {{-- =========================================================
+         AFFILIATIONS BAR
+    ========================================================= --}}
+    <section class="bg-slate-50 border-t border-slate-200 py-10">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-xs text-slate-400 uppercase tracking-widest font-medium mb-6">Partners &amp; Affiliations</p>
+            <div class="flex flex-wrap items-center justify-center gap-10">
+                <div class="flex items-center gap-3 text-slate-600">
+                    <div class="w-8 h-8 rounded bg-[#0f2040] flex items-center justify-center">
+                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <span class="text-sm font-medium">Supported by Gaza Children Village (GCV)</span>
+                </div>
+                <div class="flex items-center gap-3 text-slate-600">
+                    <div class="w-8 h-8 rounded bg-[#0f2040] flex items-center justify-center">
+                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    </div>
+                    <span class="text-sm font-medium">US-Incorporated LLC</span>
+                </div>
+                <div class="flex items-center gap-3 text-slate-600">
+                    <div class="w-8 h-8 rounded bg-[#0f2040] flex items-center justify-center">
+                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
+                    </div>
+                    <span class="text-sm font-medium">Worker Ownership Model</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- =========================================================
          FOOTER
     ========================================================= --}}
     <footer class="bg-[#0a1628] text-slate-400 py-12">
         <div class="max-w-6xl mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-10 mb-10">
                 <div>
-                    <div class="text-white font-semibold text-lg mb-3">Karama Data</div>
-                    <p class="text-sm leading-relaxed">Enterprise Arabic dialect data annotation services for AI companies. US LLC. Domestically owned and operated.</p>
+                    <div class="text-white font-semibold text-lg mb-2">Karama Data</div>
+                    <p class="text-xs text-blue-300 mb-3 italic">Native speakers. Rigorous QA. No shortcuts.</p>
+                    <p class="text-sm leading-relaxed">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
+                    <div class="mt-4 inline-flex items-center gap-1.5 border border-slate-600 rounded px-3 py-1 text-xs text-slate-400">
+                        <svg class="w-3 h-3 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        US-Incorporated LLC
+                    </div>
                 </div>
                 <div>
                     <div class="text-white font-medium mb-3 text-sm">Navigation</div>
                     <ul class="space-y-2 text-sm">
+                        <li><a href="#why-arabic" class="hover:text-white transition-colors">Why Arabic</a></li>
                         <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
                         <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
                         <li><a href="#workforce" class="hover:text-white transition-colors">Our Workforce</a></li>
@@ -473,7 +569,8 @@
                 </div>
                 <div>
                     <div class="text-white font-medium mb-3 text-sm">Contact</div>
-                    <p class="text-sm">laura@karamadata.ai</p>
+                    <p class="text-sm">info@karamadata.ai</p>
+                    <p class="text-sm mt-1">laura@karamadata.ai</p>
                     <div class="mt-4 text-sm space-y-1">
                         <p>Arabic Language Annotation Only</p>
                         <p>No Content Moderation Services</p>
@@ -482,7 +579,7 @@
             </div>
             <div class="border-t border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-slate-500">
                 <span>&copy; {{ date('Y') }} Karama Data LLC. All rights reserved.</span>
-                <span>US LLC · Domestic Ownership · Enterprise Data Annotation</span>
+                <span>US LLC · Domestic Ownership · Arabic AI Annotation</span>
             </div>
         </div>
     </footer>
