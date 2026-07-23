@@ -304,7 +304,7 @@
                                         </a>
                                     </div>
                                     <div class="text-sm text-blue-600 mb-1">Chief Executive Officer</div>
-                                    <p class="text-sm text-slate-600">Silicon Valley Founder and CEO with AI and Cybersecurity expertise.</p>
+                                    <p class="text-sm text-slate-600">Silicon Valley Founder and CEO with AI and Cybersecurity expertise</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-4">
@@ -317,11 +317,11 @@
                                         </a>
                                     </div>
                                     <div class="text-sm text-blue-600 mb-1">Chief Technology Officer</div>
-                                    <p class="text-sm text-slate-600">Silicon Valley Founder and CTO.</p>
+                                    <p class="text-sm text-slate-600">Silicon Valley Founder and CTO</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-4">
-                                <div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-600 font-semibold text-sm shrink-0">ND</div>
+                                <div class="w-10 h-10 rounded-full bg-[#0f2040] flex items-center justify-center text-white font-semibold text-sm shrink-0">ND</div>
                                 <div>
                                     <div class="flex items-center gap-2">
                                         <span class="font-semibold text-[#0f2040]">Nareman Dayya</span>
@@ -330,7 +330,7 @@
                                         </a>
                                     </div>
                                     <div class="text-sm text-blue-600 mb-1">Palestine Operations Advisor</div>
-                                    <p class="text-sm text-slate-600">In-region operations advisor ensuring on-the-ground operational credibility, annotator welfare, and delivery quality.</p>
+                                    <p class="text-sm text-slate-600">In-region operations advisor ensuring on-the-ground operational credibility, annotator welfare, and delivery quality</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-4">
@@ -343,7 +343,7 @@
                                         </a>
                                     </div>
                                     <div class="text-sm text-blue-600 mb-1">Advisor</div>
-                                    <p class="text-sm text-slate-600">CEO of Gaza Children Village.</p>
+                                    <p class="text-sm text-slate-600">CEO of Gaza Children Village</p>
                                 </div>
                             </div>
                         </div>
