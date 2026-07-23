@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Karama Data — Native-speaker Arabic dialect annotation for AI companies. Your Arabic AI is only as good as the humans who train it. NLP, ASR, RLHF. US LLC.">
     <title>Karama Data | Arabic AI Data Annotation</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            50: '#f8fafc', 100: '#f1f5f9', 200: '#e2e8f0',
+                            300: '#cbd5e1', 400: '#94a3b8', 500: '#64748b',
+                            600: '#475569', 700: '#334155', 800: '#1e293b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body class="bg-white text-slate-800 antialiased">
 
