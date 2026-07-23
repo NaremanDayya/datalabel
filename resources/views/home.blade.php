@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Karama Data — Native-speaker Arabic dialect annotation for AI companies. Your Arabic AI is only as good as the humans who train it. NLP, ASR, RLHF. US LLC.">
     <title>Karama Data | Arabic AI Data Annotation</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg viewBox='0 0 40 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='46' rx='8' fill='%230f2040'/%3E%3Cline x1='11' y1='6' x2='11' y2='40' stroke='white' stroke-width='8' stroke-linecap='round'/%3E%3Cline x1='15' y1='23' x2='34' y2='6' stroke='white' stroke-width='7' stroke-linecap='round'/%3E%3Cline x1='15' y1='23' x2='34' y2='40' stroke='%233b82f6' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='15' cy='23' r='5' fill='%2306b6d4'/%3E%3C/svg%3E">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -29,8 +30,16 @@
     ========================================================= --}}
     <header class="fixed top-0 inset-x-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
         <div class="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
-            <a href="#" class="text-xl font-semibold text-[#1e3a5f] tracking-tight">
-                Karama Data
+            <a href="#" class="flex items-center gap-2.5">
+                <svg viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-9 w-auto">
+                    <line x1="11" y1="6" x2="11" y2="40" stroke="#0f2040" stroke-width="8" stroke-linecap="round"/>
+                    <line x1="15" y1="23" x2="34" y2="6" stroke="#0f2040" stroke-width="7" stroke-linecap="round"/>
+                    <line x1="15" y1="23" x2="34" y2="40" stroke="#3b82f6" stroke-width="7" stroke-linecap="round"/>
+                    <circle cx="15" cy="23" r="5" fill="#06b6d4"/>
+                </svg>
+                <span class="text-lg font-bold tracking-tight">
+                    <span class="text-[#0f2040]">Karama</span><span class="text-blue-500"> Data</span>
+                </span>
             </a>
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
                 <a href="#why-arabic" class="hover:text-[#1e3a5f] transition-colors">Why Arabic</a>
@@ -564,7 +573,15 @@
         <div class="max-w-6xl mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-10 mb-10">
                 <div>
-                    <div class="text-white font-semibold text-lg mb-2">Karama Data</div>
+                    <div class="flex items-center gap-2 mb-2">
+                        <svg viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-7 w-auto">
+                            <line x1="11" y1="6" x2="11" y2="40" stroke="white" stroke-width="8" stroke-linecap="round"/>
+                            <line x1="15" y1="23" x2="34" y2="6" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                            <line x1="15" y1="23" x2="34" y2="40" stroke="#3b82f6" stroke-width="7" stroke-linecap="round"/>
+                            <circle cx="15" cy="23" r="5" fill="#06b6d4"/>
+                        </svg>
+                        <span class="font-bold text-lg"><span class="text-white">Karama</span><span class="text-blue-400"> Data</span></span>
+                    </div>
                     <p class="text-xs text-blue-300 mb-3 italic">Native speakers. Rigorous QA. No shortcuts.</p>
                     <p class="text-sm leading-relaxed">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
                     <div class="mt-4 inline-flex items-center gap-1.5 border border-slate-600 rounded px-3 py-1 text-xs text-slate-400">
