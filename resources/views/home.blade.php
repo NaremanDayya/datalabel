@@ -90,7 +90,7 @@
                         <a href="#contact" class="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-medium px-8 py-3 rounded-md transition-colors">
                             Start Your Project
                         </a>
-                        <a href="#about" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-8 py-3 rounded-md transition-colors">
+                        <a href="#quality" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-8 py-3 rounded-md transition-colors">
                             See Our Results
                         </a>
                     </div>
