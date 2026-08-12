@@ -22,6 +22,71 @@
             }
         }
     </script>
+    <style>
+        /* ── Scroll reveal ── */
+        .reveal {
+            opacity: 0;
+            transform: translateY(36px);
+            transition: opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);
+        }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-d1 { transition-delay: .08s; }
+        .reveal-d2 { transition-delay: .16s; }
+        .reveal-d3 { transition-delay: .24s; }
+        .reveal-d4 { transition-delay: .32s; }
+        .reveal-d5 { transition-delay: .40s; }
+
+        /* ── Hero SVG floaters ── */
+        @keyframes float-a {
+            0%,100% { transform: translateY(0px) rotate(0deg); }
+            40%     { transform: translateY(-18px) rotate(2deg); }
+            70%     { transform: translateY(8px) rotate(-1deg); }
+        }
+        @keyframes float-b {
+            0%,100% { transform: translateY(0px); }
+            50%     { transform: translateY(-14px); }
+        }
+        @keyframes pulse-node {
+            0%,100% { opacity:.35; r:4; }
+            50%     { opacity:.9;  r:6; }
+        }
+        @keyframes dash-flow {
+            to { stroke-dashoffset: -24; }
+        }
+        @keyframes glow-ring {
+            0%,100% { opacity:.15; }
+            50%     { opacity:.4; }
+        }
+        .float-a { animation: float-a 7s ease-in-out infinite; }
+        .float-b { animation: float-b 5.5s ease-in-out infinite; }
+        .float-c { animation: float-a 9s ease-in-out infinite reverse; }
+        .dash-flow { animation: dash-flow 2s linear infinite; }
+        .glow-ring { animation: glow-ring 3s ease-in-out infinite; }
+        .pulse-node { animation: pulse-node 2.5s ease-in-out infinite; }
+
+        /* ── Progress bars ── */
+        .bar-fill { width: 0 !important; transition: width 1.5s cubic-bezier(.4,0,.2,1); }
+        .bar-fill.animated { width: var(--target-w) !important; }
+
+        /* ── Stat counter ── */
+        .stat-num { font-variant-numeric: tabular-nums; }
+
+        /* ── Card hover lift ── */
+        .card-lift { transition: transform .25s ease, box-shadow .25s ease; }
+        .card-lift:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(15,32,64,.10); }
+
+        /* ── Hero gradient shimmer ── */
+        @keyframes shimmer-bg {
+            0%   { background-position: 0% 50%; }
+            50%  { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #0a1628 0%, #0f2040 35%, #0d2d5a 65%, #0a1628 100%);
+            background-size: 300% 300%;
+            animation: shimmer-bg 12s ease infinite;
+        }
+    </style>
 </head>
 <body class="bg-white text-slate-800 antialiased">
 
@@ -74,26 +139,100 @@
         {{-- =========================================================
              HERO
         ========================================================= --}}
-        <section class="pt-32 pb-24 bg-[#0f2040]">
+        <section class="pt-32 pb-24 hero-gradient overflow-hidden">
             <div class="max-w-6xl mx-auto px-6">
-                <div class="max-w-3xl">
-                    <span class="inline-block text-blue-300 text-sm font-medium tracking-widest uppercase mb-4">
-                        Arabic AI Data Annotation
-                    </span>
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight mb-6">
-                        Your Arabic AI is only as good as the humans who train it.
-                    </h1>
-                    <p class="text-lg text-slate-300 leading-relaxed mb-10 max-w-2xl">
-                        91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="#contact" class="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-medium px-8 py-3 rounded-md transition-colors">
-                            Start Your Project
-                        </a>
-                        <a href="#quality" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-8 py-3 rounded-md transition-colors">
-                            See Our Results
-                        </a>
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                    {{-- Left: text --}}
+                    <div>
+                        <span class="inline-block text-blue-300 text-sm font-medium tracking-widest uppercase mb-4">
+                            Arabic AI Data Annotation
+                        </span>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight mb-6">
+                            Your Arabic AI is only as good as the humans who train it.
+                        </h1>
+                        <p class="text-lg text-slate-300 leading-relaxed mb-10 max-w-xl">
+                            91% accuracy, benchmarked against published research. US-incorporated. Worker-owned. No shortcuts.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="#contact" class="inline-flex items-center justify-center bg-blue-500 hover:bg-blue-400 text-white font-medium px-8 py-3 rounded-md transition-colors">
+                                Start Your Project
+                            </a>
+                            <a href="#quality" class="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium px-8 py-3 rounded-md transition-colors">
+                                See Our Results
+                            </a>
+                        </div>
                     </div>
+
+                    {{-- Right: animated SVG illustration --}}
+                    <div class="hidden lg:flex items-center justify-center">
+                        <svg viewBox="0 0 420 360" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md">
+
+                            {{-- Background glow --}}
+                            <circle cx="210" cy="180" r="140" fill="rgba(37,99,235,0.06)" class="glow-ring"/>
+                            <circle cx="210" cy="180" r="100" fill="rgba(37,99,235,0.05)" class="glow-ring" style="animation-delay:.8s"/>
+
+                            {{-- Animated dashed flow lines --}}
+                            <line x1="100" y1="90"  x2="185" y2="165" stroke="rgba(96,165,250,0.3)" stroke-width="1.5" stroke-dasharray="6 4" class="dash-flow"/>
+                            <line x1="100" y1="180" x2="180" y2="180" stroke="rgba(96,165,250,0.3)" stroke-width="1.5" stroke-dasharray="6 4" class="dash-flow" style="animation-delay:.4s"/>
+                            <line x1="100" y1="270" x2="185" y2="197" stroke="rgba(96,165,250,0.3)" stroke-width="1.5" stroke-dasharray="6 4" class="dash-flow" style="animation-delay:.8s"/>
+                            <line x1="237" y1="165" x2="310" y2="100" stroke="rgba(96,165,250,0.25)" stroke-width="1.5" stroke-dasharray="6 4" class="dash-flow" style="animation-delay:.2s"/>
+                            <line x1="240" y1="180" x2="315" y2="180" stroke="rgba(96,165,250,0.25)" stroke-width="1.5" stroke-dasharray="6 4" class="dash-flow" style="animation-delay:.6s"/>
+                            <line x1="237" y1="197" x2="310" y2="265" stroke="rgba(96,165,250,0.25)" stroke-width="1.5" stroke-dasharray="6 4" class="dash-flow" style="animation-delay:1s"/>
+
+                            {{-- Input cards (left) --}}
+                            <g class="float-b">
+                                <rect x="12" y="62" width="88" height="52" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+                                <text x="56" y="84" fill="rgba(255,255,255,0.5)" font-size="8" text-anchor="middle" font-family="monospace">اَلْعَرَبِيَّة</text>
+                                <text x="56" y="100" fill="rgba(148,163,184,0.6)" font-size="7" text-anchor="middle">Raw Arabic Text</text>
+                            </g>
+                            <g class="float-a" style="animation-delay:.5s">
+                                <rect x="12" y="154" width="88" height="52" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+                                <text x="56" y="176" fill="rgba(255,255,255,0.5)" font-size="8" text-anchor="middle" font-family="monospace">🎙 Audio</text>
+                                <text x="56" y="192" fill="rgba(148,163,184,0.6)" font-size="7" text-anchor="middle">Speech Data</text>
+                            </g>
+                            <g class="float-c" style="animation-delay:1s">
+                                <rect x="12" y="246" width="88" height="52" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+                                <text x="56" y="268" fill="rgba(255,255,255,0.5)" font-size="8" text-anchor="middle" font-family="monospace">AI ↔ AI</text>
+                                <text x="56" y="284" fill="rgba(148,163,184,0.6)" font-size="7" text-anchor="middle">Model Responses</text>
+                            </g>
+
+                            {{-- Center: Karama node --}}
+                            <circle cx="210" cy="180" r="38" fill="rgba(15,32,64,0.9)" stroke="#3b82f6" stroke-width="1.5"/>
+                            <circle cx="210" cy="180" r="44" fill="none" stroke="rgba(59,130,246,0.2)" stroke-width="1" class="glow-ring"/>
+                            {{-- K logo mark --}}
+                            <line x1="200" y1="162" x2="200" y2="198" stroke="white" stroke-width="5" stroke-linecap="round"/>
+                            <line x1="203" y1="180" x2="218" y2="163" stroke="white" stroke-width="4.5" stroke-linecap="round"/>
+                            <line x1="203" y1="180" x2="218" y2="197" stroke="#3b82f6" stroke-width="4.5" stroke-linecap="round"/>
+                            <circle cx="203" cy="180" r="3.5" fill="#06b6d4"/>
+
+                            {{-- Pulsing nodes on center ring --}}
+                            <circle cx="210" cy="136" r="4" fill="#3b82f6" class="pulse-node"/>
+                            <circle cx="248" cy="156" r="4" fill="#3b82f6" class="pulse-node" style="animation-delay:.6s"/>
+                            <circle cx="248" cy="204" r="4" fill="#3b82f6" class="pulse-node" style="animation-delay:1.2s"/>
+                            <circle cx="210" cy="224" r="4" fill="#3b82f6" class="pulse-node" style="animation-delay:.3s"/>
+                            <circle cx="172" cy="204" r="4" fill="#3b82f6" class="pulse-node" style="animation-delay:.9s"/>
+                            <circle cx="172" cy="156" r="4" fill="#3b82f6" class="pulse-node" style="animation-delay:1.5s"/>
+
+                            {{-- Output cards (right) --}}
+                            <g class="float-b" style="animation-delay:.3s">
+                                <rect x="308" y="72" width="100" height="52" rx="8" fill="rgba(34,197,94,0.08)" stroke="rgba(34,197,94,0.35)" stroke-width="1"/>
+                                <text x="358" y="93" fill="#86efac" font-size="8" text-anchor="middle" font-weight="600">NLP ✓</text>
+                                <text x="358" y="108" fill="rgba(134,239,172,0.6)" font-size="6.5" text-anchor="middle">Kappa 0.572</text>
+                            </g>
+                            <g class="float-a" style="animation-delay:.7s">
+                                <rect x="313" y="154" width="100" height="52" rx="8" fill="rgba(59,130,246,0.08)" stroke="rgba(59,130,246,0.35)" stroke-width="1"/>
+                                <text x="363" y="175" fill="#93c5fd" font-size="8" text-anchor="middle" font-weight="600">RLHF ✓</text>
+                                <text x="363" y="190" fill="rgba(147,197,253,0.6)" font-size="6.5" text-anchor="middle">Kappa 0.623</text>
+                            </g>
+                            <g class="float-c" style="animation-delay:1.1s">
+                                <rect x="308" y="238" width="100" height="52" rx="8" fill="rgba(168,85,247,0.08)" stroke="rgba(168,85,247,0.35)" stroke-width="1"/>
+                                <text x="358" y="259" fill="#c4b5fd" font-size="8" text-anchor="middle" font-weight="600">ASR ✓</text>
+                                <text x="358" y="274" fill="rgba(196,181,253,0.6)" font-size="6.5" text-anchor="middle">91.4% accuracy</text>
+                            </g>
+                        </svg>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -133,7 +272,7 @@
         ========================================================= --}}
         <section id="why-arabic" class="py-24 bg-white">
             <div class="max-w-6xl mx-auto px-6">
-                <div class="mb-14">
+                <div class="mb-14 reveal">
                     <span class="text-blue-600 text-sm font-medium tracking-widest uppercase">The Opportunity</span>
                     <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Why Arabic? Why Now?</h2>
                     <p class="mt-4 text-slate-600 max-w-2xl leading-relaxed">
@@ -172,7 +311,7 @@
         ========================================================= --}}
         <section id="quality" class="py-24 bg-[#f8fafc]">
             <div class="max-w-6xl mx-auto px-6">
-                <div class="mb-14">
+                <div class="mb-14 reveal">
                     <span class="text-blue-600 text-sm font-medium tracking-widest uppercase">Pilot Results</span>
                     <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Quality We Can Prove</h2>
                     <p class="mt-4 text-slate-600 max-w-2xl leading-relaxed">
@@ -182,22 +321,22 @@
 
                 {{-- Headline stats --}}
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mb-12">
-                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
-                        <div class="text-3xl font-bold text-[#0f2040]">3,031</div>
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center reveal reveal-d1 card-lift">
+                        <div class="text-3xl font-bold text-[#0f2040] stat-num" data-target="3031" data-suffix="">3,031</div>
                         <div class="text-sm text-slate-500 mt-1">Tasks completed</div>
                         <div class="text-xs text-blue-600 font-medium mt-1">100% completion rate</div>
                     </div>
-                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
-                        <div class="text-3xl font-bold text-[#0f2040]">91.4%</div>
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center reveal reveal-d2 card-lift">
+                        <div class="text-3xl font-bold text-[#0f2040] stat-num" data-target="91.4" data-suffix="%">91.4%</div>
                         <div class="text-sm text-slate-500 mt-1">Top accuracy</div>
                         <div class="text-xs text-blue-600 font-medium mt-1">Preference Ranking</div>
                     </div>
-                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
-                        <div class="text-3xl font-bold text-[#0f2040]">0.623</div>
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center reveal reveal-d3 card-lift">
+                        <div class="text-3xl font-bold text-[#0f2040] stat-num" data-target="0.623" data-suffix="">0.623</div>
                         <div class="text-sm text-slate-500 mt-1">RLHF Kappa score</div>
                         <div class="text-xs text-green-600 font-medium mt-1">↑ vs 0.27–0.39 (OpenAI/NVIDIA)</div>
                     </div>
-                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center">
+                    <div class="bg-white rounded-xl border border-slate-200 p-6 text-center reveal reveal-d4 card-lift">
                         <div class="text-3xl font-bold text-[#0f2040]">470/hr</div>
                         <div class="text-sm text-slate-500 mt-1">Team throughput</div>
                         <div class="text-xs text-blue-600 font-medium mt-1">2-labeler pilot team</div>
@@ -220,7 +359,7 @@
                                     <span class="text-slate-600">Avg accuracy</span>
                                     <span class="font-semibold text-[#0f2040]">88.6%</span>
                                 </div>
-                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:88.6%"></div></div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="bar-fill h-1.5 bg-blue-500 rounded-full" style="--target-w:88.6%"></div></div>
                                 <div class="text-xs text-slate-400 mt-1">Benchmark: 83–87% (major AI labs)</div>
                             </div>
                             <div>
@@ -228,7 +367,7 @@
                                     <span class="text-slate-600">Cohen's Kappa</span>
                                     <span class="font-semibold text-[#0f2040]">0.623</span>
                                 </div>
-                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:62.3%"></div></div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="bar-fill h-1.5 bg-blue-500 rounded-full" style="--target-w:62.3%"></div></div>
                                 <div class="text-xs text-slate-400 mt-1">Benchmark: 0.27–0.39 (OpenAI / NVIDIA)</div>
                             </div>
                             <div class="pt-2 border-t border-slate-100 text-xs text-slate-500">
@@ -250,7 +389,7 @@
                                     <span class="text-slate-600">Avg accuracy</span>
                                     <span class="font-semibold text-[#0f2040]">71.2%</span>
                                 </div>
-                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:71.2%"></div></div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="bar-fill h-1.5 bg-blue-500 rounded-full" style="--target-w:71.2%"></div></div>
                                 <div class="text-xs text-slate-400 mt-1">Benchmark: 65–80% (NADI 2024)</div>
                             </div>
                             <div>
@@ -258,7 +397,7 @@
                                     <span class="text-slate-600">Cohen's Kappa</span>
                                     <span class="font-semibold text-[#0f2040]">0.572</span>
                                 </div>
-                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:57.2%"></div></div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="bar-fill h-1.5 bg-blue-500 rounded-full" style="--target-w:57.2%"></div></div>
                                 <div class="text-xs text-slate-400 mt-1">Benchmark: 0.59 (NADI 2024, Palestinian Arabic)</div>
                             </div>
                             <div class="pt-2 border-t border-slate-100 text-xs text-slate-500">
@@ -280,7 +419,7 @@
                                     <span class="text-slate-600">Avg accuracy</span>
                                     <span class="font-semibold text-[#0f2040]">62.5%</span>
                                 </div>
-                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:62.5%"></div></div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="bar-fill h-1.5 bg-blue-500 rounded-full" style="--target-w:62.5%"></div></div>
                                 <div class="text-xs text-slate-400 mt-1">Benchmark: 60–75% (AraSenTi-Tweet)</div>
                             </div>
                             <div>
@@ -288,7 +427,7 @@
                                     <span class="text-slate-600">Cohen's Kappa</span>
                                     <span class="font-semibold text-[#0f2040]">0.532</span>
                                 </div>
-                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="h-1.5 bg-blue-500 rounded-full" style="width:53.2%"></div></div>
+                                <div class="h-1.5 bg-slate-100 rounded-full"><div class="bar-fill h-1.5 bg-blue-500 rounded-full" style="--target-w:53.2%"></div></div>
                                 <div class="text-xs text-slate-400 mt-1">Target: 0.55–0.70 (Arabic NLP)</div>
                             </div>
                             <div class="pt-2 border-t border-slate-100 text-xs text-slate-500">
@@ -316,7 +455,7 @@
         ========================================================= --}}
         <section id="services" class="py-24 bg-white">
             <div class="max-w-6xl mx-auto px-6">
-                <div class="mb-14">
+                <div class="mb-14 reveal">
                     <span class="text-blue-600 text-sm font-medium tracking-widest uppercase">What We Do</span>
                     <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Arabic Dialect Annotation Services</h2>
                     <p class="mt-4 text-slate-600 max-w-2xl leading-relaxed">
@@ -326,7 +465,7 @@
 
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
+                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all reveal reveal-d1 card-lift">
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/></svg>
                         </div>
@@ -335,7 +474,7 @@
                         <p class="text-slate-600 text-sm leading-relaxed">Named entity recognition, sentiment analysis, intent classification, and text categorization across Levantine, Gulf, Egyptian, and Maghrebi dialects.</p>
                     </div>
 
-                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
+                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all reveal reveal-d2 card-lift">
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/></svg>
                         </div>
@@ -344,7 +483,7 @@
                         <p class="text-slate-600 text-sm leading-relaxed">Speech transcription, phonetic labeling, speaker diarization, and audio quality validation for Arabic automatic speech recognition training pipelines.</p>
                     </div>
 
-                    <div class="border-2 border-blue-200 bg-blue-50/30 rounded-xl p-7 hover:border-blue-400 hover:shadow-sm transition-all">
+                    <div class="border-2 border-blue-200 bg-blue-50/30 rounded-xl p-7 hover:border-blue-400 hover:shadow-sm transition-all reveal reveal-d3 card-lift">
                         <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
                         </div>
@@ -365,7 +504,7 @@
                         <p class="text-slate-600 text-sm leading-relaxed">Dialogue annotation, response ranking, and conversation flow labeling for Arabic-language chatbots and virtual assistants.</p>
                     </div>
 
-                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
+                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all reveal reveal-d4 card-lift">
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         </div>
@@ -374,7 +513,7 @@
                         <p class="text-slate-600 text-sm leading-relaxed">Multi-layer review with inter-annotator agreement measurement, senior reviewer sign-off, and structured QA reporting delivered with every project.</p>
                     </div>
 
-                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all">
+                    <div class="border border-slate-200 rounded-xl p-7 hover:border-blue-300 hover:shadow-sm transition-all reveal reveal-d5 card-lift">
                         <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-5">
                             <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
                         </div>
@@ -403,7 +542,7 @@
         ========================================================= --}}
         <section id="about" class="py-24 bg-[#f8fafc]">
             <div class="max-w-6xl mx-auto px-6">
-                <div class="mb-14">
+                <div class="mb-14 reveal">
                     <span class="text-blue-600 text-sm font-medium tracking-widest uppercase">About Us</span>
                     <h2 class="mt-3 text-3xl md:text-4xl font-semibold text-[#0f2040]">Built for Enterprise Trust</h2>
                     <p class="mt-4 text-slate-600 max-w-2xl leading-relaxed">
@@ -756,13 +895,59 @@
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
-
-        // Close mobile menu on link click
         document.querySelectorAll('#mobile-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 document.getElementById('mobile-menu').classList.add('hidden');
             });
         });
+
+        // ── Scroll reveal ──
+        const revealObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('visible');
+                    revealObs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+        // ── Animated progress bars ──
+        const barObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('animated');
+                    barObs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        document.querySelectorAll('.bar-fill').forEach(el => barObs.observe(el));
+
+        // ── Stat counter animation ──
+        function animateCounter(el, target, decimals, suffix) {
+            const duration = 1800;
+            const start = performance.now();
+            const update = (now) => {
+                const progress = Math.min((now - start) / duration, 1);
+                const eased = 1 - Math.pow(1 - progress, 3);
+                const val = (target * eased).toFixed(decimals);
+                el.textContent = val + suffix;
+                if (progress < 1) requestAnimationFrame(update);
+            };
+            requestAnimationFrame(update);
+        }
+        const statObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (!e.isIntersecting) return;
+                const el = e.target;
+                const raw = el.dataset.target;
+                const decimals = (raw.includes('.')) ? raw.split('.')[1].length : 0;
+                const suffix = el.dataset.suffix || '';
+                animateCounter(el, parseFloat(raw), decimals, suffix);
+                statObs.unobserve(el);
+            });
+        }, { threshold: 0.5 });
+        document.querySelectorAll('[data-target]').forEach(el => statObs.observe(el));
     </script>
 
 </body>
