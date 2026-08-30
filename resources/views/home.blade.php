@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Karama Data - Arabic AI Annotation</title>
+    <!-- Always load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @else
-        <script src="https://cdn.tailwindcss.com"></script>
     @endif
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
