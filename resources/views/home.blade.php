@@ -31,7 +31,7 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle\ 76.png') }}'); background-size: cover; background-position: center; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: cover; background-position: center; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div style="width: 32.9%; left: 8.85%; top: 18.8%; position: absolute; color: #EFEFEF; font-size: clamp(40px, 5vw, 70px); font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
             <div style="width: 30.7%; left: 8.65%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: clamp(16px, 2vw, 25px); font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word; display: flex; align-items: flex-start;">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
@@ -110,17 +110,17 @@
     <section style="background: #F5F5F5; padding: 80px 170px;">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: flex-start;">
             <div style="display: flex; flex-direction: column; gap: 30px;">
-                <div style="background: linear-gradient(180deg, #01213D 0%, #000000 100%); padding: 40px 30px; border-radius: 10px; border-left: 13px solid #2970C5;">
-                    <h3 style="color: #2970C5; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 15px; margin-top: 0;">The Translation Shortcut</h3>
-                    <p style="color: #E0E3E5; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Most "Arabic" AI training data is machine-translated English. It misses cultural context, dialect nuance, and the way Arabic is actually spoken day to day.</p>
+                <div style="background: #FFFFFF; padding: 40px 30px; border-radius: 10px; border-left: 13px solid #2970C5;">
+                    <h3 style="color: #003A6C; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 15px; margin-top: 0;">The Translation Shortcut</h3>
+                    <p style="color: #787878; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Most "Arabic" AI training data is machine-translated English. It misses cultural context, dialect nuance, and the way Arabic is actually spoken day to day.</p>
                 </div>
-                <div style="background: linear-gradient(180deg, #01213D 0%, #000000 100%); padding: 40px 30px; border-radius: 10px; border-left: 13px solid #2970C5;">
-                    <h3 style="color: #2970C5; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 15px; margin-top: 0;">The MSA Assumption</h3>
-                    <p style="color: #E0E3E5; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
+                <div style="background: #FFFFFF; padding: 40px 30px; border-radius: 10px; border-left: 13px solid #2970C5;">
+                    <h3 style="color: #003A6C; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 15px; margin-top: 0;">The MSA Assumption</h3>
+                    <p style="color: #787878; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
                 </div>
             </div>
             <div>
-                <img src="{{ asset('public/images/Rectangle\ 89.png') }}" alt="Arabic Training Data" style="width: 553px; height: 652px; border-radius: 10px; object-fit: cover; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('public/images/Rectangle-89.png') }}" alt="Arabic Training Data" style="width: 553px; height: 652px; border-radius: 10px; object-fit: cover; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);">
             </div>
         </div>
     </section>
