@@ -31,9 +31,8 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div style="width: 100%; position: relative; background: #01213D; margin-top: 60px;">
-        <div style="width: 100%; max-width: 1920px; height: 1017px; position: relative; margin: 0 auto;">
-            <img style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover;" src="{{ asset('public/images/Rectangle\ 76.png') }}" />
+    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle\ 76.png') }}'); background-size: cover; background-position: center; margin-top: 60px; margin-bottom: 80px;">
+        <div style="width: 100%; max-width: 1920px; height: 1250px; position: relative; margin: 0 auto;">
             <div style="width: 632px; left: 170px; top: 248px; position: absolute; color: #EFEFEF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
             <div style="width: 590px; left: 166px; top: 701px; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word; display: flex; align-items: flex-start;">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 170px; top: 861px; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
