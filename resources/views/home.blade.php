@@ -18,7 +18,7 @@
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
         <div class="mx-auto px-6 py-4 flex items-center justify-between" style="max-width: 1920px;">
-            <img src="{{ asset('images/logo.png" alt="Karama Data" class="h-12">
+            <img src="{{ asset('images/logo.png') }}" alt="Karama Data" class="h-12">
             <div class="hidden md:flex items-center gap-6">
                 <a href="#why-arabic" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Why Arabic</a>
                 <a href="#results" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Results</a>
