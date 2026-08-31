@@ -31,18 +31,17 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle\ 76.png') }}'); background-size: cover; background-position: center; margin-top: 60px; margin-bottom: 80px; overflow-x: auto;">
-        <div style="width: 100%; min-height: 1320px; position: relative; margin: 0 auto; display: flex; justify-content: center;">
-            <div style="width: 1920px; height: 1320px; position: relative;">
-            <div style="width: 632px; left: 170px; top: 248px; position: absolute; color: #EFEFEF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
-            <div style="width: 590px; left: 166px; top: 701px; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word; display: flex; align-items: flex-start;">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
-            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 170px; top: 861px; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
-                <div style="color: #01213D; font-size: 20px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
+    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle\ 76.png') }}'); background-size: cover; background-position: center; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+        <div style="width: 100%; height: 100%; position: relative;">
+            <div style="width: 32.9%; left: 8.85%; top: 18.8%; position: absolute; color: #EFEFEF; font-size: clamp(40px, 5vw, 70px); font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
+            <div style="width: 30.7%; left: 8.65%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: clamp(16px, 2vw, 25px); font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word; display: flex; align-items: flex-start;">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
+            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 8.85%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+                <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
-            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 437px; top: 861px; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
-                <div style="color: white; font-size: 20px; font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
+            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 22.8%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+                <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
-            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 170px; top: 1225px; position: absolute">
+            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 8.85%; top: 92.8%; position: absolute">
                 <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
                 <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">AI & Cybersecurity</div>
                 <div style="left: 95px; top: 146px; position: absolute; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Founded by</div>
@@ -50,25 +49,25 @@
                     <div style="width: 33.75px; height: 37.50px; left: 3.75px; top: 4.75px; position: absolute; background: #548ED3"></div>
                 </div>
             </div>
-            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 495px; top: 1225px; position: absolute">
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 25.78%; top: 92.8%; position: absolute">
                 <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
                 <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">5+ Dialects</div>
                 <div style="left: 48px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Arabic Dialect Variants</div>
             </div>
-            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 820px; top: 1225px; position: absolute">
-                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
-                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Multi-layer</div>
-                <div style="left: 66px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">QA Review Process</div>
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 42.7%; top: 92.8%; position: absolute">
+                <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">Multi-layer</div>
+                <div style="left: 23.6%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">QA Review Process</div>
             </div>
-            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 1145px; top: 1225px; position: absolute">
-                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
-                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Arabic Only</div>
-                <div style="left: 46px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">No Content Moderation</div>
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 59.6%; top: 92.8%; position: absolute">
+                <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">Arabic Only</div>
+                <div style="left: 16.4%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">No Content Moderation</div>
             </div>
-            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 1470px; top: 1225px; position: absolute">
-                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
-                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 900; word-wrap: break-word">Kappa 0.62</div>
-                <div style="left: 50px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">RLHF Agreement Score</div>
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 76.56%; top: 92.8%; position: absolute">
+                <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 900; word-wrap: break-word">Kappa 0.62</div>
+                <div style="left: 17.8%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">RLHF Agreement Score</div>
             </div>
             </div>
         </div>
