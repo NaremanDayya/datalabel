@@ -120,79 +120,96 @@
                 </div>
             </div>
             <div style="display: flex; align-items: center;">
-                <img src="{{ asset('public/images/Rectangle-89.png') }}" alt="Arabic Training Data" style="width: 553px; height: auto; max-height: 500px; border-radius: 10px; object-fit: cover; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('public/images/Rectangle-89.png') }}" alt="Arabic Training Data" style="width: 553px; height: auto; max-height: 570px; border-radius: 10px; object-fit: cover; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);">
             </div>
         </div>
     </section>
 
-    <!-- Quality Section -->
-    <section id="results" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="text-5xl font-bold mb-4">Quality We Can <span class="text-blue-600">Prove</span></h2>
-                <p class="text-gray-600 text-lg max-w-3xl mx-auto">In our first structured pilot, two Palestinian annotators in Gaza completed 3,031 annotation tasks across three task types — every result benchmarked against published international standards.</p>
+    <!-- Quality Section - Figma Design -->
+    <section id="results" style="background: #FFFFFF; padding: 80px 170px;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 40px; margin-bottom: 80px;">
+            <div style="text-align: center;">
+                <div style="font-family: 'Poppins', sans-serif; margin-bottom: 20px;">
+                    <span style="color: #043763; font-size: 70px; font-weight: 700; line-height: 1.2; display: inline;">Quality We Can </span>
+                    <span style="color: #488EFF; font-size: 70px; font-weight: 700; line-height: 1.2; display: inline;">Prove</span>
+                </div>
+                <p style="width: 100%; max-width: 1134px; color: #787878; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 38px; text-align: center; margin: 0;">In our first structured pilot, two Palestinian annotators in Gaza completed 3,031 annotation tasks across three task types — every result benchmarked against published international standards.</p>
             </div>
 
             <!-- Metric Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-                <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
-                    <div class="text-4xl font-bold text-blue-600 mb-2">3,031</div>
-                    <p class="font-semibold text-gray-800">Tasks completed</p>
-                    <p class="text-sm text-gray-600">100% completion rate</p>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; width: 100%; margin-bottom: 60px;">
+                <div style="display: flex; flex-direction: column; gap: 10px; padding: 31px 43px; border-radius: 20px; border: 0.5px solid #0D5BBE; background: linear-gradient(180deg, #FFFFFF 43%, #EEF5FF 80%, #99C0FF 60%);">
+                    <div style="color: #488EFF; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">3,031</div>
+                    <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Tasks completed</div>
+                    <div style="color: #488EFF; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">100% completion rate</div>
                 </div>
-                <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
-                    <div class="text-4xl font-bold text-green-600 mb-2">91.4%</div>
-                    <p class="font-semibold text-gray-800">Top accuracy</p>
-                    <p class="text-sm text-gray-600">preference Ranking</p>
+
+                <div style="display: flex; flex-direction: column; gap: 10px; padding: 31px 43px; border-radius: 20px; border: 0.5px solid #00A651; background: linear-gradient(180deg, #FFFFFF 43%, #E8F5F0 80%, #1FEF7D 60%);">
+                    <div style="color: #00B660; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">91.4%</div>
+                    <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Top accuracy</div>
+                    <div style="color: #00A651; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">preference Ranking</div>
                 </div>
-                <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl">
-                    <div class="text-4xl font-bold text-purple-600 mb-2">0.623</div>
-                    <p class="font-semibold text-gray-800">RLHF Kappa score</p>
-                    <p class="text-sm text-gray-600">1 vs 0.27 - 0.39 (OpenAI/NVIDIA)</p>
+
+                <div style="display: flex; flex-direction: column; gap: 10px; padding: 31px 43px; border-radius: 20px; border: 0.5px solid #7C5BA3; background: linear-gradient(180deg, #FFFFFF 43%, #F4ECFE 80%, #D8B5F7 60%);">
+                    <div style="color: #8B5CF6; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">0.623</div>
+                    <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">RLHF Kappa score</div>
+                    <div style="color: #8B5CF6; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">1 vs 0.27 - 0.39</div>
                 </div>
-                <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl">
-                    <div class="text-4xl font-bold text-orange-600 mb-2">470/hr</div>
-                    <p class="font-semibold text-gray-800">Team throughput</p>
-                    <p class="text-sm text-gray-600">2-labeler pilot team</p>
+
+                <div style="display: flex; flex-direction: column; gap: 10px; padding: 31px 43px; border-radius: 20px; border: 0.5px solid #F59E0B; background: linear-gradient(180deg, #FFFFFF 43%, #FEF3C7 80%, #FCA855 60%);">
+                    <div style="color: #F59E0B; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">470/hr</div>
+                    <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Team throughput</div>
+                    <div style="color: #F59E0B; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">2-labeler pilot team</div>
                 </div>
             </div>
 
             <!-- Result Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white border-t-4 border-green-600 p-8 rounded-lg shadow-sm">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Preference Ranking</h3>
-                    <div class="mb-4"><span class="text-green-600 text-3xl font-bold">88.6%</span> <span class="text-gray-600">Avg accuracy</span></div>
-                    <p class="text-gray-600 mb-4">Benchmark: 83–87% (major AI labs)</p>
-                    <div class="pt-4 border-t">
-                        <p class="font-bold text-gray-900 mb-2">Cohen's Kappa</p>
-                        <p class="text-3xl font-bold text-green-600">0.623</p>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; width: 100%;">
+                <div style="background: #FFFFFF; border-top: 4px solid #00B660; border-radius: 10px; padding: 40px 30px;">
+                    <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 25px; margin-top: 0;">Preference Ranking</h3>
+                    <div style="display: flex; gap: 15px; margin-bottom: 20px; align-items: baseline;">
+                        <span style="color: #00B660; font-size: 42px; font-family: 'Poppins', sans-serif; font-weight: 700;">88.6%</span>
+                        <span style="color: #787878; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 400;">Avg accuracy</span>
                     </div>
-                    <div class="bg-green-50 border border-green-200 rounded mt-4 p-3">
-                        <p class="text-xs font-bold text-green-700">Best labeler: 91.4% - No Arabic RLHF benchmark exists — first-of-kind data</p>
+                    <p style="color: #787878; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 25px 0; line-height: 1.5;">Benchmark: 83–87% (major AI labs)</p>
+                    <div style="border-top: 1px solid #E0E0E0; padding-top: 20px; margin-bottom: 25px;">
+                        <p style="color: #043763; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0 0 10px 0;">Cohen's Kappa</p>
+                        <p style="color: #00B660; font-size: 36px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">0.623</p>
                     </div>
-                </div>
-                <div class="bg-white border-t-4 border-purple-600 p-8 rounded-lg shadow-sm">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Dialect Identification</h3>
-                    <div class="mb-4"><span class="text-purple-600 text-3xl font-bold">71.2%</span> <span class="text-gray-600">Avg accuracy</span></div>
-                    <p class="text-gray-600 mb-4">Benchmark: 65–80% (NADI 2024)</p>
-                    <div class="pt-4 border-t">
-                        <p class="font-bold text-gray-900 mb-2">Cohen's Kappa</p>
-                        <p class="text-3xl font-bold text-purple-600">0.572</p>
-                    </div>
-                    <div class="bg-purple-50 border border-purple-200 rounded mt-4 p-3">
-                        <p class="text-xs font-bold text-purple-700">Best labeler: 77% - Compared against the largest Arabic dialect competition globally</p>
+                    <div style="background: #E8F5F0; border: 1px solid #00B660; border-radius: 8px; padding: 15px; margin-top: 20px;">
+                        <p style="color: #00A651; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 1.4;">Best labeler: 91.4% - No Arabic RLHF benchmark exists — first-of-kind data</p>
                     </div>
                 </div>
-                <div class="bg-white border-t-4 border-orange-600 p-8 rounded-lg shadow-sm">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Sentiment Tagging</h3>
-                    <div class="mb-4"><span class="text-orange-600 text-3xl font-bold">62.5%</span> <span class="text-gray-600">Avg accuracy</span></div>
-                    <p class="text-gray-600 mb-4">Benchmark: 60–75% (AraSenTi-Tweet)</p>
-                    <div class="pt-4 border-t">
-                        <p class="font-bold text-gray-900 mb-2">Cohen's Kappa</p>
-                        <p class="text-3xl font-bold text-orange-600">0.532</p>
+
+                <div style="background: #FFFFFF; border-top: 4px solid #8B5CF6; border-radius: 10px; padding: 40px 30px;">
+                    <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 25px; margin-top: 0;">Dialect Identification</h3>
+                    <div style="display: flex; gap: 15px; margin-bottom: 20px; align-items: baseline;">
+                        <span style="color: #8B5CF6; font-size: 42px; font-family: 'Poppins', sans-serif; font-weight: 700;">71.2%</span>
+                        <span style="color: #787878; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 400;">Avg accuracy</span>
                     </div>
-                    <div class="bg-orange-50 border border-orange-200 rounded mt-4 p-3">
-                        <p class="text-xs font-bold text-orange-700">Best labeler: 73.2% - Guideline improvement identified & incorporated into SOP</p>
+                    <p style="color: #787878; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 25px 0; line-height: 1.5;">Benchmark: 65–80% (NADI 2024)</p>
+                    <div style="border-top: 1px solid #E0E0E0; padding-top: 20px; margin-bottom: 25px;">
+                        <p style="color: #043763; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0 0 10px 0;">Cohen's Kappa</p>
+                        <p style="color: #8B5CF6; font-size: 36px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">0.572</p>
+                    </div>
+                    <div style="background: #F4ECFE; border: 1px solid #8B5CF6; border-radius: 8px; padding: 15px; margin-top: 20px;">
+                        <p style="color: #7C5BA3; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 1.4;">Best labeler: 77% - Compared against the largest Arabic dialect competition globally</p>
+                    </div>
+                </div>
+
+                <div style="background: #FFFFFF; border-top: 4px solid #F59E0B; border-radius: 10px; padding: 40px 30px;">
+                    <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 25px; margin-top: 0;">Sentiment Tagging</h3>
+                    <div style="display: flex; gap: 15px; margin-bottom: 20px; align-items: baseline;">
+                        <span style="color: #F59E0B; font-size: 42px; font-family: 'Poppins', sans-serif; font-weight: 700;">62.5%</span>
+                        <span style="color: #787878; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 400;">Avg accuracy</span>
+                    </div>
+                    <p style="color: #787878; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 25px 0; line-height: 1.5;">Benchmark: 60–75% (AraSenTi-Tweet)</p>
+                    <div style="border-top: 1px solid #E0E0E0; padding-top: 20px; margin-bottom: 25px;">
+                        <p style="color: #043763; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0 0 10px 0;">Cohen's Kappa</p>
+                        <p style="color: #F59E0B; font-size: 36px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">0.532</p>
+                    </div>
+                    <div style="background: #FEF3C7; border: 1px solid #F59E0B; border-radius: 8px; padding: 15px; margin-top: 20px;">
+                        <p style="color: #B45309; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 1.4;">Best labeler: 73.2% - Guideline improvement identified & incorporated into SOP</p>
                     </div>
                 </div>
             </div>
