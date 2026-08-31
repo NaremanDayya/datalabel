@@ -144,19 +144,19 @@
                     <div style="color: #488EFF; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">100% completion rate</div>
                 </div>
 
-                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid #00B660; background: linear-gradient(180deg, #FFFFFF 43%, #E8F5F0 80%, #7FEF9D 60%);">
+                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid #0D5BBE; background: linear-gradient(180deg, #FFFFFF 43%, #EEF5FF 80%, #99C0FF 60%);">
                     <div style="color: #00B660; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">91.4%</div>
                     <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Top accuracy</div>
                     <div style="color: #00A651; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">preference Ranking</div>
                 </div>
 
-                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid #8B5CF6; background: linear-gradient(180deg, #FFFFFF 43%, #F4ECFE 80%, #D8B5F7 60%);">
+                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid #0D5BBE; background: linear-gradient(180deg, #FFFFFF 43%, #EEF5FF 80%, #99C0FF 60%);">
                     <div style="color: #8B5CF6; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">0.623</div>
                     <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">RLHF Kappa score</div>
                     <div style="color: #8B5CF6; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">1 vs 0.27 - 0.39</div>
                 </div>
 
-                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid #F59E0B; background: linear-gradient(180deg, #FFFFFF 43%, #FEF3C7 80%, #FCA855 60%);">
+                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid #0D5BBE; background: linear-gradient(180deg, #FFFFFF 43%, #EEF5FF 80%, #99C0FF 60%);">
                     <div style="color: #F59E0B; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">470/hr</div>
                     <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Team throughput</div>
                     <div style="color: #F59E0B; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">2-labeler pilot team</div>
