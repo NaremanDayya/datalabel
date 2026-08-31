@@ -89,18 +89,32 @@
         </div>
     </section>
 
+    <!-- Stats Section -->
+    <section style="background: #F5F5F5; padding: 80px 170px;">
+        <div style="background: linear-gradient(270deg, #01213D 0%, #003A6C 100%); border-radius: 20px; padding: 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 60px;">
+            <div>
+                <div style="color: #488EFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: normal; margin-bottom: 20px;">400M+</div>
+                <div style="color: #FFFFFF; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; margin-bottom: 20px;">Arabic speakers worldwide</div>
+                <p style="color: #E0E3E5; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Arabic is the fifth most spoken language in the world, spanning 22 countries across the Middle East and North Africa — yet AI systems routinely fail to understand the people who speak it.</p>
+            </div>
+            <div>
+                <div style="color: #488EFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: normal; margin-bottom: 20px;">&lt;1%</div>
+                <div style="color: #FFFFFF; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; margin-bottom: 20px;">of NLP research covers Arabic</div>
+                <p style="color: #E0E3E5; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Despite hundreds of millions of speakers, Arabic receives a fraction of the research attention that English does. The training data infrastructure is just getting started — and the companies who invest now will have a significant head start.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Translation & MSA Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div class="bg-white p-8 rounded-lg border-l-4 border-blue-600">
-                    <h3 class="text-3xl font-bold text-blue-900 mb-4">The Translation Shortcut</h3>
-                    <p class="text-gray-600 text-lg">Most "Arabic" AI training data is machine-translated English. It misses cultural context, dialect nuance, and the way Arabic is actually spoken day to day.</p>
-                </div>
-                <div class="bg-white p-8 rounded-lg border-l-4 border-blue-600">
-                    <h3 class="text-3xl font-bold text-blue-900 mb-4">The MSA Assumption</h3>
-                    <p class="text-gray-600 text-lg">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
-                </div>
+    <section style="background: #F5F5F5; padding: 80px 170px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px;">
+            <div style="background: white; padding: 60px 40px; border-radius: 10px; border-left: 13px solid #2970C5;">
+                <h3 style="color: #003A6C; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 20px; margin-top: 0;">The Translation Shortcut</h3>
+                <p style="color: #787878; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 1.6; margin: 0;">Most "Arabic" AI training data is machine-translated English. It misses cultural context, dialect nuance, and the way Arabic is actually spoken day to day.</p>
+            </div>
+            <div style="background: white; padding: 60px 40px; border-radius: 10px; border-left: 13px solid #2970C5;">
+                <h3 style="color: #003A6C; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 20px; margin-top: 0;">The MSA Assumption</h3>
+                <p style="color: #787878; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 1.6; margin: 0;">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
             </div>
         </div>
     </section>
