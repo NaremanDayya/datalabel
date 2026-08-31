@@ -106,16 +106,21 @@
         </div>
     </section>
 
-    <!-- Translation & MSA Section -->
+    <!-- Translation & MSA Section - Figma Design -->
     <section style="background: #F5F5F5; padding: 80px 170px;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px;">
-            <div style="background: white; padding: 60px 40px; border-radius: 10px; border-left: 13px solid #2970C5;">
-                <h3 style="color: #003A6C; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 20px; margin-top: 0;">The Translation Shortcut</h3>
-                <p style="color: #787878; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 1.6; margin: 0;">Most "Arabic" AI training data is machine-translated English. It misses cultural context, dialect nuance, and the way Arabic is actually spoken day to day.</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: flex-start;">
+            <div style="display: flex; flex-direction: column; gap: 30px;">
+                <div style="background: linear-gradient(180deg, #01213D 0%, #000000 100%); padding: 40px 30px; border-radius: 10px; border-left: 13px solid #2970C5;">
+                    <h3 style="color: #2970C5; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 15px; margin-top: 0;">The Translation Shortcut</h3>
+                    <p style="color: #E0E3E5; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Most "Arabic" AI training data is machine-translated English. It misses cultural context, dialect nuance, and the way Arabic is actually spoken day to day.</p>
+                </div>
+                <div style="background: linear-gradient(180deg, #01213D 0%, #000000 100%); padding: 40px 30px; border-radius: 10px; border-left: 13px solid #2970C5;">
+                    <h3 style="color: #2970C5; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 15px; margin-top: 0;">The MSA Assumption</h3>
+                    <p style="color: #E0E3E5; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0;">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
+                </div>
             </div>
-            <div style="background: white; padding: 60px 40px; border-radius: 10px; border-left: 13px solid #2970C5;">
-                <h3 style="color: #003A6C; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 20px; margin-top: 0;">The MSA Assumption</h3>
-                <p style="color: #787878; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 1.6; margin: 0;">Models trained on Modern Standard Arabic sound robotic to real users who speak Levantine, Khaleeji, Egyptian, or Maghrebi every day. Dialect matters.</p>
+            <div>
+                <img src="{{ asset('public/images/Rectangle\ 89.png') }}" alt="Arabic Training Data" style="width: 553px; height: 652px; border-radius: 10px; object-fit: cover; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);">
             </div>
         </div>
     </section>
