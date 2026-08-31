@@ -18,7 +18,7 @@
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
         <div class="mx-auto px-6 py-4 flex items-center justify-between" style="max-width: 1920px;">
-            <img src="/images/logo.png" alt="Karama Data" class="h-12">
+            <img src="{{ asset('images/logo.png" alt="Karama Data" class="h-12">
             <div class="hidden md:flex items-center gap-6">
                 <a href="#why-arabic" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Why Arabic</a>
                 <a href="#results" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Results</a>
@@ -33,7 +33,7 @@
     <!-- Hero Section - Section 1 (Figma Design) -->
     <div style="width: 100%; position: relative; background: #01213D; margin-top: 60px;">
         <div style="width: 100%; max-width: 1920px; height: 1017px; position: relative; margin: 0 auto;">
-            <img style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover;" src="/images/Rectangle\ 76.png" />
+            <img style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover;" src="{{ asset('images/Rectangle\ 76.png') }}" />
             <div style="width: 632px; left: 170px; top: 248px; position: absolute; color: #EFEFEF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
             <div style="width: 590px; left: 166px; top: 701px; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word; display: flex; align-items: flex-start;">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 170px; top: 861px; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
@@ -78,7 +78,7 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="/images/human-ai-interaction.png" alt="Why Arabic" class="w-full h-auto rounded-lg">
+                    <img src="{{ asset('images/human-ai-interaction.png" alt="Why Arabic" class="w-full h-auto rounded-lg">
                 </div>
                 <div>
                     <h2 class="text-5xl font-bold mb-8"><span class="text-blue-900">Why Arabic?</span> <span class="text-blue-600">Why Now?</span></h2>
@@ -366,7 +366,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
                 <div>
-                    <img src="/images/arabic-annotators-team.png" alt="Arabic Annotators Team" class="w-full h-auto rounded-lg">
+                    <img src="{{ asset('images/arabic-annotators-team.png" alt="Arabic Annotators Team" class="w-full h-auto rounded-lg">
                 </div>
                 <div>
                     <p class="text-gray-700 text-xl leading-relaxed">Our annotator workforce is our primary quality asset. We invest in their training, their ownership stake, and their stability — because high-quality annotations require a workforce that is both skilled and retained.</p>
