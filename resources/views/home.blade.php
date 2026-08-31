@@ -138,25 +138,25 @@
 
             <!-- Metric Cards -->
             <div style="display: flex; gap: 30px; width: 100%; margin-bottom: 60px; justify-content: center; flex-wrap: wrap;">
-                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
+                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 0.8) 100%);">
                     <div style="color: #488EFF; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">3,031</div>
                     <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Tasks completed</div>
                     <div style="color: #488EFF; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">100% completion rate</div>
                 </div>
 
-                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(0, 166, 81, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(232, 245, 240, 0.34) 50%, rgba(31, 239, 125, 0.26) 100%);">
+                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(0, 166, 81, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 0.8) 100%);">
                     <div style="color: #00B660; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">91.4%</div>
                     <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Top accuracy</div>
                     <div style="color: #00A651; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">preference Ranking</div>
                 </div>
 
-                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(123, 91, 163, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(244, 236, 254, 0.34) 50%, rgba(216, 181, 247, 0.26) 100%);">
+                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(123, 91, 163, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 0.8) 100%);">
                     <div style="color: #8B5CF6; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">0.623</div>
                     <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">RLHF Kappa score</div>
                     <div style="color: #8B5CF6; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">1 vs 0.27 - 0.39</div>
                 </div>
 
-                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(245, 158, 11, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(254, 243, 199, 0.34) 50%, rgba(252, 168, 85, 0.26) 100%);">
+                <div style="display: flex; width: 370px; height: 215px; padding: 31px 119px 27px 43px; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 0.5px solid rgba(245, 158, 11, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 0.8) 100%);">
                     <div style="color: #F59E0B; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">470/hr</div>
                     <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Team throughput</div>
                     <div style="color: #F59E0B; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">2-labeler pilot team</div>
