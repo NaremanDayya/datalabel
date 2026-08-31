@@ -207,7 +207,7 @@
                     </div>
                 </div>
                 <div class="relative z-10 hidden lg:block">
-                    <img src="{{ asset('images/hero-digital-head.png') }}" alt="Digital AI Head" class="w-full h-auto rounded-lg">
+                    <img src="/public/images/hero-digital-head.png" alt="Digital AI Head" class="w-full h-auto rounded-lg">
                 </div>
             </div>
 
@@ -255,7 +255,7 @@
                     </div>
                 </div>
                 <div class="rounded-lg overflow-hidden">
-                    <img src="{{ asset('images/human-ai-interaction.png') }}" alt="Human-AI Interaction" class="w-full h-96 object-cover rounded-lg">
+                    <img src="/public/images/human-ai-interaction.png" alt="Human-AI Interaction" class="w-full h-96 object-cover rounded-lg">
                 </div>
             </div>
         </div>
@@ -500,7 +500,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
                 <div class="rounded-lg overflow-hidden">
-                    <img src="{{ asset('images/arabic-annotators-team.png') }}" alt="Arabic Annotators Team" class="w-full h-96 object-cover rounded-lg">
+                    <img src="/public/images/arabic-annotators-team.png" alt="Arabic Annotators Team" class="w-full h-96 object-cover rounded-lg">
                 </div>
 
                 <div>
