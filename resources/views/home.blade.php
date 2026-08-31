@@ -12,62 +12,59 @@
 <body class="bg-white text-gray-900">
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-            <img src="/public/images/logo.png" alt="Karama Data" class="h-16">
-            <div class="hidden md:flex items-center gap-8">
-                <a href="#why-arabic" class="text-gray-700 hover:text-blue-600 font-medium">Why Arabic</a>
-                <a href="#results" class="text-gray-700 hover:text-blue-600 font-medium">Results</a>
-                <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium">Services</a>
-                <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
-                <a href="#workforce" class="text-gray-700 hover:text-blue-600 font-medium">Our Workforce</a>
+        <div class="mx-auto px-6 py-4 flex items-center justify-between" style="max-width: 1920px;">
+            <img src="/public/images/logo.png" alt="Karama Data" class="h-12">
+            <div class="hidden md:flex items-center gap-6">
+                <a href="#why-arabic" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Why Arabic</a>
+                <a href="#results" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Results</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Services</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium text-sm">About</a>
+                <a href="#workforce" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Our Workforce</a>
             </div>
-            <button class="bg-gray-900 text-white px-6 py-2 rounded hover:bg-gray-800 font-semibold">Get in Touch</button>
+            <button class="bg-gray-900 text-white px-4 py-2 rounded text-sm font-bold hover:bg-gray-800">Get in Touch</button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-blue-900 to-blue-800 text-white pt-32 pb-20 mt-20">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h1 class="text-6xl font-bold leading-tight mb-6">Your Arabic AI is only as good as the humans who train it.</h1>
-                    <p class="text-xl text-gray-300 mb-8">91% accuracy, benchmarked against published research. US-Incorporated. No shortcuts.</p>
-                    <div class="flex gap-4">
-                        <button class="bg-white text-blue-900 px-8 py-3 rounded font-bold hover:bg-gray-100">Start Your Project</button>
-                        <button class="border-2 border-white text-white px-8 py-3 rounded font-bold hover:bg-white hover:text-blue-900">See Our Results</button>
-                    </div>
-                </div>
-                <div class="hidden lg:block">
-                    <img src="/public/images/hero-digital-head.png" alt="Digital AI Head" class="w-full h-auto rounded-lg">
+    <!-- Hero Section - Section 1 -->
+    <section class="relative w-full pt-20" style="height: 1017px; background: url('/public/images/Rectangle\ 76.png') lightgray 0px -131.007px / 100% 125.656% no-repeat; margin-top: 60px;">
+        <div class="relative h-full" style="max-width: 1920px; margin: 0 auto; padding: 0 170px;">
+            <div class="flex flex-col justify-center h-full max-w-2xl">
+                <h1 class="text-7xl font-bold text-white leading-tight mb-6" style="font-family: Poppins;">Your Arabic AI is only as good as the humans who train it .</h1>
+                <p class="text-xl text-gray-400 mb-8" style="font-family: Poppins;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</p>
+                <div class="flex gap-4">
+                    <button class="bg-white text-gray-900 px-8 py-3 rounded font-bold hover:bg-gray-100" style="font-family: Poppins;">Start Your Project</button>
+                    <button class="border-2 border-gray-400 text-white px-8 py-3 rounded font-bold hover:bg-white hover:text-gray-900" style="font-family: Poppins;">See Our Results</button>
                 </div>
             </div>
+        </div>
 
-            <!-- Feature Cards -->
-            <div class="mt-20 grid grid-cols-1 md:grid-cols-5 gap-4">
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-xl border border-blue-600 text-center text-white">
-                    <div class="text-4xl mb-3">🛡️</div>
-                    <h3 class="font-bold text-lg mb-2">AI & Cybersecurity</h3>
-                    <p class="text-sm text-gray-300">Founded by</p>
+        <!-- Feature Cards at Bottom -->
+        <div class="absolute bottom-0 left-0 right-0" style="max-width: 1920px; margin: 0 auto; padding: 0 170px;">
+            <div class="flex gap-4 pb-8">
+                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
+                    <div class="text-2xl mb-2">🛡️</div>
+                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">AI & Cybersecurity</h3>
+                    <p class="text-xs text-blue-300" style="font-family: Poppins;">Founded by</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-xl border border-blue-600 text-center text-white">
-                    <div class="text-4xl mb-3">🌐</div>
-                    <h3 class="font-bold text-lg mb-2">5+</h3>
-                    <p class="text-sm text-gray-300">Arabic Dialect Variants</p>
+                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
+                    <div class="text-2xl mb-2">🌐</div>
+                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">5+</h3>
+                    <p class="text-xs text-blue-300" style="font-family: Poppins;">Arabic Dialect Variants</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-xl border border-blue-600 text-center text-white">
-                    <div class="text-4xl mb-3">📋</div>
-                    <h3 class="font-bold text-lg mb-2">Multi-layer</h3>
-                    <p class="text-sm text-gray-300">QA Review Process</p>
+                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
+                    <div class="text-2xl mb-2">📋</div>
+                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">Multi-layer</h3>
+                    <p class="text-xs text-blue-300" style="font-family: Poppins;">QA Review Process</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-xl border border-blue-600 text-center text-white">
-                    <div class="text-4xl mb-3">🗣️</div>
-                    <h3 class="font-bold text-lg mb-2">Arabic Only</h3>
-                    <p class="text-sm text-gray-300">No Content Moderation</p>
+                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
+                    <div class="text-2xl mb-2">🗣️</div>
+                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">Arabic Only</h3>
+                    <p class="text-xs text-blue-300" style="font-family: Poppins;">No Content Moderation</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-xl border border-blue-600 text-center text-white">
-                    <div class="text-4xl mb-3">📊</div>
-                    <h3 class="font-bold text-lg mb-2">Kappa 0.62</h3>
-                    <p class="text-sm text-gray-300">RLHF Agreement Score</p>
+                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
+                    <div class="text-2xl mb-2">📊</div>
+                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">Kappa 0.62</h3>
+                    <p class="text-xs text-blue-300" style="font-family: Poppins;">RLHF Agreement Score</p>
                 </div>
             </div>
         </div>
