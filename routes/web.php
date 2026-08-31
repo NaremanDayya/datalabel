@@ -7,4 +7,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/test', function () {
+    return view('test');
+});
+
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');

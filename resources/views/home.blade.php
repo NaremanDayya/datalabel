@@ -25,50 +25,48 @@
         </div>
     </nav>
 
-    <!-- Hero Section - Section 1 -->
-    <section class="relative w-full pt-20" style="height: 1017px; background: url('/public/images/Rectangle\ 76.png') lightgray 0px -131.007px / 100% 125.656% no-repeat; margin-top: 60px;">
-        <div class="relative h-full" style="max-width: 1920px; margin: 0 auto; padding: 0 170px;">
-            <div class="flex flex-col justify-center h-full max-w-2xl">
-                <h1 class="text-7xl font-bold text-white leading-tight mb-6" style="font-family: Poppins;">Your Arabic AI is only as good as the humans who train it .</h1>
-                <p class="text-xl text-gray-400 mb-8" style="font-family: Poppins;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</p>
-                <div class="flex gap-4">
-                    <button class="bg-white text-gray-900 px-8 py-3 rounded font-bold hover:bg-gray-100" style="font-family: Poppins;">Start Your Project</button>
-                    <button class="border-2 border-gray-400 text-white px-8 py-3 rounded font-bold hover:bg-white hover:text-gray-900" style="font-family: Poppins;">See Our Results</button>
+    <!-- Hero Section - Section 1 (Figma Design) -->
+    <div style="width: 100%; position: relative; background: #01213D; margin-top: 60px;">
+        <div style="width: 100%; max-width: 1920px; height: 1017px; position: relative; margin: 0 auto;">
+            <img style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; object-fit: cover;" src="/public/images/Rectangle\ 76.png" />
+            <div style="width: 632px; left: 170px; top: 248px; position: absolute; color: #EFEFEF; font-size: 70px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Your Arabic AI is only as good as the humans who train it .</div>
+            <div style="width: 590px; left: 166px; top: 701px; position: absolute; color: #B3B3B3; font-size: 25px; font-family: Poppins; font-weight: 400; word-wrap: break-word">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
+            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 170px; top: 861px; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+                <div style="color: #01213D; font-size: 20px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
+            </div>
+            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 437px; top: 861px; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+                <div style="color: white; font-size: 20px; font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
+            </div>
+            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 170px; top: 992px; position: absolute">
+                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">AI & Cybersecurity</div>
+                <div style="left: 95px; top: 146px; position: absolute; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Founded by</div>
+                <div style="width: 45px; height: 45px; left: 117px; top: 18px; position: absolute; overflow: hidden">
+                    <div style="width: 33.75px; height: 37.50px; left: 3.75px; top: 4.75px; position: absolute; background: #548ED3"></div>
                 </div>
             </div>
-        </div>
-
-        <!-- Feature Cards at Bottom -->
-        <div class="absolute bottom-0 left-0 right-0" style="max-width: 1920px; margin: 0 auto; padding: 0 170px;">
-            <div class="flex gap-4 pb-8">
-                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                    <img src="/public/images/ix:shield-ai.svg" alt="Shield" style="width: 45px; height: 45px; margin-bottom: 12px;">
-                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">AI & Cybersecurity</h3>
-                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">Founded by</p>
-                </div>
-                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                    <img src="/public/images/ix:globe.svg" alt="Globe" style="width: 45px; height: 45px; margin-bottom: 12px;">
-                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">5+</h3>
-                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">Arabic Dialect Variants</p>
-                </div>
-                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                    <img src="/public/images/ix:layers.svg" alt="Layers" style="width: 45px; height: 45px; margin-bottom: 12px;">
-                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">Multi-layer</h3>
-                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">QA Review Process</p>
-                </div>
-                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                    <img src="/public/images/ix:mic.svg" alt="Mic" style="width: 45px; height: 45px; margin-bottom: 12px;">
-                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">Arabic Only</h3>
-                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">No Content Moderation</p>
-                </div>
-                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                    <img src="/public/images/ix:chart.svg" alt="Chart" style="width: 45px; height: 45px; margin-bottom: 12px;">
-                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">Kappa 0.62</h3>
-                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">RLHF Agreement Score</p>
-                </div>
+            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 495px; top: 992px; position: absolute">
+                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">5+ Dialects</div>
+                <div style="left: 48px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Arabic Dialect Variants</div>
+            </div>
+            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 820px; top: 992px; position: absolute">
+                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Multi-layer</div>
+                <div style="left: 66px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">QA Review Process</div>
+            </div>
+            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 1145px; top: 992px; position: absolute">
+                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">Arabic Only</div>
+                <div style="left: 46px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">No Content Moderation</div>
+            </div>
+            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 1470px; top: 992px; position: absolute">
+                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 900; word-wrap: break-word">Kappa 0.62</div>
+                <div style="left: 50px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">RLHF Agreement Score</div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Why Arabic Section -->
     <section id="why-arabic" class="py-20 bg-white">
