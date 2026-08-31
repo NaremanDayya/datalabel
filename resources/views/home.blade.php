@@ -41,18 +41,18 @@
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 22.8%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
-            <div data-property-1="Group 113" style="width: 280px; height: 190px; left: 8.85%; top: 92.8%; position: absolute">
-                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
-                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">AI & Cybersecurity</div>
-                <div style="left: 95px; top: 146px; position: absolute; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Founded by</div>
-                <div style="width: 45px; height: 45px; left: 117px; top: 18px; position: absolute; overflow: hidden">
-                    <div style="width: 33.75px; height: 37.50px; left: 3.75px; top: 4.75px; position: absolute; background: #548ED3"></div>
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 8.85%; top: 92.8%; position: absolute">
+                <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">AI & Cybersecurity</div>
+                <div style="left: 33.9%; top: 76.8%; position: absolute; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Founded by</div>
+                <div style="width: 16%; height: 23.7%; left: 41.8%; top: 9.5%; position: absolute; overflow: hidden">
+                    <div style="width: 75%; height: 80%; left: 10.7%; top: 10%; position: absolute; background: #548ED3"></div>
                 </div>
             </div>
             <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 25.78%; top: 92.8%; position: absolute">
-                <div style="width: 280px; height: 190px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
-                <div style="width: 248px; height: 51px; left: 16px; top: 95px; position: absolute; text-align: center; color: #F2F4F6; font-size: 25px; font-family: Poppins; font-weight: 600; word-wrap: break-word">5+ Dialects</div>
-                <div style="left: 48px; top: 146px; position: absolute; text-align: center; color: #548ED3; font-size: 17px; font-family: Poppins; font-weight: 500; word-wrap: break-word">Arabic Dialect Variants</div>
+                <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">5+ Dialects</div>
+                <div style="left: 17.1%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Arabic Dialect Variants</div>
             </div>
             <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 42.7%; top: 92.8%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
