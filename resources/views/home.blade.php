@@ -41,30 +41,30 @@
         <!-- Feature Cards at Bottom -->
         <div class="absolute bottom-0 left-0 right-0" style="max-width: 1920px; margin: 0 auto; padding: 0 170px;">
             <div class="flex gap-4 pb-8">
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
-                    <div class="text-2xl mb-2">🛡️</div>
-                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">AI & Cybersecurity</h3>
-                    <p class="text-xs text-blue-300" style="font-family: Poppins;">Founded by</p>
+                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="/public/images/ix:shield-ai.svg" alt="Shield" style="width: 45px; height: 45px; margin-bottom: 12px;">
+                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">AI & Cybersecurity</h3>
+                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">Founded by</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
-                    <div class="text-2xl mb-2">🌐</div>
-                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">5+</h3>
-                    <p class="text-xs text-blue-300" style="font-family: Poppins;">Arabic Dialect Variants</p>
+                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="/public/images/ix:globe.svg" alt="Globe" style="width: 45px; height: 45px; margin-bottom: 12px;">
+                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">5+</h3>
+                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">Arabic Dialect Variants</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
-                    <div class="text-2xl mb-2">📋</div>
-                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">Multi-layer</h3>
-                    <p class="text-xs text-blue-300" style="font-family: Poppins;">QA Review Process</p>
+                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="/public/images/ix:layers.svg" alt="Layers" style="width: 45px; height: 45px; margin-bottom: 12px;">
+                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">Multi-layer</h3>
+                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">QA Review Process</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
-                    <div class="text-2xl mb-2">🗣️</div>
-                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">Arabic Only</h3>
-                    <p class="text-xs text-blue-300" style="font-family: Poppins;">No Content Moderation</p>
+                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="/public/images/ix:mic.svg" alt="Mic" style="width: 45px; height: 45px; margin-bottom: 12px;">
+                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">Arabic Only</h3>
+                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">No Content Moderation</p>
                 </div>
-                <div class="bg-gradient-to-b from-blue-700 to-blue-900 p-6 rounded-lg border border-blue-600 text-center text-white flex-1" style="max-width: 280px;">
-                    <div class="text-2xl mb-2">📊</div>
-                    <h3 class="font-bold text-lg mb-2" style="font-family: Poppins;">Kappa 0.62</h3>
-                    <p class="text-xs text-blue-300" style="font-family: Poppins;">RLHF Agreement Score</p>
+                <div class="text-center text-white" style="width: 280px; height: 190px; background: linear-gradient(180deg, #548ED3 8%, #00427C 100%); border-radius: 20px; border: 1px #00427C solid; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="/public/images/ix:chart.svg" alt="Chart" style="width: 45px; height: 45px; margin-bottom: 12px;">
+                    <h3 class="font-bold" style="font-size: 25px; font-family: Poppins; margin-bottom: 8px;">Kappa 0.62</h3>
+                    <p style="font-size: 17px; font-family: Poppins; color: #548ED3;">RLHF Agreement Score</p>
                 </div>
             </div>
         </div>
