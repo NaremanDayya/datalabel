@@ -73,33 +73,18 @@
         </div>
     </div>
 
-    <!-- Why Arabic Section -->
-    <section id="why-arabic" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" class="w-full h-auto rounded-lg">
-                </div>
-                <div>
-                    <h2 class="text-5xl font-bold mb-8"><span class="text-blue-900">Why Arabic?</span> <span class="text-blue-600">Why Now?</span></h2>
-                    <p class="text-2xl text-gray-600">Arabic is one of the most spoken languages on earth — and one of the most underserved in AI. That gap is why enterprise buyers are reaching out, and why the quality of annotation data has never mattered more.</p>
-                </div>
+    <!-- Why Arabic Section - Figma Design -->
+    <section id="why-arabic" style="background: linear-gradient(270deg, #01213D 0%, #003A6C 100%); padding: 80px 20px;">
+        <div style="width: 100%; max-width: 1920px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+            <div>
+                <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" style="width: 100%; max-width: 522px; height: auto; border-radius: 10px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);">
             </div>
-
-            <!-- Stats Section -->
-            <div class="mt-20 bg-blue-900 rounded-xl shadow-lg p-12">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div>
-                        <div class="text-6xl font-bold text-blue-400 mb-4">400M+</div>
-                        <h3 class="text-white text-2xl font-bold mb-4">Arabic speakers worldwide</h3>
-                        <p class="text-gray-300 text-lg">Arabic is the fifth most spoken language in the world, spanning 22 countries across the Middle East and North Africa — yet AI systems routinely fail to understand the people who speak it.</p>
-                    </div>
-                    <div>
-                        <div class="text-6xl font-bold text-blue-400 mb-4">&lt;1%</div>
-                        <h3 class="text-white text-2xl font-bold mb-4">of NLP research covers Arabic</h3>
-                        <p class="text-gray-300 text-lg">Despite hundreds of millions of speakers, Arabic receives a fraction of the research attention that English does. The training data infrastructure is just getting started — and the companies who invest now will have a significant head start.</p>
-                    </div>
+            <div>
+                <div style="font-family: 'Poppins', sans-serif; margin-bottom: 30px;">
+                    <span style="color: #043763; font-size: clamp(50px, 6vw, 70px); font-weight: 600; line-height: 1.2; display: block;">Why Arabic?</span>
+                    <span style="color: #488EFF; font-size: clamp(50px, 6vw, 70px); font-weight: 600; line-height: 1.2; display: block;">Why Now?</span>
                 </div>
+                <p style="color: #787878; font-size: clamp(18px, 2vw, 25px); font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.8; margin: 0;">Arabic is one of the most spoken languages on earth — and one of the most underserved in AI. That gap is why enterprise buyers are reaching out, and why the quality of annotation data has never mattered more.</p>
             </div>
         </div>
     </section>
