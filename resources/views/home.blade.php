@@ -78,7 +78,7 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="{{ asset('public/images/human-ai-interaction.png" alt="Why Arabic" class="w-full h-auto rounded-lg">
+                    <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" class="w-full h-auto rounded-lg">
                 </div>
                 <div>
                     <h2 class="text-5xl font-bold mb-8"><span class="text-blue-900">Why Arabic?</span> <span class="text-blue-600">Why Now?</span></h2>
@@ -366,7 +366,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
                 <div>
-                    <img src="{{ asset('public/images/arabic-annotators-team.png" alt="Arabic Annotators Team" class="w-full h-auto rounded-lg">
+                    <img src="{{ asset('public/images/arabic-annotators-team.png') }}" alt="Arabic Annotators Team" class="w-full h-auto rounded-lg">
                 </div>
                 <div>
                     <p class="text-gray-700 text-xl leading-relaxed">Our annotator workforce is our primary quality asset. We invest in their training, their ownership stake, and their stability — because high-quality annotations require a workforce that is both skilled and retained.</p>
