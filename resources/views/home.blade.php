@@ -602,41 +602,71 @@
             </div>
         </div>
 
-            <div style="display: flex; gap: 0; width: 100%; align-items: stretch;">
+            <div style="display: flex; gap: 0; width: 100%; align-items: flex-start;">
                 <!-- Native Card -->
-                <div style="flex: 1; padding: 30px 40px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px; text-align: center; border-right: 1px solid #C4C4C4;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                        <path d="M25 4.16675C22.2373 4.16675 19.5878 5.26421 17.6343 7.21772C15.6808 9.17122 14.5833 11.8207 14.5833 14.5834C14.5833 17.3461 15.6808 19.9956 17.6343 21.9491C19.5878 23.9026 22.2373 25.0001 25 25.0001C27.7627 25.0001 30.4122 23.9026 32.3657 21.9491C34.3192 19.9956 35.4167 17.3461 35.4167 14.5834C35.4167 11.8207 34.3192 9.17122 32.3657 7.21772C30.4122 5.26421 27.7627 4.16675 25 4.16675ZM8.33333 45.8334H41.6667C42.8125 45.8334 43.75 44.8959 43.75 43.7501V41.6667C43.75 33.6251 37.2083 27.0834 29.1667 27.0834H20.8333C12.7917 27.0834 6.25 33.6251 6.25 41.6667V43.7501C6.25 44.8959 7.1875 45.8334 8.33333 45.8334Z" fill="#3265A1"/>
-                    </svg>
-                    <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
-                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Native</p>
-                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">91% top accuracy</p>
+                <div style="flex: 1; padding: 40px; display: flex; gap: 30px; border-right: 1px solid #C4C4C4;">
+                    <!-- Icon Circle -->
+                    <div style="position: relative; width: 100px; height: 100px; flex-shrink: 0;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none" style="position: absolute; top: 0; left: 0;">
+                            <circle cx="50" cy="50" r="50" fill="#C2D7E6" fillOpacity="0.6"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" style="position: absolute; top: 25px; left: 25px;">
+                            <path d="M25 4.16675C22.2373 4.16675 19.5878 5.26421 17.6343 7.21772C15.6808 9.17122 14.5833 11.8207 14.5833 14.5834C14.5833 17.3461 15.6808 19.9956 17.6343 21.9491C19.5878 23.9026 22.2373 25.0001 25 25.0001C27.7627 25.0001 30.4122 23.9026 32.3657 21.9491C34.3192 19.9956 35.4167 17.3461 35.4167 14.5834C35.4167 11.8207 34.3192 9.17122 32.3657 7.21772C30.4122 5.26421 27.7627 4.16675 25 4.16675ZM8.33333 45.8334H41.6667C42.8125 45.8334 43.75 44.8959 43.75 43.7501V41.6667C43.75 33.6251 37.2083 27.0834 29.1667 27.0834H20.8333C12.7917 27.0834 6.25 33.6251 6.25 41.6667V43.7501C6.25 44.8959 7.1875 45.8334 8.33333 45.8334Z" fill="#3265A1"/>
+                        </svg>
                     </div>
-                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Arabic dialect speakers with deep linguistic and cultural competency in their assigned dialect family.</p>
+                    <!-- Content -->
+                    <div style="display: flex; flex-direction: column; gap: 12px; flex: 1;">
+                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">01</p>
+                        <div style="display: flex; flex-direction: column; gap: 5px;">
+                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Native</p>
+                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">91% top accuracy</p>
+                        </div>
+                        <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Arabic dialect speakers with deep linguistic and cultural competency in their assigned dialect family.</p>
+                    </div>
                 </div>
 
                 <!-- Trained Card -->
-                <div style="flex: 1; padding: 30px 40px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px; text-align: center; border-right: 1px solid #C4C4C4;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                        <path d="M24.9999 8.75098L2.1958 17.3027L24.9999 28.7048L35.8612 23.2741L25.6721 20.1589C25.4622 20.2595 25.2326 20.312 24.9999 20.3125C24.5855 20.3125 24.1881 20.1479 23.895 19.8549C23.602 19.5618 23.4374 19.1644 23.4374 18.75C23.4374 18.3356 23.602 17.9382 23.895 17.6451C24.1881 17.3521 24.5855 17.1875 24.9999 17.1875L24.7415 18.0275L26.5518 18.5845L26.5525 18.5899L29.2238 19.4068L44.4335 24.0864V25.2726C44.2231 25.4157 44.0509 25.608 43.9318 25.8328C43.8126 26.0576 43.7502 26.3082 43.7499 26.5626C43.7502 26.8229 43.8155 27.0789 43.9399 27.3076C44.0642 27.5362 44.2438 27.7301 44.4621 27.8718C43.7509 30.5598 43.7499 36.6585 43.7499 39.0625C45.3124 40.0776 45.3124 40.1147 46.8749 39.0625C46.8749 36.6588 46.8741 30.5612 46.163 27.8727C46.3814 27.7309 46.561 27.5368 46.6853 27.308C46.8096 27.0792 46.8748 26.8229 46.8749 26.5625C46.8749 26.3078 46.8126 26.0569 46.6934 25.8318C46.5743 25.6067 46.4019 25.4141 46.1913 25.2708V22.7884L40.3979 21.0059L47.804 17.3027L24.9999 8.75098ZM11.6818 24.3164L10.4003 32.0059C12.9564 32.3401 16.0142 33.8259 18.8251 35.5827C20.4237 36.5819 21.9211 37.6787 23.1372 38.7429C23.8806 39.3933 24.5021 40.0173 24.9999 40.6312C25.4977 40.0172 26.1192 39.3933 26.8626 38.7429C28.0787 37.6787 29.576 36.5819 31.1747 35.5827C33.9856 33.8259 37.0434 32.3401 39.5995 32.0059L38.3178 24.3164H37.7074L24.9999 30.6702L12.2922 24.3164H11.6818Z" fill="#3265A1"/>
-                    </svg>
-                    <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
-                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Trained</p>
-                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">3,031 annotations delivered</p>
+                <div style="flex: 1; padding: 40px; display: flex; gap: 30px; border-right: 1px solid #C4C4C4;">
+                    <!-- Icon Circle -->
+                    <div style="position: relative; width: 100px; height: 100px; flex-shrink: 0;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none" style="position: absolute; top: 0; left: 0;">
+                            <circle cx="50" cy="50" r="50" fill="#C2D7E6" fillOpacity="0.6"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" style="position: absolute; top: 25px; left: 25px;">
+                            <path d="M24.9999 8.75098L2.1958 17.3027L24.9999 28.7048L35.8612 23.2741L25.6721 20.1589C25.4622 20.2595 25.2326 20.312 24.9999 20.3125C24.5855 20.3125 24.1881 20.1479 23.895 19.8549C23.602 19.5618 23.4374 19.1644 23.4374 18.75C23.4374 18.3356 23.602 17.9382 23.895 17.6451C24.1881 17.3521 24.5855 17.1875 24.9999 17.1875L24.7415 18.0275L26.5518 18.5845L26.5525 18.5899L29.2238 19.4068L44.4335 24.0864V25.2726C44.2231 25.4157 44.0509 25.608 43.9318 25.8328C43.8126 26.0576 43.7502 26.3082 43.7499 26.5626C43.7502 26.8229 43.8155 27.0789 43.9399 27.3076C44.0642 27.5362 44.2438 27.7301 44.4621 27.8718C43.7509 30.5598 43.7499 36.6585 43.7499 39.0625C45.3124 40.0776 45.3124 40.1147 46.8749 39.0625C46.8749 36.6588 46.8741 30.5612 46.163 27.8727C46.3814 27.7309 46.561 27.5368 46.6853 27.308C46.8096 27.0792 46.8748 26.8229 46.8749 26.5625C46.8749 26.3078 46.8126 26.0569 46.6934 25.8318C46.5743 25.6067 46.4019 25.4141 46.1913 25.2708V22.7884L40.3979 21.0059L47.804 17.3027L24.9999 8.75098ZM11.6818 24.3164L10.4003 32.0059C12.9564 32.3401 16.0142 33.8259 18.8251 35.5827C20.4237 36.5819 21.9211 37.6787 23.1372 38.7429C23.8806 39.3933 24.5021 40.0173 24.9999 40.6312C25.4977 40.0172 26.1192 39.3933 26.8626 38.7429C28.0787 37.6787 29.576 36.5819 31.1747 35.5827C33.9856 33.8259 37.0434 32.3401 39.5995 32.0059L38.3178 24.3164H37.7074L24.9999 30.6702L12.2922 24.3164H11.6818Z" fill="#3265A1"/>
+                        </svg>
                     </div>
-                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Structured onboarding in annotation methodologies, quality standards, and task-specific guidelines before any production work</p>
+                    <!-- Content -->
+                    <div style="display: flex; flex-direction: column; gap: 12px; flex: 1;">
+                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">02</p>
+                        <div style="display: flex; flex-direction: column; gap: 5px;">
+                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Trained</p>
+                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">3,031 annotations delivered</p>
+                        </div>
+                        <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Structured onboarding in annotation methodologies, quality standards, and task-specific guidelines before any production work</p>
+                    </div>
                 </div>
 
                 <!-- Invested Card -->
-                <div style="flex: 1; padding: 30px 40px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px; text-align: center;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M40.2356 17.4792C40.2356 19.4799 39.8415 21.4609 39.0759 23.3092C38.3103 25.1575 37.1882 26.8369 35.7735 28.2516C34.3589 29.6662 32.6795 30.7884 30.8312 31.554C28.9828 32.3196 27.0018 32.7136 25.0012 32.7136C23.0006 32.7136 21.0196 32.3196 19.1713 31.554C17.3229 30.7884 15.6435 29.6662 14.2289 28.2516C12.8142 26.8369 11.6921 25.1575 10.9265 23.3092C10.1609 21.4609 9.76683 19.4799 9.76683 17.4792C9.76683 13.4388 11.3719 9.56392 14.2289 6.70692C17.0859 3.84992 20.9608 2.24487 25.0012 2.24487C29.0416 2.24487 32.9165 3.84992 35.7735 6.70692C38.6305 9.56392 40.2356 13.4388 40.2356 17.4792ZM24.896 9.56883L27.5939 14.1938L32.2189 15.348L29.1356 18.8167L29.9064 24.2126L24.896 21.9001L19.8877 24.2126L20.6585 18.8167L17.5752 15.348L22.2002 14.1917L24.896 9.56883ZM2.3335 40.9834L9.8835 27.9042C11.2965 29.9566 13.1129 31.6993 15.222 33.0261C17.3311 34.3528 19.6884 35.2358 22.1502 35.6209L14.8731 48.223L12.2022 38.3668L2.3335 40.9793V40.9834ZM35.1252 48.223L27.8502 35.6188C30.3117 35.2339 32.669 34.3513 34.7781 33.0249C36.8871 31.6985 38.7037 29.9562 40.1168 27.9042L47.6668 40.9813L37.796 38.3668L35.1273 48.2209L35.1252 48.223Z" fill="#3265A1"/>
-                    </svg>
-                    <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
-                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Invested</p>
-                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">Long-term retention, not gig churn</p>
+                <div style="flex: 1; padding: 40px; display: flex; gap: 30px;">
+                    <!-- Icon Circle -->
+                    <div style="position: relative; width: 100px; height: 100px; flex-shrink: 0;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none" style="position: absolute; top: 0; left: 0;">
+                            <circle cx="50" cy="50" r="50" fill="#C2D7E6" fillOpacity="0.6"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" style="position: absolute; top: 25px; left: 25px;">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M40.2356 17.4792C40.2356 19.4799 39.8415 21.4609 39.0759 23.3092C38.3103 25.1575 37.1882 26.8369 35.7735 28.2516C34.3589 29.6662 32.6795 30.7884 30.8312 31.554C28.9828 32.3196 27.0018 32.7136 25.0012 32.7136C23.0006 32.7136 21.0196 32.3196 19.1713 31.554C17.3229 30.7884 15.6435 29.6662 14.2289 28.2516C12.8142 26.8369 11.6921 25.1575 10.9265 23.3092C10.1609 21.4609 9.76683 19.4799 9.76683 17.4792C9.76683 13.4388 11.3719 9.56392 14.2289 6.70692C17.0859 3.84992 20.9608 2.24487 25.0012 2.24487C29.0416 2.24487 32.9165 3.84992 35.7735 6.70692C38.6305 9.56392 40.2356 13.4388 40.2356 17.4792ZM24.896 9.56883L27.5939 14.1938L32.2189 15.348L29.1356 18.8167L29.9064 24.2126L24.896 21.9001L19.8877 24.2126L20.6585 18.8167L17.5752 15.348L22.2002 14.1917L24.896 9.56883ZM2.3335 40.9834L9.8835 27.9042C11.2965 29.9566 13.1129 31.6993 15.222 33.0261C17.3311 34.3528 19.6884 35.2358 22.1502 35.6209L14.8731 48.223L12.2022 38.3668L2.3335 40.9793V40.9834ZM35.1252 48.223L27.8502 35.6188C30.3117 35.2339 32.669 34.3513 34.7781 33.0249C36.8871 31.6985 38.7037 29.9562 40.1168 27.9042L47.6668 40.9813L37.796 38.3668L35.1273 48.2209L35.1252 48.223Z" fill="#3265A1"/>
+                        </svg>
                     </div>
-                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</p>
+                    <!-- Content -->
+                    <div style="display: flex; flex-direction: column; gap: 12px; flex: 1;">
+                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">03</p>
+                        <div style="display: flex; flex-direction: column; gap: 5px;">
+                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Invested</p>
+                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">Long-term retention, not gig churn</p>
+                        </div>
+                        <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</p>
+                    </div>
                 </div>
             </div>
         </div>
