@@ -444,11 +444,11 @@
             <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Stronger together for lasting impact</h2>
 
             <!-- Content Grid -->
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: flex-start;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: flex-start;">
                 <!-- Left Column -->
                 <div style="display: flex; flex-direction: column; gap: 40px;">
                     <!-- Partnership Description -->
-                    <p style="width: 100%; max-width: 788px; color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 50.6px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
+                    <p style="width: 100%; color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 50.6px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
 
                     <!-- Partnership Diagram -->
                     <div style="display: flex; flex-direction: column; gap: 20px; align-items: flex-start;">
@@ -464,6 +464,8 @@
                             <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 5px;">GCV</div>
                             <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">Regional Operations, Infrastructure</div>
                         </div>
+                        <!-- Arrow -->
+                        <div style="color: #488EFF; font-size: 24px; margin-left: 10px;">↓</div>
                         <!-- Result Box -->
                         <div style="width: 247.444px; height: 224px; padding: 16px; border-radius: 15px; border: 1px solid #0061A5; background: #FAFBFB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; box-shadow: 0 0 20px 0 #043763;">
                             <p style="color: #111C2D; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; line-height: 17.5px; margin: 0; text-align: center;">Stable, Highly-Qualified Workforce</p>
@@ -476,19 +478,19 @@
                         <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Payment & Regional Access</h3>
                         <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 40px; margin: 0;">Our payment corridor runs through Gaza Children Village (GCV) — a nonprofit already equipped to move compliant payments into the region.</p>
                     </div>
+
+                    <!-- Start Project Button -->
+                    <div style="padding-top: 20px;">
+                        <button style="padding: 14px 28px; border-radius: 8px; background: #2563EB; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s;">
+                            Start Your Project →
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Right Column - GCV Logo -->
-                <div style="display: flex; align-items: flex-end; justify-content: flex-end;">
-                    <div style="width: 584px; height: 168px; aspect-ratio: 3/1; border-radius: 15px; border: 1px solid #E6E6E6; background-image: url('{{ asset('public/images/image-6.png') }}'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                <div style="display: flex; align-items: flex-start; justify-content: center; height: 100%;">
+                    <div style="width: 100%; max-width: 584px; height: 168px; border-radius: 15px; border: 1px solid #E6E6E6; background-image: url('{{ asset('public/images/image-6.png') }}'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #FFFFFF;"></div>
                 </div>
-            </div>
-
-            <!-- Start Project Button -->
-            <div style="padding-top: 20px;">
-                <button style="padding: 14px 28px; border-radius: 8px; background: #2563EB; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s;">
-                    Start Your Project →
-                </button>
             </div>
         </div>
     </section>
