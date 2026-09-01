@@ -821,10 +821,7 @@
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 60px; position: relative;">
             <!-- About Section -->
             <div style="display: flex; flex-direction: column; gap: 20px; position: relative;">
-                <div style="display: flex; align-items: center; gap: 12px;">
-                    <img src="{{ asset('public/images/logo.png') }}" alt="Karama Data" style="height: 45px; width: auto;">
-                    <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700;">Karama<br/>Data</span>
-                </div>
+                <div style="width: 364px; height: 91px; background: url('{{ asset('public/images/Rectangle-119.png') }}') lightgray 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
                 <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 125%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
                 <div style="display: inline-block; padding: 8px 12px; background: rgba(37, 99, 235, 0.2); border-radius: 5px; border: 1px solid #C4C4C4;">
@@ -894,13 +891,11 @@
                             <p style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; margin: 0;">Gaza Children Village<br/>(GCV)</p>
                         </div>
                     </div>
-                    <div style="padding: 12px 16px; border-radius: 8px; border: 1px solid #488EFF; display: inline-block;">
-                        <div style="display: flex; align-items: center; gap: 8px;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink: 0;">
-                                <path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 9 15.5 9 14 9.67 14 10.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 9 8.5 9 7 9.67 7 10.5 7.67 12 8.5 12zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" fill="#488EFF"/>
-                            </svg>
-                            <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600;">US-Incorporated LLC</span>
-                        </div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink: 0;">
+                            <path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 9 15.5 9 14 9.67 14 10.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 9 8.5 9 7 9.67 7 10.5 7.67 12 8.5 12zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" fill="#488EFF"/>
+                        </svg>
+                        <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600;">US-Incorporated LLC</span>
                     </div>
                 </div>
             </div>
