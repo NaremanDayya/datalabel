@@ -31,7 +31,7 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: cover; background-position: center; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-65.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; background-attachment: fixed; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div style="width: 32.9%; left: 8.85%; top: 18.8%; position: absolute; color: #EFEFEF; font-size: clamp(40px, 5vw, 70px); font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
             <div style="width: 30.7%; left: 8.65%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: clamp(16px, 2vw, 25px); font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word; display: flex; align-items: flex-start;">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
@@ -311,33 +311,39 @@
     <section id="services" style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
         <div style="width: 100%; display: flex; flex-direction: column; gap: 60px; max-width: 1577px; margin: 0 auto;">
             <!-- Services Grid -->
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%;">
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; width: 100%;">
                 <!-- NLP Annotation Card -->
                 <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
-                    <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
-                    </svg>
-                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">NLP Annotation</h3>
+                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                        <svg width="40" height="40" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0; margin-top: 2px;">
+                            <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
+                        </svg>
+                        <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 42px; margin: 0;">NLP<br/>Annotation</h3>
+                    </div>
                     <p style="color: #1C72FF; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 500; line-height: 23px; margin: 0;">Native dialect labels that improve your model's real-world accuracy.</p>
                     <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Named entity recognition, sentiment analysis, intent classification, and text categorization across Levantine, Gulf, Egyptian, and Maghrebi dialects.</p>
                 </div>
 
                 <!-- ASR Data Annotation Card -->
                 <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
-                    <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="43.5" cy="43.5" r="43.5" fill="#FFE8D6"/>
-                    </svg>
-                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">ASR Data Annotation</h3>
+                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                        <svg width="40" height="40" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0; margin-top: 2px;">
+                            <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
+                        </svg>
+                        <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 42px; margin: 0;">ASR<br/>Data Annotation</h3>
+                    </div>
                     <p style="color: #1C72FF; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 500; line-height: 23px; margin: 0;">Speech models that actually understand how Arabic is spoken, not just written.</p>
                     <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Speech transcription, phonetic labeling, speaker diarization, and audio quality validation for Arabic automatic speech recognition training pipelines.</p>
                 </div>
 
                 <!-- RLHF & Preference Ranking Card -->
                 <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
-                    <svg width="87" height="87" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.2656 0L17.6333 10.3647H28.5315L19.7147 16.7705L23.0824 27.1353L14.2656 20.7295L5.44885 27.1353L8.81656 16.7705L-0.00022316 10.3647H10.8979L14.2656 0Z" fill="#FFEC59"/>
-                    </svg>
-                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">RLHF & Preference Ranking</h3>
+                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                        <svg width="40" height="40" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0; margin-top: 2px;">
+                            <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
+                        </svg>
+                        <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 42px; margin: 0;">RLHF &<br/>Preference Ranking</h3>
+                    </div>
                     <p style="color: #1C72FF; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 500; line-height: 23px; margin: 0;">Human feedback data that makes your Arabic LLM safer, more helpful, and culturally aligned.</p>
                     <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Response ranking, preference pair collection, and reinforcement learning from human feedback (RLHF) data — delivered by native Arabic speakers who understand dialect nuance and cultural context.</p>
                     <p style="color: #F59E0B; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; line-height: 38px; margin: 0; padding-top: 10px;">⭐ Key Capability</p>
@@ -345,30 +351,36 @@
 
                 <!-- Conversational AI Card -->
                 <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
-                    <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
-                    </svg>
-                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">Conversational AI</h3>
+                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                        <svg width="40" height="40" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0; margin-top: 2px;">
+                            <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
+                        </svg>
+                        <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 42px; margin: 0;">Conversational<br/>AI</h3>
+                    </div>
                     <p style="color: #1C72FF; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 500; line-height: 23px; margin: 0;">Chatbot training data that feels natural to real Arabic speakers, not translated English.</p>
                     <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Dialogue annotation, response ranking, and conversation flow labeling for Arabic-language chatbots and virtual assistants.</p>
                 </div>
 
                 <!-- Quality Assurance Card -->
                 <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
-                    <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
-                    </svg>
-                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">Quality Assurance</h3>
+                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                        <svg width="40" height="40" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0; margin-top: 2px;">
+                            <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
+                        </svg>
+                        <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 42px; margin: 0;">Quality<br/>Assurance</h3>
+                    </div>
                     <p style="color: #1C72FF; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 500; line-height: 23px; margin: 0;">Documented QA reports with every delivery — no black-box quality claims.</p>
                     <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Multi-layer review with inter-annotator agreement measurement, senior reviewer sign-off, and structured QA reporting delivered with every project.</p>
                 </div>
 
                 <!-- Enterprise Compliance Card -->
                 <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
-                    <svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
-                    </svg>
-                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">Enterprise Compliance</h3>
+                    <div style="display: flex; align-items: flex-start; gap: 12px;">
+                        <svg width="40" height="40" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0; margin-top: 2px;">
+                            <circle cx="43.5" cy="43.5" r="43.5" fill="#E8F1FF"/>
+                        </svg>
+                        <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 42px; margin: 0;">Enterprise<br/>Compliance</h3>
+                    </div>
                     <p style="color: #1C72FF; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 500; line-height: 23px; margin: 0;">A vendor your procurement team can approve on the first pass.</p>
                     <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">US-incorporated, domestically owned. No content moderation work. Structured data handling with privacy-first practices that meet enterprise procurement requirements.</p>
                 </div>
