@@ -443,37 +443,39 @@
             <!-- Main Title -->
             <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Stronger together for lasting impact</h2>
 
+            <!-- Partnership Description & Diagram Row -->
+            <div style="display: flex; gap: 60px; align-items: center;">
+                <!-- Left: Partnership Description -->
+                <p style="width: 100%; max-width: 400px; color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 50.6px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
+
+                <!-- Right: Partnership Diagram (Horizontal) -->
+                <div style="display: flex; gap: 15px; align-items: center; justify-content: center;">
+                    <!-- Karama Data Circle -->
+                    <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid #E6E6E6; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px; flex-shrink: 0;">
+                        <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 5px;">Karama Data</div>
+                        <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">AI Expertise, Technology</div>
+                    </div>
+                    <!-- Arrow Right -->
+                    <div style="color: #488EFF; font-size: 28px; flex-shrink: 0;">→</div>
+                    <!-- GCV Circle -->
+                    <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid #E6E6E6; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px; flex-shrink: 0;">
+                        <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 5px;">GCV</div>
+                        <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">Regional Operations</div>
+                    </div>
+                    <!-- Arrow Right -->
+                    <div style="color: #488EFF; font-size: 28px; flex-shrink: 0;">→</div>
+                    <!-- Result Box -->
+                    <div style="width: 200px; height: 140px; padding: 16px; border-radius: 15px; border: 1px solid #0061A5; background: #FAFBFB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; box-shadow: 0 0 20px 0 #043763; flex-shrink: 0;">
+                        <p style="color: #111C2D; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; line-height: 16px; margin: 0; text-align: center;">Stable, Highly-Qualified Workforce</p>
+                        <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 14px; margin: 0; text-align: center;">Better quality, stronger outcomes</p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Content Grid -->
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: flex-start;">
-                <!-- Left Column -->
+                <!-- Left Column: Payment & Regional Access -->
                 <div style="display: flex; flex-direction: column; gap: 40px;">
-                    <!-- Partnership Description -->
-                    <p style="width: 100%; color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 50.6px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
-
-                    <!-- Partnership Diagram -->
-                    <div style="display: flex; flex-direction: column; gap: 20px; align-items: flex-start;">
-                        <!-- Karama Data Circle -->
-                        <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid #E6E6E6; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px;">
-                            <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 5px;">Karama Data</div>
-                            <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">AI Expertise, Technology, Quality Standards</div>
-                        </div>
-                        <!-- Arrow -->
-                        <div style="color: #488EFF; font-size: 24px; margin-left: 10px;">↓</div>
-                        <!-- GCV Circle -->
-                        <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid #E6E6E6; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px;">
-                            <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 5px;">GCV</div>
-                            <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">Regional Operations, Infrastructure</div>
-                        </div>
-                        <!-- Arrow -->
-                        <div style="color: #488EFF; font-size: 24px; margin-left: 10px;">↓</div>
-                        <!-- Result Box -->
-                        <div style="width: 247.444px; height: 224px; padding: 16px; border-radius: 15px; border: 1px solid #0061A5; background: #FAFBFB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; box-shadow: 0 0 20px 0 #043763;">
-                            <p style="color: #111C2D; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; line-height: 17.5px; margin: 0; text-align: center;">Stable, Highly-Qualified Workforce</p>
-                            <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 400; line-height: 16px; margin: 0; text-align: center;">Better quality, stronger outcomes, lasting impact</p>
-                        </div>
-                    </div>
-
-                    <!-- Payment & Regional Access -->
                     <div style="display: flex; flex-direction: column; gap: 15px;">
                         <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Payment & Regional Access</h3>
                         <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 40px; margin: 0;">Our payment corridor runs through Gaza Children Village (GCV) — a nonprofit already equipped to move compliant payments into the region.</p>
