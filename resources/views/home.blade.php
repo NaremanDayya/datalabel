@@ -599,35 +599,59 @@
             </div>
         </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-blue-50 p-8 rounded-xl text-center">
-                    <p class="text-blue-600 font-semibold mb-2">01</p>
-                    <p class="text-3xl font-bold text-gray-900">Native</p>
-                    <p class="text-gray-600 mt-2">91% top accuracy</p>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%;">
+                <!-- Native Card -->
+                <div style="width: 333px; height: 446px; padding: 30px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px;">
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">01</p>
+                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Native</p>
+                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">91% top accuracy</p>
+                    </div>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0; text-align: center;">Arabic dialect speakers with deep linguistic and cultural competency in their assigned dialect family.</p>
                 </div>
-                <div class="bg-blue-50 p-8 rounded-xl text-center">
-                    <p class="text-blue-600 font-semibold mb-2">02</p>
-                    <p class="text-3xl font-bold text-gray-900">Trained</p>
-                    <p class="text-gray-600 mt-2">3,031 annotations delivered</p>
+
+                <!-- Trained Card -->
+                <div style="width: 333px; height: 446px; padding: 30px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px;">
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">02</p>
+                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Trained</p>
+                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">3,031 annotations delivered</p>
+                    </div>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0; text-align: center;">Structured onboarding in annotation methodologies, quality standards, and task-specific guidelines before any production work</p>
                 </div>
-                <div class="bg-blue-50 p-8 rounded-xl text-center">
-                    <p class="text-blue-600 font-semibold mb-2">03</p>
-                    <p class="text-3xl font-bold text-gray-900">Invested</p>
-                    <p class="text-gray-600 mt-2">Long-term retention, not gig churn</p>
+
+                <!-- Invested Card -->
+                <div style="width: 333px; height: 446px; padding: 30px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px;">
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">03</p>
+                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Invested</p>
+                        <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">Long-term retention, not gig churn</p>
+                    </div>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0; text-align: center;">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Worker Privacy Section -->
-    <section class="py-12 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="bg-white border border-gray-200 rounded-lg p-8 flex items-start gap-6">
-                <div class="text-3xl">🔒</div>
-                <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Worker privacy is a priority.</h3>
-                    <p class="text-gray-600">We do not publish individual annotator names, photos, or location information.</p>
-                </div>
+    <section style="width: 100%; padding: 80px 170px; background: #F5F5F5;">
+        <div style="width: 1576px; height: 132px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0.58); display: flex; align-items: center; gap: 30px; padding: 30px;">
+            <div style="flex-shrink: 0;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+                    <g clip-path="url(#clip0_308_685)">
+                        <path d="M45.6946 11.0723L27.5305 0.283213C26.8924 -0.0944044 26.1175 -0.0944044 25.4794 0.283213L7.31538 11.0723C6.60887 11.4769 6.15307 12.2861 6.0619 13.2031C6.03911 13.4998 3.87402 42.2258 25.5478 53.6892C25.8408 53.8489 26.1596 53.9316 26.4822 53.9316C26.8048 53.9316 27.1236 53.8489 27.4166 53.6892C49.0903 42.2258 46.948 13.4729 46.9025 13.2031C46.8661 12.7503 46.7316 12.3163 46.512 11.943C46.2924 11.5697 45.9952 11.2698 45.649 11.0723H45.6946ZM26.505 48.2676C11.1442 39.4476 10.4149 20.5937 10.5516 15.1991L26.505 5.7317L42.4583 15.1991C42.5495 20.5667 41.7062 39.5285 26.505 48.2676Z" fill="#3265A1"/>
+                        <path d="M24.7187 28.2916L21.8199 25.3703L18.6289 28.5612L24.7187 34.6285L35.3028 24.0669L32.1118 20.876L24.7187 28.2916Z" fill="#3265A1"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_308_685">
+                            <rect width="53.9316" height="53.9316" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+                <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Worker privacy is a priority.</h3>
+                <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: normal; margin: 0;">We do not publish individual annotator names, photos, or location information.</p>
             </div>
         </div>
     </section>
