@@ -533,7 +533,7 @@
                 <!-- Mike Eynon Card -->
                 <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
                     <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(180deg, rgba(58, 115, 216, 0.76) 0%, rgba(31, 61, 114, 0.76) 100%); display: flex; align-items: center; justify-content: center;">
                             <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">ME</span>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
@@ -551,7 +551,7 @@
                 <!-- Nareman Dayya Card -->
                 <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
                     <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(180deg, rgba(58, 115, 216, 0.76) 0%, rgba(31, 61, 114, 0.76) 100%); display: flex; align-items: center; justify-content: center;">
                             <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">ND</span>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
@@ -569,7 +569,7 @@
                 <!-- David Hasan Card -->
                 <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
                     <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(180deg, rgba(58, 115, 216, 0.76) 0%, rgba(31, 61, 114, 0.76) 100%); display: flex; align-items: center; justify-content: center;">
                             <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">DH</span>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
