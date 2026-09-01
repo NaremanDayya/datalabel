@@ -144,7 +144,7 @@
                         <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Tasks completed</div>
                         <div style="color: #488EFF; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">100% completion rate</div>
                     </div>
-                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: #488EFF;"></div>
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: #488EFF; border-radius: 0 0 20px 20px;"></div>
                 </div>
 
                 <div style="position: relative; width: 370px; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
@@ -153,7 +153,7 @@
                         <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Top accuracy</div>
                         <div style="color: #00A651; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">preference Ranking</div>
                     </div>
-                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: #00B660;"></div>
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: #00B660; border-radius: 0 0 20px 20px;"></div>
                 </div>
 
                 <div style="position: relative; width: 370px; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
@@ -162,7 +162,7 @@
                         <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">RLHF Kappa score</div>
                         <div style="color: #8B5CF6; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">1 vs 0.27 - 0.39</div>
                     </div>
-                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: #8B5CF6;"></div>
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: #8B5CF6; border-radius: 0 0 20px 20px;"></div>
                 </div>
 
                 <div style="position: relative; width: 370px; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
@@ -171,20 +171,21 @@
                         <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Team throughput</div>
                         <div style="color: #F59E0B; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 18px;">2-labeler pilot team</div>
                     </div>
-                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 40px; background: #F59E0B;"></div>
+                    <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: #F59E0B; border-radius: 0 0 20px 20px;"></div>
                 </div>
             </div>
 
             <!-- Result Cards -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; width: 100%;">
                 <div style="width: 100%; border-radius: 20px; border: 0.5px solid rgba(59, 130, 246, 0.42); background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 20.67%, rgba(238, 245, 255, 0.32) 51.44%, rgba(153, 192, 255, 0.24) 100%); overflow: hidden; display: flex; flex-direction: column;">
-                    <div style="background: #00B660; padding: 20px 30px; display: flex; align-items: center; justify-content: space-between;">
-                        <h3 style="color: #FFFFFF; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 40px; width: 220px;">Preference Ranking</h3>
-                        <div style="background: rgba(0, 182, 96, 0.2); border: 1px solid #00B660; border-radius: 20px; padding: 6px 12px;">
-                            <span style="color: #00B660; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">Above Benchmark</span>
-                        </div>
-                    </div>
+                    <div style="height: 4px; background: #00B660;"></div>
                     <div style="padding: 30px;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+                            <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">Preference Ranking</h3>
+                            <div style="background: rgba(0, 182, 96, 0.2); border: 1px solid #00B660; border-radius: 20px; padding: 6px 12px;">
+                                <span style="color: #00B660; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">Above Benchmark</span>
+                            </div>
+                        </div>
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">667 items - RLHF / Model Alignment</p>
                         <div style="margin-bottom: 30px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
@@ -213,13 +214,14 @@
                 </div>
 
                 <div style="width: 100%; border-radius: 20px; border: 0.5px solid rgba(59, 130, 246, 0.42); background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 20.67%, rgba(238, 245, 255, 0.32) 51.44%, rgba(153, 192, 255, 0.24) 100%); overflow: hidden; display: flex; flex-direction: column;">
-                    <div style="background: #8B5CF6; padding: 20px 30px; display: flex; align-items: center; justify-content: space-between;">
-                        <h3 style="color: #FFFFFF; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 40px; width: 220px;">Dialect Identification</h3>
-                        <div style="background: rgba(139, 92, 246, 0.2); border: 1px solid #8B5CF6; border-radius: 20px; padding: 6px 12px;">
-                            <span style="color: #8B5CF6; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">On Par</span>
-                        </div>
-                    </div>
+                    <div style="height: 4px; background: #8B5CF6;"></div>
                     <div style="padding: 30px;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+                            <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">Dialect Identification</h3>
+                            <div style="background: rgba(139, 92, 246, 0.2); border: 1px solid #8B5CF6; border-radius: 20px; padding: 6px 12px;">
+                                <span style="color: #8B5CF6; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">On Par</span>
+                            </div>
+                        </div>
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">960 items - MSA, Levantine, Gulf, Egyptian, Iraqi, Maghrebi</p>
                         <div style="margin-bottom: 30px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
@@ -248,13 +250,14 @@
                 </div>
 
                 <div style="width: 100%; border-radius: 20px; border: 0.5px solid rgba(59, 130, 246, 0.42); background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 20.67%, rgba(238, 245, 255, 0.32) 51.44%, rgba(153, 192, 255, 0.24) 100%); overflow: hidden; display: flex; flex-direction: column;">
-                    <div style="background: #F59E0B; padding: 20px 30px; display: flex; align-items: center; justify-content: space-between;">
-                        <h3 style="color: #FFFFFF; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 40px; width: 220px;">Sentiment Tagging</h3>
-                        <div style="background: rgba(245, 158, 11, 0.2); border: 1px solid #F59E0B; border-radius: 20px; padding: 6px 12px;">
-                            <span style="color: #F59E0B; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">Near Target</span>
-                        </div>
-                    </div>
+                    <div style="height: 4px; background: #F59E0B;"></div>
                     <div style="padding: 30px;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+                            <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">Sentiment Tagging</h3>
+                            <div style="background: rgba(245, 158, 11, 0.2); border: 1px solid #F59E0B; border-radius: 20px; padding: 6px 12px;">
+                                <span style="color: #F59E0B; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">Near Target</span>
+                            </div>
+                        </div>
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">667 items - RLHF / Model Alignment</p>
                         <div style="margin-bottom: 30px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
