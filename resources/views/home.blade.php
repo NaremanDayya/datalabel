@@ -444,9 +444,11 @@
             <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Stronger together for lasting impact</h2>
 
             <!-- Partnership Description & Diagram Row -->
-            <div style="display: flex; gap: 60px; align-items: center;">
+            <div style="display: flex; gap: 80px; align-items: center;">
                 <!-- Left: Partnership Description -->
-                <p style="width: 100%; max-width: 400px; color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 50.6px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
+                <div style="display: flex; width: 717.381px; height: 262px; flex-direction: column; justify-content: center;">
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: 50.6px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
+                </div>
 
                 <!-- Right: Partnership Diagram (Horizontal) -->
                 <div style="display: flex; gap: 15px; align-items: center; justify-content: center;">
