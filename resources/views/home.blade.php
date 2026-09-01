@@ -500,42 +500,88 @@
     </section>
 
     <!-- Team Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <button class="bg-blue-600 text-white px-6 py-3 rounded font-bold mb-8">Start Your Project →</button>
-            <h2 class="text-5xl font-bold mb-12">Meet the people behind Karama Data</h2>
+    <section style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
+        <div style="width: 100%; max-width: 1577px; margin: 0 auto; display: flex; flex-direction: column; gap: 60px;">
+            <!-- Start Project Button -->
+            <button style="padding: 12px 24px; border-radius: 8px; background: #2563EB; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s; width: fit-content;">
+                Start Your Project →
+            </button>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">LM</div>
-                    <h4 class="font-bold text-lg text-gray-900">Laura Mather</h4>
-                    <p class="text-blue-600 font-semibold text-sm mb-3">Chief Executive Officer</p>
-                    <p class="text-gray-600 text-sm">Silicon Valley Founder and CEO with AI and Cybersecurity expertise</p>
-                    <p class="text-blue-600 mt-4 text-sm">🔗 LinkedIn</p>
+            <!-- Section Title -->
+            <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 48px; font-weight: 700; line-height: normal; margin: 0;">Meet the people behind Karama Data</h2>
+
+            <!-- Team Grid -->
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; width: 100%;">
+                <!-- Laura Mather Card -->
+                <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                            <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">LM</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
+                            <g clip-path="url(#clip0)"><rect width="36.39" height="36.39" rx="5" fill="white"/><path d="M31.006 31.0065H25.6142V22.5625C25.6142 20.5489 25.5782 17.9568 22.8099 17.9568C20.0016 17.9568 19.5719 20.1508 19.5719 22.4159V31.0059H14.1802V13.6416H19.3562V16.0147H19.4287C19.9467 15.129 20.6953 14.4004 21.5946 13.9064C22.494 13.4125 23.5105 13.1717 24.5358 13.2097C30.0007 13.2097 31.0083 16.8043 31.0083 21.4807L31.006 31.0065ZM8.09621 11.2682C6.36811 11.2685 4.96695 9.86775 4.96667 8.13965C4.96638 6.41155 6.36697 5.0104 8.09507 5.01011C9.82317 5.00969 11.2243 6.41042 11.2246 8.13851C11.2248 8.96838 10.8953 9.76432 10.3086 10.3512C9.72188 10.9382 8.92608 11.268 8.09621 11.2682ZM10.7922 31.0066H5.39468V13.6416H10.7921V31.0065L10.7922 31.0066ZM33.694 0.00264849H2.68533C1.21978 -0.0138407 0.0179107 1.16016 0 2.62571V33.7638C0.0173421 35.23 1.21907 36.4052 2.68518 36.3898H33.694C35.1633 36.408 36.3697 35.2329 36.39 33.7638V2.6233C36.3691 1.1549 35.1626 -0.0189581 33.694 0.000231971" fill="#0A66C2"/></g>
+                            <defs><clipPath id="clip0"><rect width="36.39" height="36.39" rx="5" fill="white"/></clipPath></defs>
+                        </svg>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; line-height: 24px; margin: 0;">Laura Mather</h3>
+                        <p style="color: #3F7FD2; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; line-height: 20px; margin: 0;">Chief Executive Officer</p>
+                    </div>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 500; line-height: 27.6px; margin: 0;">Silicon Valley Founder and CEO with AI and Cybersecurity expertise</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">ME</div>
-                    <h4 class="font-bold text-lg text-gray-900">Mike Eynon</h4>
-                    <p class="text-blue-600 font-semibold text-sm mb-3">Chief Technology Officer</p>
-                    <p class="text-gray-600 text-sm">Silicon Valley Founder and CTO</p>
-                    <p class="text-blue-600 mt-4 text-sm">🔗 LinkedIn</p>
+                <!-- Mike Eynon Card -->
+                <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                            <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">ME</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
+                            <g clip-path="url(#clip1)"><rect width="36.39" height="36.39" rx="5" fill="white"/><path d="M31.006 31.0065H25.6142V22.5625C25.6142 20.5489 25.5782 17.9568 22.8099 17.9568C20.0016 17.9568 19.5719 20.1508 19.5719 22.4159V31.0059H14.1802V13.6416H19.3562V16.0147H19.4287C19.9467 15.129 20.6953 14.4004 21.5946 13.9064C22.494 13.4125 23.5105 13.1717 24.5358 13.2097C30.0007 13.2097 31.0083 16.8043 31.0083 21.4807L31.006 31.0065ZM8.09621 11.2682C6.36811 11.2685 4.96695 9.86775 4.96667 8.13965C4.96638 6.41155 6.36697 5.0104 8.09507 5.01011C9.82317 5.00969 11.2243 6.41042 11.2246 8.13851C11.2248 8.96838 10.8953 9.76432 10.3086 10.3512C9.72188 10.9382 8.92608 11.268 8.09621 11.2682ZM10.7922 31.0066H5.39468V13.6416H10.7921V31.0065L10.7922 31.0066ZM33.694 0.00264849H2.68533C1.21978 -0.0138407 0.0179107 1.16016 0 2.62571V33.7638C0.0173421 35.23 1.21907 36.4052 2.68518 36.3898H33.694C35.1633 36.408 36.3697 35.2329 36.39 33.7638V2.6233C36.3691 1.1549 35.1626 -0.0189581 33.694 0.000231971" fill="#0A66C2"/></g>
+                            <defs><clipPath id="clip1"><rect width="36.39" height="36.39" rx="5" fill="white"/></clipPath></defs>
+                        </svg>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; line-height: 24px; margin: 0;">Mike Eynon</h3>
+                        <p style="color: #3F7FD2; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; line-height: 20px; margin: 0;">Chief Technology Officer</p>
+                    </div>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 500; line-height: 27.6px; margin: 0;">Silicon Valley Founder and CTO</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">ND</div>
-                    <h4 class="font-bold text-lg text-gray-900">Nareman Dayya</h4>
-                    <p class="text-blue-600 font-semibold text-sm mb-3">In-region Operations Advisor</p>
-                    <p class="text-gray-600 text-sm">In-region operations advisor ensuring on-the-ground operational credibility, annotator welfare and delivery quality</p>
-                    <p class="text-blue-600 mt-4 text-sm">🔗 LinkedIn</p>
+                <!-- Nareman Dayya Card -->
+                <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                            <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">ND</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
+                            <g clip-path="url(#clip2)"><rect width="36.39" height="36.39" rx="5" fill="white"/><path d="M31.006 31.0065H25.6142V22.5625C25.6142 20.5489 25.5782 17.9568 22.8099 17.9568C20.0016 17.9568 19.5719 20.1508 19.5719 22.4159V31.0059H14.1802V13.6416H19.3562V16.0147H19.4287C19.9467 15.129 20.6953 14.4004 21.5946 13.9064C22.494 13.4125 23.5105 13.1717 24.5358 13.2097C30.0007 13.2097 31.0083 16.8043 31.0083 21.4807L31.006 31.0065ZM8.09621 11.2682C6.36811 11.2685 4.96695 9.86775 4.96667 8.13965C4.96638 6.41155 6.36697 5.0104 8.09507 5.01011C9.82317 5.00969 11.2243 6.41042 11.2246 8.13851C11.2248 8.96838 10.8953 9.76432 10.3086 10.3512C9.72188 10.9382 8.92608 11.268 8.09621 11.2682ZM10.7922 31.0066H5.39468V13.6416H10.7921V31.0065L10.7922 31.0066ZM33.694 0.00264849H2.68533C1.21978 -0.0138407 0.0179107 1.16016 0 2.62571V33.7638C0.0173421 35.23 1.21907 36.4052 2.68518 36.3898H33.694C35.1633 36.408 36.3697 35.2329 36.39 33.7638V2.6233C36.3691 1.1549 35.1626 -0.0189581 33.694 0.000231971" fill="#0A66C2"/></g>
+                            <defs><clipPath id="clip2"><rect width="36.39" height="36.39" rx="5" fill="white"/></clipPath></defs>
+                        </svg>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; line-height: 24px; margin: 0;">Nareman Dayya</h3>
+                        <p style="color: #3F7FD2; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; line-height: 20px; margin: 0;">In-region Operations Advisor</p>
+                    </div>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 500; line-height: 27.6px; margin: 0;">In-region operations advisor ensuring on-the-ground operational credibility, annotator welfare and delivery quality</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">DH</div>
-                    <h4 class="font-bold text-lg text-gray-900">David Hasan</h4>
-                    <p class="text-blue-600 font-semibold text-sm mb-3">Advisor</p>
-                    <p class="text-gray-600 text-sm">CEO of Gaza Children Village</p>
-                    <p class="text-blue-600 mt-4 text-sm">🔗 LinkedIn</p>
+                <!-- David Hasan Card -->
+                <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                            <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">DH</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
+                            <g clip-path="url(#clip3)"><rect width="36.39" height="36.39" rx="5" fill="white"/><path d="M31.006 31.0065H25.6142V22.5625C25.6142 20.5489 25.5782 17.9568 22.8099 17.9568C20.0016 17.9568 19.5719 20.1508 19.5719 22.4159V31.0059H14.1802V13.6416H19.3562V16.0147H19.4287C19.9467 15.129 20.6953 14.4004 21.5946 13.9064C22.494 13.4125 23.5105 13.1717 24.5358 13.2097C30.0007 13.2097 31.0083 16.8043 31.0083 21.4807L31.006 31.0065ZM8.09621 11.2682C6.36811 11.2685 4.96695 9.86775 4.96667 8.13965C4.96638 6.41155 6.36697 5.0104 8.09507 5.01011C9.82317 5.00969 11.2243 6.41042 11.2246 8.13851C11.2248 8.96838 10.8953 9.76432 10.3086 10.3512C9.72188 10.9382 8.92608 11.268 8.09621 11.2682ZM10.7922 31.0066H5.39468V13.6416H10.7921V31.0065L10.7922 31.0066ZM33.694 0.00264849H2.68533C1.21978 -0.0138407 0.0179107 1.16016 0 2.62571V33.7638C0.0173421 35.23 1.21907 36.4052 2.68518 36.3898H33.694C35.1633 36.408 36.3697 35.2329 36.39 33.7638V2.6233C36.3691 1.1549 35.1626 -0.0189581 33.694 0.000231971" fill="#0A66C2"/></g>
+                            <defs><clipPath id="clip3"><rect width="36.39" height="36.39" rx="5" fill="white"/></clipPath></defs>
+                        </svg>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; line-height: 24px; margin: 0;">David Hasan</h3>
+                        <p style="color: #3F7FD2; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; line-height: 20px; margin: 0;">Advisor</p>
+                    </div>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 500; line-height: 27.6px; margin: 0;">CEO of Gaza Children Village</p>
                 </div>
             </div>
         </div>
