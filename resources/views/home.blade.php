@@ -696,60 +696,72 @@
     </section>
 
     <!-- Contact Form Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <!-- Left Content -->
-                <div>
-                    <h2 class="text-5xl font-bold mb-6">Start Your Project</h2>
-                    <p class="text-gray-600 text-lg mb-8">Tell us about your project. We'll follow up to discuss scope, dialect requirements, QA standards, and how we can fit into your annotation pipeline.</p>
+    <section style="width: 100%; padding: 80px 170px; background: #FFFFFF;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: flex-start;">
+            <!-- Left Content -->
+            <div style="display: flex; flex-direction: column; gap: 40px;">
+                <!-- Title and Description -->
+                <div style="display: flex; flex-direction: column; gap: 30px;">
+                    <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 700; line-height: 130%; margin: 0;">Start Your Project</h2>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: 130%; margin: 0; width: 638px;">Tell us about your project. We'll follow up to discuss scope, dialect requirements, QA standards, and how we can fit into your annotation pipeline.</p>
+                </div>
 
-                    <div class="flex flex-col gap-4 mb-8">
-                        <div class="flex items-center gap-3">
-                            <span>✉️</span>
-                            <a href="mailto:info@karamadata.ai" class="text-blue-600 hover:underline">info@karamadata.ai</a>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <span>✓</span>
-                            <span class="text-gray-700">US LLC — domestically incorporated and owned</span>
-                        </div>
+                <!-- Contact Info -->
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <div style="display: flex; align-items: center; gap: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                            <path d="M20.1668 5.49984C20.1668 4.4915 19.3418 3.6665 18.3335 3.6665H3.66683C2.6585 3.6665 1.8335 4.4915 1.8335 5.49984V16.4998C1.8335 17.5082 2.6585 18.3332 3.66683 18.3332H18.3335C19.3418 18.3332 20.1668 17.5082 20.1668 16.4998V5.49984ZM18.3335 5.49984L11.0002 10.0832L3.66683 5.49984H18.3335ZM18.3335 16.4998H3.66683V7.33317L11.0002 11.9165L18.3335 7.33317V16.4998Z" fill="#3B82F6"/>
+                        </svg>
+                        <a href="mailto:info@karamadata.ai" style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500; text-decoration: none;">info@karamadata.ai</a>
                     </div>
-
-                    <div class="bg-gray-50 border-l-4 border-blue-600 p-6 rounded">
-                        <p class="text-blue-600 font-bold text-lg mb-3">"Our annotators are not vendors — they are deeply invested in the outcomes. That changes everything about how they approach the work. The precision, the care, the accountability. It shows in every dataset we deliver."</p>
-                        <p class="text-gray-900 font-semibold">Nareman Dayya</p>
-                        <p class="text-gray-600 text-sm">In-region Operations Advisor, Karama Data</p>
+                    <div style="display: flex; align-items: center; gap: 15px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                            <path d="M18.7325 5.59737L11.4204 1.92977C11.1635 1.8014 10.8516 1.8014 10.5947 1.92977L3.28266 5.59737C2.99825 5.73491 2.81476 6.00998 2.77806 6.32173C2.76889 6.42259 1.89732 16.1876 10.6222 20.0844C10.7402 20.1387 10.8685 20.1668 10.9984 20.1668C11.1283 20.1668 11.2566 20.1387 11.3745 20.0844C20.0994 16.1876 19.237 6.41342 19.2187 6.32173C19.2041 6.1678 19.1499 6.02026 19.0615 5.89337C18.9731 5.76647 18.8535 5.66452 18.7141 5.59737H18.7325ZM11.0076 18.2414C4.82397 15.2432 4.53039 8.83403 4.58543 7.00023L11.0076 3.78191L17.4297 7.00023C17.4664 8.82487 17.1269 15.2707 11.0076 18.2414Z" fill="#3B82F6"/>
+                            <path d="M10.0833 11.5406L8.90079 10.349L7.59912 11.6506L10.0833 14.1256L14.4008 9.81729L13.0991 8.51562L10.0833 11.5406Z" fill="#3B82F6"/>
+                        </svg>
+                        <span style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500;">US LLC — domestically incorporated and owned</span>
                     </div>
                 </div>
 
-                <!-- Right Form -->
-                <div class="bg-gray-50 p-8 rounded-lg">
-                    <form class="space-y-6">
-                        <div class="grid grid-cols-2 gap-4">
-                            <div>
-                                <label class="block text-gray-900 font-semibold mb-2">Your Name <span class="text-red-600">*</span></label>
-                                <input type="text" placeholder="Jane Smith" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                            </div>
-                            <div>
-                                <label class="block text-gray-900 font-semibold mb-2">Company <span class="text-red-600">*</span></label>
-                                <input type="text" placeholder="Acme AI Inc." class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-900 font-semibold mb-2">Work Email <span class="text-red-600">*</span></label>
-                            <input type="email" placeholder="jane@yourcompany.com" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        </div>
-
-                        <div>
-                            <label class="block text-gray-900 font-semibold mb-2">Project Description <span class="text-red-600">*</span></label>
-                            <textarea placeholder="Tell us about your annotation needs — dialect requirements, volume, task type, timeline..." rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-                        </div>
-
-                        <button class="bg-blue-600 hover:bg-blue-700 text-white w-full py-3 font-semibold rounded-lg">Start Your Project</button>
-                        <p class="text-center text-sm text-gray-600">We respond to all inquiries within one business day.</p>
-                    </form>
+                <!-- Testimonial Quote -->
+                <div style="padding: 30px; background: rgba(255, 255, 255, 0); border-left: 4px solid #3B82F6;">
+                    <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 600; line-height: 1.6; margin: 0 0 20px 0; font-style: italic;">"Our annotators are not vendors — they are deeply invested in the outcomes. That changes everything about how they approach the work. The precision, the care, the accountability. It shows in every dataset we deliver."</p>
+                    <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; margin: 0 0 5px 0;">Nareman Dayya</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 400; margin: 0;">In-region Operations Advisor, Karama Data</p>
                 </div>
+            </div>
+
+            <!-- Right Form -->
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <form style="display: flex; flex-direction: column; gap: 20px;">
+                    <!-- Name and Company Row -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <label style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600;">Your Name <span style="color: #EF4444;">*</span></label>
+                            <input type="text" placeholder="Jane Smith" style="padding: 12px 16px; border-radius: 8px; border: 1px solid #D1D5DB; font-family: 'Poppins', sans-serif; font-size: 14px; background: #FFFFFF;">
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <label style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600;">Company <span style="color: #EF4444;">*</span></label>
+                            <input type="text" placeholder="Acme AI Inc." style="padding: 12px 16px; border-radius: 8px; border: 1px solid #D1D5DB; font-family: 'Poppins', sans-serif; font-size: 14px; background: #FFFFFF;">
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <label style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600;">Work Email <span style="color: #EF4444;">*</span></label>
+                        <input type="email" placeholder="jane@yourcompany.com" style="padding: 12px 16px; border-radius: 8px; border: 1px solid #D1D5DB; font-family: 'Poppins', sans-serif; font-size: 14px; background: #FFFFFF;">
+                    </div>
+
+                    <!-- Project Description -->
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <label style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600;">Project Description <span style="color: #EF4444;">*</span></label>
+                        <textarea placeholder="Tell us about your annotation needs — dialect requirements, volume, task type, timeline..." style="padding: 12px 16px; border-radius: 8px; border: 1px solid #D1D5DB; font-family: 'Poppins', sans-serif; font-size: 14px; background: #FFFFFF; min-height: 120px; resize: vertical;"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" style="padding: 16px 24px; border-radius: 10px; background: linear-gradient(90deg, #045194 0%, #042F55 222.06%); border: none; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; cursor: pointer; margin-top: 20px;">Start Your Project</button>
+                    <p style="text-align: center; color: #787878; font-family: 'Poppins', sans-serif; font-size: 13px; margin: 0;">We respond to all inquiries within one business day.</p>
+                </form>
             </div>
         </div>
     </section>
