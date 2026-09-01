@@ -72,27 +72,48 @@
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">AI & Cybersecurity</div>
                 <div style="left: 33.9%; top: 76.8%; position: absolute; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Founded by</div>
-                <div style="width: 16%; height: 23.7%; left: 41.8%; top: 9.5%; position: absolute; overflow: hidden">
-                    <div style="width: 75%; height: 80%; left: 10.7%; top: 10%; position: absolute; background: #548ED3"></div>
-                </div>
+                <svg style="width: 16%; height: 23.7%; left: 41.8%; top: 9.5%; position: absolute; overflow: visible" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" fill="#548ED3"/>
+                </svg>
             </div>
             <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 25.78%; top: 92.8%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <svg style="width: 20%; height: 24%; left: 40%; top: 8%; position: absolute" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="11" stroke="#548ED3" stroke-width="2"/>
+                    <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z" fill="none" stroke="#548ED3" stroke-width="1.5"/>
+                    <path d="M12 2v20M2 12h20" stroke="#548ED3" stroke-width="1.5"/>
+                </svg>
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">5+ Dialects</div>
                 <div style="left: 17.1%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Arabic Dialect Variants</div>
             </div>
             <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 42.7%; top: 92.8%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <svg style="width: 20%; height: 24%; left: 40%; top: 8%; position: absolute" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="4" width="20" height="4" rx="1" fill="#548ED3" opacity="0.7"/>
+                    <rect x="2" y="10" width="20" height="4" rx="1" fill="#548ED3" opacity="0.85"/>
+                    <rect x="2" y="16" width="20" height="4" rx="1" fill="#548ED3"/>
+                </svg>
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">Multi-layer</div>
                 <div style="left: 23.6%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">QA Review Process</div>
             </div>
             <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 59.6%; top: 92.8%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <svg style="width: 20%; height: 24%; left: 40%; top: 8%; position: absolute" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="#548ED3" stroke-width="2"/>
+                    <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z" fill="none" stroke="#548ED3" stroke-width="1"/>
+                    <path d="M2 12h20" stroke="#548ED3" stroke-width="1"/>
+                    <path d="M12 2c-2.761 0-5 2.239-5 5 0 2.761 2.239 5 5 5s5-2.239 5-5c0-2.761-2.239-5-5-5z" fill="#548ED3" opacity="0.3"/>
+                </svg>
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">Arabic Only</div>
                 <div style="left: 16.4%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">No Content Moderation</div>
             </div>
             <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 76.56%; top: 92.8%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px; border: 1px #00427C solid"></div>
+                <svg style="width: 20%; height: 24%; left: 40%; top: 8%; position: absolute" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="16" width="4" height="5" fill="#548ED3"/>
+                    <rect x="10" y="10" width="4" height="11" fill="#548ED3"/>
+                    <rect x="17" y="5" width="4" height="16" fill="#548ED3"/>
+                </svg>
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 900; word-wrap: break-word">Kappa 0.62</div>
                 <div style="left: 17.8%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">RLHF Agreement Score</div>
             </div>
