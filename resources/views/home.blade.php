@@ -616,10 +616,10 @@
                     </div>
                     <!-- Content -->
                     <div style="display: flex; flex-direction: column; gap: 12px; flex: 1;">
-                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">01</p>
+                        <p style="color: #3B82F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">01</p>
                         <div style="display: flex; flex-direction: column; gap: 5px;">
-                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Native</p>
-                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">91% top accuracy</p>
+                            <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 800; line-height: 139.4%; margin: 0;">Native</p>
+                            <p style="color: #3B82F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">91% top accuracy</p>
                         </div>
                         <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Arabic dialect speakers with deep linguistic and cultural competency in their assigned dialect family.</p>
                     </div>
