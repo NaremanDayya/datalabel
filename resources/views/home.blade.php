@@ -589,45 +589,48 @@
 
     <!-- Annotators Section -->
     <section id="workforce" style="width: 100%; padding: 80px 170px; background: #FFFFFF;">
+        <!-- Title -->
+        <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 700; line-height: 150.9%; letter-spacing: 1.05px; margin: 0 0 60px 0;">The Quality Starts With the Annotators</h2>
+
+        <!-- Image & Paragraph -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; margin-bottom: 80px;">
             <div>
                 <img src="{{ asset('public/images/arabic-annotators-team.png') }}" alt="Arabic Annotators Team" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;">
             </div>
             <div>
-                <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 700; line-height: 150.9%; letter-spacing: 1.05px; margin: 0 0 30px 0;">The Quality Starts With the Annotators</h2>
                 <p style="color: #969696; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 400; line-height: 150.9%; letter-spacing: 1.05px; margin: 0; width: 749px;">Our annotator workforce is our primary quality asset. We invest in their training, their ownership stake, and their stability — because high-quality annotations require a workforce that is both skilled and retained.</p>
             </div>
         </div>
 
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%;">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; width: 100%; justify-items: center;">
                 <!-- Native Card -->
-                <div style="width: 333px; height: 446px; padding: 30px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px;">
-                    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
-                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">01</p>
+                <div style="width: 333px; padding: 40px 25px; border-radius: 15px; border: 0.5px solid #3265A1; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 25px; text-align: center;">
+                    <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">01</p>
+                    <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
                         <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Native</p>
                         <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">91% top accuracy</p>
                     </div>
-                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0; text-align: center;">Arabic dialect speakers with deep linguistic and cultural competency in their assigned dialect family.</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Arabic dialect speakers with deep linguistic and cultural competency in their assigned dialect family.</p>
                 </div>
 
                 <!-- Trained Card -->
-                <div style="width: 333px; height: 446px; padding: 30px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px;">
-                    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
-                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">02</p>
+                <div style="width: 333px; padding: 40px 25px; border-radius: 15px; border: 0.5px solid #3265A1; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 25px; text-align: center;">
+                    <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">02</p>
+                    <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
                         <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Trained</p>
                         <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">3,031 annotations delivered</p>
                     </div>
-                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0; text-align: center;">Structured onboarding in annotation methodologies, quality standards, and task-specific guidelines before any production work</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Structured onboarding in annotation methodologies, quality standards, and task-specific guidelines before any production work</p>
                 </div>
 
                 <!-- Invested Card -->
-                <div style="width: 333px; height: 446px; padding: 30px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 20px;">
-                    <div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
-                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">03</p>
+                <div style="width: 333px; padding: 40px 25px; border-radius: 15px; border: 0.5px solid #3265A1; background: transparent; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 25px; text-align: center;">
+                    <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">03</p>
+                    <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
                         <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Invested</p>
                         <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">Long-term retention, not gig churn</p>
                     </div>
-                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0; text-align: center;">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</p>
                 </div>
             </div>
         </div>
