@@ -177,7 +177,7 @@
 
             <!-- Result Cards -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; width: 100%;">
-                <div style="background: #F0F6F9; border-radius: 10px; overflow: hidden;">
+                <div style="width: 100%; border-radius: 20px; border: 0.5px solid rgba(59, 130, 246, 0.42); background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 20.67%, rgba(238, 245, 255, 0.32) 51.44%, rgba(153, 192, 255, 0.24) 100%); overflow: hidden; display: flex; flex-direction: column;">
                     <div style="background: #00B660; padding: 20px 30px; display: flex; align-items: center; justify-content: space-between;">
                         <h3 style="color: #FFFFFF; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 40px; width: 220px;">Preference Ranking</h3>
                         <div style="background: rgba(0, 182, 96, 0.2); border: 1px solid #00B660; border-radius: 20px; padding: 6px 12px;">
@@ -212,7 +212,7 @@
                     </div>
                 </div>
 
-                <div style="background: #F5F3FA; border-radius: 10px; overflow: hidden;">
+                <div style="width: 100%; border-radius: 20px; border: 0.5px solid rgba(59, 130, 246, 0.42); background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 20.67%, rgba(238, 245, 255, 0.32) 51.44%, rgba(153, 192, 255, 0.24) 100%); overflow: hidden; display: flex; flex-direction: column;">
                     <div style="background: #8B5CF6; padding: 20px 30px; display: flex; align-items: center; justify-content: space-between;">
                         <h3 style="color: #FFFFFF; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 40px; width: 220px;">Dialect Identification</h3>
                         <div style="background: rgba(139, 92, 246, 0.2); border: 1px solid #8B5CF6; border-radius: 20px; padding: 6px 12px;">
@@ -247,7 +247,7 @@
                     </div>
                 </div>
 
-                <div style="background: #FFFBF0; border-radius: 10px; overflow: hidden;">
+                <div style="width: 100%; border-radius: 20px; border: 0.5px solid rgba(59, 130, 246, 0.42); background: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 20.67%, rgba(238, 245, 255, 0.32) 51.44%, rgba(153, 192, 255, 0.24) 100%); overflow: hidden; display: flex; flex-direction: column;">
                     <div style="background: #F59E0B; padding: 20px 30px; display: flex; align-items: center; justify-content: space-between;">
                         <h3 style="color: #FFFFFF; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 40px; width: 220px;">Sentiment Tagging</h3>
                         <div style="background: rgba(245, 158, 11, 0.2); border: 1px solid #F59E0B; border-radius: 20px; padding: 6px 12px;">
