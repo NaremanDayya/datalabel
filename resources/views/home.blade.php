@@ -448,7 +448,7 @@
                 <!-- Left Column -->
                 <div style="display: flex; flex-direction: column; gap: 40px;">
                     <!-- Partnership Description -->
-                    <p style="width: 100%; max-width: 788px; color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 40px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
+                    <p style="width: 100%; max-width: 788px; color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 50.6px; margin: 0;">We operate in partnership with Gaza Children Village (GCV), providing operational infrastructure and community ties that allow us to build and retain a stable, highly-qualified annotator workforce.</p>
 
                     <!-- Partnership Diagram -->
                     <div style="display: flex; flex-direction: column; gap: 20px; align-items: flex-start;">
@@ -465,9 +465,9 @@
                             <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">Regional Operations, Infrastructure</div>
                         </div>
                         <!-- Result Box -->
-                        <div style="width: 100%; max-width: 400px; padding: 20px; border-radius: 15px; border: 2px solid #488EFF; background: #FFFFFF; text-align: center;">
-                            <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; margin: 0 0 8px 0;">Stable, Highly-Qualified Workforce</p>
-                            <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 400; margin: 0;">Better quality, stronger outcomes, lasting impact</p>
+                        <div style="width: 247.444px; height: 224px; padding: 16px; border-radius: 15px; border: 1px solid #0061A5; background: #FAFBFB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; box-shadow: 0 0 20px 0 #043763;">
+                            <p style="color: #111C2D; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; line-height: 17.5px; margin: 0; text-align: center;">Stable, Highly-Qualified Workforce</p>
+                            <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 400; line-height: 16px; margin: 0; text-align: center;">Better quality, stronger outcomes, lasting impact</p>
                         </div>
                     </div>
 
