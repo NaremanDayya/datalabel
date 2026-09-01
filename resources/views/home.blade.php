@@ -588,18 +588,16 @@
     </section>
 
     <!-- Annotators Section -->
-    <section id="workforce" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-5xl font-bold text-center mb-12">The Quality Starts With the Annotators</h2>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-                <div>
-                    <img src="{{ asset('public/images/arabic-annotators-team.png') }}" alt="Arabic Annotators Team" class="w-full h-auto rounded-lg">
-                </div>
-                <div>
-                    <p class="text-gray-700 text-xl leading-relaxed">Our annotator workforce is our primary quality asset. We invest in their training, their ownership stake, and their stability — because high-quality annotations require a workforce that is both skilled and retained.</p>
-                </div>
+    <section id="workforce" style="width: 100%; padding: 80px 170px; background: #FFFFFF;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; margin-bottom: 80px;">
+            <div>
+                <img src="{{ asset('public/images/arabic-annotators-team.png') }}" alt="Arabic Annotators Team" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;">
             </div>
+            <div>
+                <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 700; line-height: 150.9%; letter-spacing: 1.05px; margin: 0 0 30px 0;">The Quality Starts With the Annotators</h2>
+                <p style="color: #969696; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 400; line-height: 150.9%; letter-spacing: 1.05px; margin: 0; width: 749px;">Our annotator workforce is our primary quality asset. We invest in their training, their ownership stake, and their stability — because high-quality annotations require a workforce that is both skilled and retained.</p>
+            </div>
+        </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-blue-50 p-8 rounded-xl text-center">
