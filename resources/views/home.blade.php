@@ -638,10 +638,10 @@
                     </div>
                     <!-- Content -->
                     <div style="display: flex; flex-direction: column; gap: 12px; flex: 1;">
-                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">02</p>
+                        <p style="color: #3B82F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">02</p>
                         <div style="display: flex; flex-direction: column; gap: 5px;">
-                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Trained</p>
-                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">3,031 annotations delivered</p>
+                            <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 800; line-height: 139.4%; margin: 0;">Trained</p>
+                            <p style="color: #3B82F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">3,031 annotations delivered</p>
                         </div>
                         <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Structured onboarding in annotation methodologies, quality standards, and task-specific guidelines before any production work</p>
                     </div>
@@ -660,10 +660,10 @@
                     </div>
                     <!-- Content -->
                     <div style="display: flex; flex-direction: column; gap: 12px; flex: 1;">
-                        <p style="color: #7878F8; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 400; line-height: normal; margin: 0;">03</p>
+                        <p style="color: #3B82F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">03</p>
                         <div style="display: flex; flex-direction: column; gap: 5px;">
-                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; margin: 0;">Invested</p>
-                            <p style="color: #3882F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">Long-term retention, not gig churn</p>
+                            <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 40px; font-weight: 800; line-height: 139.4%; margin: 0;">Invested</p>
+                            <p style="color: #3B82F6; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 600; line-height: 139.4%; margin: 0;">Long-term retention, not gig churn</p>
                         </div>
                         <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</p>
                     </div>
