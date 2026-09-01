@@ -189,26 +189,26 @@
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">667 items - RLHF / Model Alignment</p>
                         <div style="margin-bottom: 30px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-                                <span style="color: #043763; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 600;">Avg accuracy</span>
-                                <span style="color: #00B660; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700;">88.6%</span>
+                                <span style="color: #01213D; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">Avg accuracy</span>
+                                <span style="color: #00B660; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">88.6%</span>
                             </div>
                             <div style="width: 100%; height: 4px; background: #E0E0E0; border-radius: 2px; overflow: hidden;">
                                 <div style="width: 88.6%; height: 100%; background: #00B660;"></div>
                             </div>
                         </div>
-                        <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 20px 0;">Benchmark: 83–87% (major AI labs)</p>
+                        <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0 0 20px 0; line-height: 40px;">Benchmark: 83–87% (major AI labs)</p>
                         <div style="border-top: 1px solid #E0E0E0; padding-top: 20px;">
-                            <p style="color: #043763; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 8px 0;">Cohen's Kappa</p>
+                            <p style="color: #01213D; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 8px 0; line-height: 40px;">Cohen's Kappa</p>
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                                <span style="color: #00B660; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700;">0.623</span>
+                                <span style="color: #00B660; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">0.623</span>
                             </div>
                             <div style="width: 100%; height: 6px; background: #E0E0E0; border-radius: 3px; overflow: hidden;">
                                 <div style="width: 62.3%; height: 100%; background: #00B660;"></div>
                             </div>
-                            <p style="color: #787878; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 8px 0 0 0;">Benchmark: 0.57–0.83 (OpenAI/NVIDIA)</p>
+                            <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 8px 0 0 0; line-height: 40px;">Benchmark: 0.57–0.83 (OpenAI/NVIDIA)</p>
                         </div>
                         <div style="background: #E8F5F0; border-radius: 8px; padding: 12px 15px; margin-top: 20px;">
-                            <p style="color: #00A651; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 1.4;">Best labeler: 91.4% - No Arabic RLHF benchmark exists — first-of-kind data</p>
+                            <p style="color: #00A651; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 91.4% - No Arabic RLHF benchmark exists — first-of-kind data</p>
                         </div>
                     </div>
                 </div>
@@ -225,26 +225,26 @@
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">960 items - MSA, Levantine, Gulf, Egyptian, Iraqi, Maghrebi</p>
                         <div style="margin-bottom: 30px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-                                <span style="color: #043763; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 600;">Avg accuracy</span>
-                                <span style="color: #8B5CF6; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700;">71.2%</span>
+                                <span style="color: #01213D; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">Avg accuracy</span>
+                                <span style="color: #8B5CF6; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">71.2%</span>
                             </div>
                             <div style="width: 100%; height: 4px; background: #E0E0E0; border-radius: 2px; overflow: hidden;">
                                 <div style="width: 71.2%; height: 100%; background: #8B5CF6;"></div>
                             </div>
                         </div>
-                        <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 20px 0;">Benchmark: 65–80% (NADI 2024)</p>
+                        <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0 0 20px 0; line-height: 40px;">Benchmark: 65–80% (NADI 2024)</p>
                         <div style="border-top: 1px solid #E0E0E0; padding-top: 20px;">
-                            <p style="color: #043763; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 8px 0;">Cohen's Kappa</p>
+                            <p style="color: #01213D; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 8px 0; line-height: 40px;">Cohen's Kappa</p>
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                                <span style="color: #8B5CF6; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700;">0.572</span>
+                                <span style="color: #8B5CF6; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">0.572</span>
                             </div>
                             <div style="width: 100%; height: 6px; background: #E0E0E0; border-radius: 3px; overflow: hidden;">
                                 <div style="width: 57.2%; height: 100%; background: #8B5CF6;"></div>
                             </div>
-                            <p style="color: #787878; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 8px 0 0 0;">Benchmark: 0.59 (NADI 2024, Palestinian Arabic)</p>
+                            <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 8px 0 0 0; line-height: 40px;">Benchmark: 0.59 (NADI 2024, Palestinian Arabic)</p>
                         </div>
                         <div style="background: #F4ECFE; border-radius: 8px; padding: 12px 15px; margin-top: 20px;">
-                            <p style="color: #7C5BA3; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 1.4;">Best labeler: 77% - Compared against the largest Arabic dialect competition globally</p>
+                            <p style="color: #7C5BA3; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 77% - Compared against the largest Arabic dialect competition globally</p>
                         </div>
                     </div>
                 </div>
@@ -261,26 +261,26 @@
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">667 items - RLHF / Model Alignment</p>
                         <div style="margin-bottom: 30px;">
                             <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-                                <span style="color: #043763; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 600;">Avg accuracy</span>
-                                <span style="color: #F59E0B; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700;">62.5%</span>
+                                <span style="color: #01213D; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">Avg accuracy</span>
+                                <span style="color: #F59E0B; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">62.5%</span>
                             </div>
                             <div style="width: 100%; height: 4px; background: #E0E0E0; border-radius: 2px; overflow: hidden;">
                                 <div style="width: 62.5%; height: 100%; background: #F59E0B;"></div>
                             </div>
                         </div>
-                        <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 20px 0;">Benchmark: 60–75% (AraSenTi-Tweet)</p>
+                        <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0 0 20px 0; line-height: 40px;">Benchmark: 60–75% (AraSenTi-Tweet)</p>
                         <div style="border-top: 1px solid #E0E0E0; padding-top: 20px;">
-                            <p style="color: #043763; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 8px 0;">Cohen's Kappa</p>
+                            <p style="color: #01213D; font-size: 22px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0 0 8px 0; line-height: 40px;">Cohen's Kappa</p>
                             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                                <span style="color: #F59E0B; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700;">0.532</span>
+                                <span style="color: #F59E0B; font-size: 35px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: 40px;">0.532</span>
                             </div>
                             <div style="width: 100%; height: 6px; background: #E0E0E0; border-radius: 3px; overflow: hidden;">
                                 <div style="width: 53.2%; height: 100%; background: #F59E0B;"></div>
                             </div>
-                            <p style="color: #787878; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 8px 0 0 0;">Target: 0.66–0.70 (Arabic NLP)</p>
+                            <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 8px 0 0 0; line-height: 40px;">Target: 0.66–0.70 (Arabic NLP)</p>
                         </div>
                         <div style="background: #FEF3C7; border-radius: 8px; padding: 12px 15px; margin-top: 20px;">
-                            <p style="color: #B45309; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 600; margin: 0; line-height: 1.4;">Best labeler: 73.2% - Guideline improvement identified & incorporated into SOP</p>
+                            <p style="color: #B45309; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 73.2% - Guideline improvement identified & incorporated into SOP</p>
                         </div>
                     </div>
                 </div>
