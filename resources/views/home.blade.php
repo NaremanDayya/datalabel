@@ -453,23 +453,34 @@
                 <!-- Right: Partnership Diagram (Horizontal) -->
                 <div style="display: flex; gap: 15px; align-items: center; justify-content: center;">
                     <!-- Karama Data Circle -->
-                    <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid #E6E6E6; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px; flex-shrink: 0;">
-                        <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 5px;">Karama Data</div>
-                        <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">AI Expertise, Technology</div>
+                    <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px dashed #CCCCCC; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px; flex-shrink: 0; position: relative;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 5px;">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3-8c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z" fill="#488EFF"/>
+                        </svg>
+                        <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 700; margin-bottom: 3px;">Karama Data</div>
+                        <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 400; line-height: 1.3;">AI Expertise, Technology, Quality Standards</div>
+                        <div style="position: absolute; bottom: 8px; width: 8px; height: 8px; border-radius: 50%; background: #488EFF;"></div>
                     </div>
-                    <!-- Arrow Right -->
-                    <div style="color: #488EFF; font-size: 28px; flex-shrink: 0;">→</div>
+                    <!-- X Symbol -->
+                    <div style="color: #488EFF; font-size: 32px; font-weight: 700; flex-shrink: 0; margin: 0 -8px;">×</div>
                     <!-- GCV Circle -->
-                    <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px solid #E6E6E6; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px; flex-shrink: 0;">
-                        <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; margin-bottom: 5px;">GCV</div>
-                        <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 1.4;">Regional Operations</div>
+                    <div style="width: 120px; height: 120px; border-radius: 50%; border: 2px dashed #CCCCCC; background: #F5F5F5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 10px; flex-shrink: 0; position: relative;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 5px;">
+                            <path d="M9 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 7c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4zm6 5H3v-2c0-1.5 3.33-2.5 6-2.5s6 1 6 2.5v2z" fill="#488EFF"/>
+                        </svg>
+                        <div style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 700; margin-bottom: 3px;">GCV</div>
+                        <div style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 400; line-height: 1.3;">Regional Operations, Infrastructure, Community Impact</div>
+                        <div style="position: absolute; bottom: 8px; width: 8px; height: 8px; border-radius: 50%; background: #488EFF;"></div>
                     </div>
                     <!-- Arrow Right -->
                     <div style="color: #488EFF; font-size: 28px; flex-shrink: 0;">→</div>
                     <!-- Result Box -->
-                    <div style="width: 200px; height: 140px; padding: 16px; border-radius: 15px; border: 1px solid #0061A5; background: #FAFBFB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; box-shadow: 0 0 20px 0 #043763; flex-shrink: 0;">
+                    <div style="width: 200px; height: 140px; padding: 16px; border-radius: 15px; border: 1px solid #0061A5; background: #FAFBFB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; box-shadow: 0 0 20px 0 #043763; flex-shrink: 0; position: relative;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 5px;">
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 7c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4zm6 5H6v-2c0-1.5 3.33-2.5 6-2.5s6 1 6 2.5v2z" fill="#488EFF"/>
+                        </svg>
                         <p style="color: #111C2D; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; line-height: 16px; margin: 0; text-align: center;">Stable, Highly-Qualified Workforce</p>
-                        <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 14px; margin: 0; text-align: center;">Better quality, stronger outcomes</p>
+                        <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 14px; margin: 0; text-align: center;">Better quality, stronger outcomes, lasting impact</p>
                     </div>
                 </div>
             </div>
