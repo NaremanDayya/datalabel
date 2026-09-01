@@ -31,7 +31,7 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: cover; background-position: center; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div style="width: 32.9%; left: 8.85%; top: 18.8%; position: absolute; color: #EFEFEF; font-size: clamp(40px, 5vw, 70px); font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
             <div style="width: 30.7%; left: 8.65%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: clamp(16px, 2vw, 25px); font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word; display: flex; align-items: flex-start;">91% accuracy, benchmarked against published research. US-incorporated.  No shortcuts.</div>
