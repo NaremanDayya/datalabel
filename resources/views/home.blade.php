@@ -289,10 +289,10 @@
     </section>
 
     <!-- CTA Banner Section -->
-    <section style="width: 100%; margin-top: 80px; padding: 60px 40px; background: #FFFFFF;">
+    <section style="width: 100%; margin-top: 40px; padding: 0 40px; background: #FFFFFF;">
         <div style="width: 100%; display: flex; flex-direction: column; gap: 50px; max-width: 1577px; margin: 0 auto;">
             <!-- Banner -->
-            <div style="display: flex; width: 100%; max-width: 1200px; padding: 24px 32px; align-items: center; gap: 20px; border-radius: 10px; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%); margin: 0 auto; justify-content: space-between;">
+            <div style="display: flex; width: 100%; padding: 24px 32px; align-items: center; gap: 20px; border-radius: 10px; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%); justify-content: space-between;">
                 <p style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 31px; margin: 0; flex: 1;">Benchmarked against published research: NADI 2024 (ACI/WANLP) · AraSenti-Tweet · ASAD Corpus · MultiPref 2024 · HelperBot 2024. On Preference Ranking — the highest-value task for AI companies — our Kappa of 0.623 significantly outperforms figures published by OpenAI and NVIDIA.</p>
                 <button style="padding: 12px 32px; border-radius: 10px; background: #4A83E1; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; flex-shrink: 0; white-space: nowrap; transition: background 0.3s;">
                     Request a Pilot
