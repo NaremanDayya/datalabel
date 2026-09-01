@@ -392,34 +392,43 @@
     <section id="about" style="width: 100%; padding: 80px 40px; background: #F5F5F5;">
         <div style="width: 100%; max-width: 1577px; margin: 0 auto; display: flex; flex-direction: column; gap: 60px;">
             <!-- Section Header -->
-            <div style="display: flex; flex-direction: column; gap: 30px; align-items: center; text-align: center;">
+            <div style="display: flex; flex-direction: column; gap: 30px; align-items: flex-start;">
                 <h2 style="width: 100%; max-width: 909px; color: #043763; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 700; line-height: normal; margin: 0;">Built for Enterprise <span style="color: #488EFF;">Trust</span></h2>
                 <p style="width: 100%; max-width: 1579px; color: #787878; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 400; line-height: normal; margin: 0;">Karama Data is a US-incorporated LLC with domestic ownership and a leadership team with deep expertise in AI, enterprise technology, and regional operations.</p>
             </div>
 
             <!-- Compliance Heading -->
-            <div style="text-align: center;">
+            <div style="text-align: left;">
                 <h3 style="color: #043763; font-family: 'Poppins', sans-serif; font-size: 48px; font-weight: 700; line-height: 57.6px; letter-spacing: -0.48px; margin: 0;">A structure built on trust and compliance</h3>
             </div>
 
             <!-- Trust Cards -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%;">
                 <!-- Card 1 -->
-                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px;">
+                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px; position: relative;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 20px; right: 20px;">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#488EFF"/>
+                    </svg>
                     <div style="color: #488EFF; font-family: 'Poppins', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; letter-spacing: -1.28px; margin: 0;">01</div>
                     <h4 style="color: #012130; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 800; line-height: 33.6px; margin: 0;">US-Based Leadership</h4>
                     <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 25.6px; margin: 0;">US-based board leadership and domestic ownership that ensures accountability and alignment with enterprise standards.</p>
                 </div>
 
                 <!-- Card 2 -->
-                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px;">
+                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px; position: relative;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 20px; right: 20px;">
+                        <path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 9 15.5 9 14 9.67 14 10.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 9 8.5 9 7 9.67 7 10.5 7.67 12 8.5 12zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" fill="#488EFF"/>
+                    </svg>
                     <div style="color: #488EFF; font-family: 'Poppins', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; letter-spacing: -1.28px; margin: 0;">02</div>
                     <h4 style="color: #012130; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 800; line-height: 33.6px; margin: 0;">Enterprise Compliance</h4>
                     <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 25.6px; margin: 0;">A structure that meets enterprise compliance requirements and instills client confidence.</p>
                 </div>
 
                 <!-- Card 3 -->
-                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px;">
+                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px; position: relative;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 20px; right: 20px;">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" fill="#488EFF"/>
+                    </svg>
                     <div style="color: #488EFF; font-family: 'Poppins', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; letter-spacing: -1.28px; margin: 0;">03</div>
                     <h4 style="color: #012130; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 800; line-height: 33.6px; margin: 0;">Regional Operations</h4>
                     <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 25.6px; margin: 0;">Our operational presence is in the region, giving us authentic access to the linguistic talent our clients need.</p>
