@@ -308,43 +308,50 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
-            <!-- Service Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">NLP Annotation</h3>
-                    <p class="text-blue-600 font-semibold mb-4">Native dialect labels that improve your model's real-world accuracy.</p>
-                    <p class="text-gray-600">Named entity recognition, sentiment analysis, intent classification, and text categorization across Levantine, Gulf, Egyptian, and Maghrebi dialects.</p>
+    <section id="services" style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
+        <div style="width: 100%; display: flex; flex-direction: column; gap: 60px; max-width: 1577px; margin: 0 auto;">
+            <!-- Services Grid -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%;">
+                <!-- NLP Annotation Card -->
+                <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
+                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">NLP Annotation</h3>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 33px; margin: 0;">Native dialect labels that improve your model's real-world accuracy.</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Named entity recognition, sentiment analysis, intent classification, and text categorization across Levantine, Gulf, Egyptian, and Maghrebi dialects.</p>
                 </div>
-                <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">ASR Data Annotation</h3>
-                    <p class="text-blue-600 font-semibold mb-4">Speech models that actually understand how Arabic is spoken, not just written.</p>
-                    <p class="text-gray-600">Speech transcription, phonetic labeling, speaker diarization, and audio quality validation for Arabic automatic speech recognition training pipelines.</p>
-                </div>
-                <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">RLHF & Preference Ranking</h3>
-                    <p class="text-blue-600 font-semibold mb-4">Human feedback data that makes your Arabic LLM safer, more helpful, and culturally aligned.</p>
-                    <p class="text-gray-600 mb-4">Response ranking, preference pair collection, and reinforcement learning from human feedback (RLHF) data — delivered by native Arabic speakers who understand dialect nuance and cultural context.</p>
-                    <p class="text-orange-600 font-bold text-sm">⭐ Key Capability</p>
-                </div>
-            </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Conversational AI</h3>
-                    <p class="text-gray-600">Chatbot training data that feels natural to real Arabic speakers, not translated English.</p>
-                    <p class="text-gray-600 text-sm mt-4">Dialogue annotation, response ranking, and conversation flow labeling for Arabic-language chatbots and virtual assistants.</p>
+                <!-- ASR Data Annotation Card -->
+                <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
+                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">ASR Data Annotation</h3>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 33px; margin: 0;">Speech models that actually understand how Arabic is spoken, not just written.</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Speech transcription, phonetic labeling, speaker diarization, and audio quality validation for Arabic automatic speech recognition training pipelines.</p>
                 </div>
-                <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Quality Assurance</h3>
-                    <p class="text-gray-600">Documented QA reports with every delivery — no black-box quality claims.</p>
-                    <p class="text-gray-600 text-sm mt-4">Multi-layer review with inter-annotator agreement measurement, senior reviewer sign-off, and structured QA reporting delivered with every project.</p>
+
+                <!-- RLHF & Preference Ranking Card -->
+                <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
+                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">RLHF & Preference Ranking</h3>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 33px; margin: 0;">Human feedback data that makes your Arabic LLM safer, more helpful, and culturally aligned.</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Response ranking, preference pair collection, and reinforcement learning from human feedback (RLHF) data — delivered by native Arabic speakers who understand dialect nuance and cultural context.</p>
                 </div>
-                <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Enterprise Compliance</h3>
-                    <p class="text-gray-600">A vendor your procurement team can approve on the first pass.</p>
-                    <p class="text-gray-600 text-sm mt-4">US-incorporated, domestically owned. No content moderation work. Structured data handling with privacy-first practices that meet enterprise procurement requirements.</p>
+
+                <!-- Conversational AI Card -->
+                <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
+                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">Conversational AI</h3>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 33px; margin: 0;">Chatbot training data that feels natural to real Arabic speakers, not translated English.</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Dialogue annotation, response ranking, and conversation flow labeling for Arabic-language chatbots and virtual assistants.</p>
+                </div>
+
+                <!-- Quality Assurance Card -->
+                <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
+                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">Quality Assurance</h3>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 33px; margin: 0;">Documented QA reports with every delivery — no black-box quality claims.</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">Multi-layer review with inter-annotator agreement measurement, senior reviewer sign-off, and structured QA reporting delivered with every project.</p>
+                </div>
+
+                <!-- Enterprise Compliance Card -->
+                <div style="width: 100%; padding: 32px; border-radius: 15px; border: 0.5px solid #DBDBDB; background: #FFFFFF; display: flex; flex-direction: column; gap: 20px;">
+                    <h3 style="color: #01213D; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 38px; margin: 0;">Enterprise Compliance</h3>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 33px; margin: 0;">A vendor your procurement team can approve on the first pass.</p>
+                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; line-height: 24px; margin: 0; padding-top: 10px;">US-incorporated, domestically owned. No content moderation work. Structured data handling with privacy-first practices that meet enterprise procurement requirements.</p>
                 </div>
             </div>
         </div>
