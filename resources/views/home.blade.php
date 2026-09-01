@@ -288,22 +288,30 @@
         </div>
     </section>
 
-    <!-- CTA Banner -->
-    <section class="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-8">
-        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between flex-col md:flex-row gap-8">
-            <div class="flex-1">
-                <p class="text-lg">Benchmarked against published research: NADI 2024 (ACL/WANLP) · AraSenTi-Tweet · ASAD Corpus · MultiPref 2024 · HelpSteer2 2024. On Preference Ranking — the highest-value task for AI companies — our Kappa of 0.623 significantly outperforms figures published by OpenAI and NVIDIA.</p>
+    <!-- CTA Banner Section -->
+    <section style="width: 100%; margin-top: 100px; padding: 60px 40px; background: #FFFFFF;">
+        <div style="width: 100%; display: flex; flex-direction: column; gap: 50px; max-width: 1577px; margin: 0 auto;">
+            <!-- Banner -->
+            <div style="width: 100%; height: 116px; display: flex; padding: 28px; justify-content: center; align-items: center; gap: 10px; border-radius: 10px; background: linear-gradient(180deg, #4A83E1 0%, #2858A7 100%); flex-shrink: 0;">
+                <div style="display: flex; flex-direction: column; gap: 10px; align-items: center; justify-content: center;">
+                    <p style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 31px; margin: 0; text-align: center; max-width: 900px;">Benchmarked against published research: NADI 2024 (ACI/WANLP) · AraSenti-Tweet · ASAD Corpus · MultiPref 2024 · HelperBot 2024. On Preference Ranking — the highest-value task for AI companies — our Kappa of 0.623 significantly outperforms figures published by OpenAI and NVIDIA.</p>
+                    <button style="display: flex; width: 274px; height: 70px; padding: 28px; justify-content: center; align-items: center; gap: 10px; border-radius: 10px; background: linear-gradient(180deg, #4A83E1 0%, #2858A7 100%); border: none; cursor: pointer; flex-shrink: 0; margin-top: 10px;">
+                        <span style="color: #FFFFFF; text-align: center; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 700; line-height: 19.5px;">Request a Pilot</span>
+                    </button>
+                </div>
             </div>
-            <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded font-bold flex-shrink-0">Request a Pilot</button>
+
+            <!-- Section Heading -->
+            <div style="display: flex; flex-direction: column; gap: 30px; width: 100%;">
+                <h2 style="color: #043763; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 800; line-height: normal; margin: 0;">Arabic Dialect Annotation Services</h2>
+                <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 45px; margin: 0; max-width: 1577px;">We specialize exclusively in Arabic language data annotation — covering major dialect families — for organizations building the next generation of Arabic-language AI systems.</p>
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-5xl font-bold text-center mb-4">Arabic Dialect Annotation Services</h2>
-            <p class="text-center text-gray-600 text-lg max-w-3xl mx-auto mb-16">We specialize exclusively in Arabic language data annotation — covering major dialect families — for organizations building the next generation of Arabic-language AI systems.</p>
-
             <!-- Service Cards -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
                 <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
