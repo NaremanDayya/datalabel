@@ -496,13 +496,6 @@
                 <!-- Right: GCV Logo -->
                 <div style="width: 584px; height: 168px; border-radius: 15px; border: 1px solid #E6E6E6; background-image: url('{{ asset('public/images/image-6.png') }}'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #FFFFFF; flex-shrink: 0;"></div>
             </div>
-
-            <!-- Start Project Button -->
-            <div style="padding-top: 40px;">
-                <button style="padding: 14px 28px; border-radius: 8px; background: #2563EB; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s;">
-                    Start Your Project →
-                </button>
-            </div>
         </div>
     </section>
 
