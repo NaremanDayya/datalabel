@@ -778,73 +778,80 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-16">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-                <!-- About -->
-                <div>
-                    <div class="flex items-center gap-2 mb-4">
-                        <div class="w-10 h-10 bg-blue-400 rounded flex items-center justify-center">
-                            <span class="text-blue-900 font-bold">K</span>
-                        </div>
-                        <span class="font-bold text-lg">Karama Data</span>
+    <footer style="width: 100%; padding: 60px 80px; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%); border-top: 1px solid rgba(255, 255, 255, 0.1);">
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 60px;">
+            <!-- About Section -->
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
+                    <div style="width: 40px; height: 40px; background: #2563EB; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700;">K</span>
                     </div>
-                    <p class="text-blue-100 text-sm leading-relaxed mb-4">Native speakers. Rigorous QA. No shortcuts.</p>
-                    <p class="text-blue-100 text-sm leading-relaxed">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
-                    <div class="mt-4 inline-block px-3 py-1 bg-blue-700 text-blue-100 text-xs rounded border border-blue-500">US Incorporated LLC</div>
+                    <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700;">Karama Data</span>
                 </div>
-
-                <!-- Navigation -->
-                <div>
-                    <h4 class="font-bold mb-6 text-lg">Navigation</h4>
-                    <ul class="space-y-3 text-sm text-blue-100">
-                        <li><a href="#why-arabic" class="hover:text-white transition">Why Arabic</a></li>
-                        <li><a href="#results" class="hover:text-white transition">Results</a></li>
-                        <li><a href="#services" class="hover:text-white transition">Services</a></li>
-                        <li><a href="#about" class="hover:text-white transition">About</a></li>
-                        <li><a href="#workforce" class="hover:text-white transition">Our Workforce</a></li>
-                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
-                    </ul>
-                </div>
-
-                <!-- Contact -->
-                <div>
-                    <h4 class="font-bold mb-6 text-lg">Contact</h4>
-                    <ul class="space-y-3 text-sm text-blue-100">
-                        <li class="flex items-start gap-2">
-                            <span>✉️</span>
-                            <a href="mailto:info@karamadata.ai" class="hover:text-white transition">info@karamadata.ai</a>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span>🌐</span>
-                            <span>Arabic Language Annotation Only</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <span>🛡️</span>
-                            <span>No Content Moderation Services</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Partners -->
-                <div>
-                    <h4 class="font-bold mb-6 text-lg">Partners & Affiliations</h4>
-                    <div class="space-y-4">
-                        <div>
-                            <p class="text-blue-100 text-sm mb-2 font-semibold">Supported by</p>
-                            <p class="text-white text-lg font-bold">Gaza Children Village (GCV)</p>
-                        </div>
-                        <div class="flex items-center gap-2 px-3 py-2 bg-blue-700 rounded text-sm">
-                            <span>📍</span>
-                            <span>US-Incorporated LLC</span>
-                        </div>
-                    </div>
+                <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
+                <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
+                <div style="display: inline-block; padding: 8px 12px; background: rgba(37, 99, 235, 0.2); border-radius: 5px; border: 1px solid #C4C4C4;">
+                    <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500;">US Incorporated LLC</span>
                 </div>
             </div>
 
-            <div class="border-t border-blue-700 pt-8 text-center text-sm text-blue-200">
-                <p>© 2026 Karama Data LLC. All rights reserved. | US LLC — Domestic Ownership. Arabic AI Annotation.</p>
+            <!-- Navigation -->
+            <div>
+                <h4 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 30px 0;">Navigation</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px;">
+                    <li><a href="#why-arabic" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">Why Arabic</a></li>
+                    <li><a href="#results" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">Results</a></li>
+                    <li><a href="#services" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">Services</a></li>
+                    <li><a href="#about" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">About</a></li>
+                    <li><a href="#workforce" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">Our Workforce</a></li>
+                    <li><a href="#" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">Contact</a></li>
+                </ul>
             </div>
+
+            <!-- Contact -->
+            <div>
+                <h4 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 30px 0;">Contact</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 18px;">
+                    <li style="display: flex; align-items: center; gap: 12px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 29 29" fill="none" style="flex-shrink: 0;">
+                            <path d="M26.5832 7.25016C26.5832 5.921 25.4957 4.8335 24.1665 4.8335H4.83317C3.504 4.8335 2.4165 5.921 2.4165 7.25016V21.7502C2.4165 23.0793 3.504 24.1668 4.83317 24.1668H24.1665C25.4957 24.1668 26.5832 23.0793 26.5832 21.7502V7.25016ZM24.1665 7.25016L14.4998 13.2918L4.83317 7.25016H24.1665ZM24.1665 21.7502H4.83317V9.66683L14.4998 15.7085L24.1665 9.66683V21.7502Z" fill="#C4C4C4"/>
+                        </svg>
+                        <a href="mailto:info@karamadata.ai" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">info@karamadata.ai</a>
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 12px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 29" fill="none" style="flex-shrink: 0;">
+                            <path d="M5.315 12.0832C5.10501 12.8727 4.99917 13.6847 5 14.4998C5 15.3336 5.11 16.1432 5.315 16.9165H8.875C8.70791 15.3094 8.70791 13.6902 8.875 12.0832H5.315ZM6.3375 9.6665H9.27C9.6025 8.19596 10.0825 6.87888 10.6713 5.78292C8.8567 6.62836 7.34682 7.9814 6.3375 9.6665ZM24.685 12.0832H21.125C21.2921 13.6902 21.2921 15.3094 21.125 16.9165H24.685C25.1057 15.3311 25.1057 13.6686 24.685 12.0832ZM23.6625 9.6665C22.6532 7.9814 21.1433 6.62836 19.3288 5.78292C19.9188 6.87888 20.3975 8.19596 20.73 9.6665H23.6625ZM11.39 12.0832C11.297 12.8856 11.2502 13.6924 11.25 14.4998C11.25 15.3275 11.2975 16.1371 11.39 16.9165H18.61C18.7979 15.3105 18.7979 13.6892 18.61 12.0832H11.39ZM11.8375 9.6665H18.1625C17.9346 8.75831 17.6065 7.8764 17.1838 7.03596C16.3988 5.5195 15.5588 4.83317 15 4.83317C14.4413 4.83317 13.6013 5.5195 12.8163 7.03596C12.4225 7.79963 12.0913 8.68775 11.8375 9.6665ZM6.3375 19.3332C7.34682 21.0183 8.8567 22.3713 10.6713 23.2168C10.0813 22.1208 9.6025 20.8037 9.27 19.3332H6.3375ZM23.6625 19.3332H20.73C20.3975 20.8037 19.9175 22.1208 19.3288 23.2168C21.1433 22.3713 22.6532 21.0183 23.6625 19.3332ZM11.8375 19.3332C12.0913 20.3119 12.4225 21.2 12.8163 21.9637C13.6013 23.4802 14.4413 24.1665 15 24.1665C15.5588 24.1665 16.3988 23.4802 17.1838 21.9637C17.5775 21.2 17.9088 20.3119 18.1625 19.3332H11.8375ZM15 26.5832C8.09625 26.5832 2.5 21.1735 2.5 14.4998C2.5 7.82621 8.09625 2.4165 15 2.4165C21.9038 2.4165 27.5 7.82621 27.5 14.4998C27.5 21.1735 21.9038 26.5832 15 26.5832Z" fill="#C4C4C4"/>
+                        </svg>
+                        <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500;">Arabic Language Annotation Only</span>
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 12px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 29 29" fill="none" style="flex-shrink: 0;">
+                            <path d="M24.6928 7.37798L15.0542 2.54341C14.7156 2.3742 14.3044 2.3742 13.9657 2.54341L4.32714 7.37798C3.95224 7.55927 3.71037 7.92187 3.66199 8.3328C3.6499 8.46575 2.50101 21.3378 14.002 26.4745C14.1575 26.5461 14.3267 26.5832 14.4979 26.5832C14.6691 26.5832 14.8382 26.5461 14.9937 26.4745C26.4947 21.3378 25.3579 8.45367 25.3337 8.3328C25.3144 8.12991 25.2431 7.93542 25.1266 7.76815C25.01 7.60088 24.8523 7.46649 24.6686 7.37798H24.6928ZM14.51 24.0451C6.35887 20.0929 5.97187 11.6445 6.04444 9.2272L14.51 4.98487L22.9755 9.2272C23.0239 11.6324 22.5764 20.1291 14.51 24.0451Z" fill="#C4C4C4"/>
+                            <path d="M13.2917 15.2131L11.7329 13.6423L10.0171 15.3581L13.2917 18.6206L18.9829 12.9414L17.2671 11.2256L13.2917 15.2131Z" fill="#C4C4C4"/>
+                        </svg>
+                        <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500;">No Content Moderation Services</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Partners & Affiliations -->
+            <div>
+                <h4 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 30px 0;">Partners & Affiliations</h4>
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <div>
+                        <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500; margin: 0 0 8px 0;">Supported by</p>
+                        <p style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; margin: 0;">Gaza Children Village (GCV)</p>
+                    </div>
+                    <div style="padding: 10px 12px; border-radius: 5px; border: 1px solid #C4C4C4; display: inline-block;">
+                        <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500;">US-Incorporated LLC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div style="border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 30px; text-align: center;">
+            <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 500; line-height: 167%; letter-spacing: 0.45px; margin: 0;">© 2026 Karama Data LLC. All rights reserved. | US LLC — Domestic Ownership. Arabic AI Annotation.</p>
         </div>
     </footer>
 
