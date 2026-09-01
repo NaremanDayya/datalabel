@@ -503,7 +503,7 @@
     <section style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
         <div style="width: 100%; max-width: 1577px; margin: 0 auto; display: flex; flex-direction: column; gap: 60px;">
             <!-- Start Project Button -->
-            <button style="padding: 12px 24px; border-radius: 8px; background: #2563EB; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s; width: fit-content;">
+            <button style="padding: 12px 24px; border-radius: 10px; background: linear-gradient(90deg, #0360B1 0%, #003A6C 216.05%); border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s; width: fit-content;">
                 Start Your Project →
             </button>
 
@@ -515,7 +515,7 @@
                 <!-- Laura Mather Card -->
                 <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
                     <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #488EFF 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(180deg, rgba(58, 115, 216, 0.76) 0%, rgba(31, 61, 114, 0.76) 100%); display: flex; align-items: center; justify-content: center;">
                             <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">LM</span>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 37 37" fill="none">
