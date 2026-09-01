@@ -485,27 +485,23 @@
                 </div>
             </div>
 
-            <!-- Content Grid -->
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: flex-start;">
-                <!-- Left Column: Payment & Regional Access -->
-                <div style="display: flex; flex-direction: column; gap: 40px;">
-                    <div style="display: flex; flex-direction: column; gap: 15px;">
-                        <h3 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Payment & Regional Access</h3>
-                        <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 40px; margin: 0;">Our payment corridor runs through Gaza Children Village (GCV) — a nonprofit already equipped to move compliant payments into the region.</p>
-                    </div>
-
-                    <!-- Start Project Button -->
-                    <div style="padding-top: 20px;">
-                        <button style="padding: 14px 28px; border-radius: 8px; background: #2563EB; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s;">
-                            Start Your Project →
-                        </button>
-                    </div>
+            <!-- Payment & Regional Access Box -->
+            <div style="display: flex; width: 1574px; height: 308px; padding: 39px 10px 39px 46px; align-items: center; gap: 10px; border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.53); box-shadow: 0 0 20px 0 #043763; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%);">
+                <!-- Left Content -->
+                <div style="display: flex; flex-direction: column; gap: 20px; width: 788px; flex-shrink: 0;">
+                    <h3 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Payment & Regional Access</h3>
+                    <p style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 500; line-height: 40px; margin: 0;">Our payment corridor runs through Gaza Children Village (GCV) — a nonprofit already equipped to move compliant payments into the region.</p>
                 </div>
 
-                <!-- Right Column - GCV Logo -->
-                <div style="display: flex; align-items: flex-start; justify-content: center; height: 100%;">
-                    <div style="width: 100%; max-width: 584px; height: 168px; border-radius: 15px; border: 1px solid #E6E6E6; background-image: url('{{ asset('public/images/image-6.png') }}'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #FFFFFF;"></div>
-                </div>
+                <!-- Right: GCV Logo -->
+                <div style="width: 584px; height: 168px; border-radius: 15px; border: 1px solid #E6E6E6; background-image: url('{{ asset('public/images/image-6.png') }}'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #FFFFFF; flex-shrink: 0;"></div>
+            </div>
+
+            <!-- Start Project Button -->
+            <div style="padding-top: 40px;">
+                <button style="padding: 14px 28px; border-radius: 8px; background: #2563EB; border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s;">
+                    Start Your Project →
+                </button>
             </div>
         </div>
     </section>
