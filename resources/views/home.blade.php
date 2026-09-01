@@ -389,28 +389,40 @@
     </section>
 
     <!-- Enterprise Trust Section -->
-    <section id="about" class="py-20 bg-gray-100">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-5xl font-bold text-center mb-4">Built for Enterprise <span class="text-blue-600">Trust</span></h2>
-            <p class="text-center text-gray-600 text-lg max-w-3xl mx-auto mb-12">Karama Data is a US-incorporated LLC with domestic ownership and a leadership team with deep expertise in AI, enterprise technology, and regional operations.</p>
+    <section id="about" style="width: 100%; padding: 80px 40px; background: #F5F5F5;">
+        <div style="width: 100%; max-width: 1577px; margin: 0 auto; display: flex; flex-direction: column; gap: 60px;">
+            <!-- Section Header -->
+            <div style="display: flex; flex-direction: column; gap: 30px; align-items: center; text-align: center;">
+                <h2 style="width: 100%; max-width: 909px; color: #043763; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 700; line-height: normal; margin: 0;">Built for Enterprise <span style="color: #488EFF;">Trust</span></h2>
+                <p style="width: 100%; max-width: 1579px; color: #787878; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 400; line-height: normal; margin: 0;">Karama Data is a US-incorporated LLC with domestic ownership and a leadership team with deep expertise in AI, enterprise technology, and regional operations.</p>
+            </div>
 
-            <h3 class="text-3xl font-bold text-center text-gray-900 mb-12">A structure built on trust and compliance</h3>
+            <!-- Compliance Heading -->
+            <div style="text-align: center;">
+                <h3 style="color: #043763; font-family: 'Poppins', sans-serif; font-size: 48px; font-weight: 700; line-height: 57.6px; letter-spacing: -0.48px; margin: 0;">A structure built on trust and compliance</h3>
+            </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-sm">
-                    <div class="text-blue-600 font-bold text-5xl mb-4">01</div>
-                    <h4 class="text-2xl font-bold text-gray-900 mb-3">US-Based Leadership</h4>
-                    <p class="text-gray-600">US-based board leadership and domestic ownership that ensures accountability and alignment with enterprise standards.</p>
+            <!-- Trust Cards -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%;">
+                <!-- Card 1 -->
+                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px;">
+                    <div style="color: #488EFF; font-family: 'Poppins', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; letter-spacing: -1.28px; margin: 0;">01</div>
+                    <h4 style="color: #012130; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 800; line-height: 33.6px; margin: 0;">US-Based Leadership</h4>
+                    <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 25.6px; margin: 0;">US-based board leadership and domestic ownership that ensures accountability and alignment with enterprise standards.</p>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-sm">
-                    <div class="text-blue-600 font-bold text-5xl mb-4">02</div>
-                    <h4 class="text-2xl font-bold text-gray-900 mb-3">Enterprise Compliance</h4>
-                    <p class="text-gray-600">A structure that meets enterprise compliance requirements and instills client confidence.</p>
+
+                <!-- Card 2 -->
+                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px;">
+                    <div style="color: #488EFF; font-family: 'Poppins', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; letter-spacing: -1.28px; margin: 0;">02</div>
+                    <h4 style="color: #012130; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 800; line-height: 33.6px; margin: 0;">Enterprise Compliance</h4>
+                    <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 25.6px; margin: 0;">A structure that meets enterprise compliance requirements and instills client confidence.</p>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-sm">
-                    <div class="text-blue-600 font-bold text-5xl mb-4">03</div>
-                    <h4 class="text-2xl font-bold text-gray-900 mb-3">Regional Operations</h4>
-                    <p class="text-gray-600">Our operational presence is in the region, giving us authentic access to the linguistic talent our clients need.</p>
+
+                <!-- Card 3 -->
+                <div style="background: #FFFFFF; padding: 40px; border-radius: 10px; display: flex; flex-direction: column; gap: 20px;">
+                    <div style="color: #488EFF; font-family: 'Poppins', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; letter-spacing: -1.28px; margin: 0;">03</div>
+                    <h4 style="color: #012130; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 800; line-height: 33.6px; margin: 0;">Regional Operations</h4>
+                    <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 400; line-height: 25.6px; margin: 0;">Our operational presence is in the region, giving us authentic access to the linguistic talent our clients need.</p>
                 </div>
             </div>
         </div>
