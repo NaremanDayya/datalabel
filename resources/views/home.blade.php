@@ -821,7 +821,7 @@
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 60px; position: relative;">
             <!-- About Section -->
             <div style="display: flex; flex-direction: column; gap: 20px; position: relative;">
-                <div style="width: 364px; height: 91px; background: url('{{ asset('public/images/Rectangle-119.png') }}') lightgray 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
+                <div style="width: 364px; height: 91px; background: url('{{ asset('public/images/Rectangle-119.png') }}') 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
                 <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 125%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
                 <div style="display: inline-block; padding: 8px 12px; background: rgba(37, 99, 235, 0.2); border-radius: 5px; border: 1px solid #C4C4C4;">
