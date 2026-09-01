@@ -724,10 +724,21 @@
                 </div>
 
                 <!-- Testimonial Quote -->
-                <div style="padding: 30px; background: rgba(255, 255, 255, 0); border-left: 4px solid #3B82F6;">
-                    <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 600; line-height: 1.6; margin: 0 0 20px 0; font-style: italic;">"Our annotators are not vendors — they are deeply invested in the outcomes. That changes everything about how they approach the work. The precision, the care, the accountability. It shows in every dataset we deliver."</p>
-                    <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; margin: 0 0 5px 0;">Nareman Dayya</p>
-                    <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 400; margin: 0;">In-region Operations Advisor, Karama Data</p>
+                <div style="padding: 30px; background: rgba(255, 255, 255, 0); border-left: 4px solid #3B82F6; display: flex; flex-direction: column; justify-content: space-between; min-height: 400px;">
+                    <p style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: 0.72px; margin: 0 0 40px 0; width: 589px;">"Our annotators are not vendors — they are deeply invested in the outcomes. That changes everything about how they approach the work. The precision, the care, the accountability. It shows in every dataset we deliver."</p>
+
+                    <!-- Author Info -->
+                    <div style="display: flex; align-items: flex-end; gap: 20px;">
+                        <!-- Avatar -->
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(180deg, rgba(58, 115, 216, 0.76) 0%, rgba(31, 61, 114, 0.76) 100%); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 700;">ND</span>
+                        </div>
+                        <!-- Author Details -->
+                        <div style="display: flex; flex-direction: column; gap: 5px;">
+                            <p style="color: #3265A1; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 800; line-height: 150.9%; letter-spacing: 0.48px; margin: 0;">Nareman Dayya</p>
+                            <p style="color: #3265A1; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 150.9%; margin: 0;">Palestine Operations Advisor, Karama Data</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
