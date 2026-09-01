@@ -697,7 +697,7 @@
 
     <!-- Contact Form Section -->
     <section style="width: 100%; padding: 80px 170px; background: #FFFFFF;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: flex-start;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: stretch;">
             <!-- Left Content -->
             <div style="display: flex; flex-direction: column; gap: 40px;">
                 <!-- Title and Description -->
