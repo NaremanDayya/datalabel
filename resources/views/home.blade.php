@@ -793,15 +793,10 @@
     <footer style="width: 100%; padding: 60px 80px; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%); border-top: 1px solid rgba(255, 255, 255, 0.1);">
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 60px; position: relative;">
             <!-- About Section -->
-            <div style="display: flex; flex-direction: column; gap: 20px;">
-                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
-                    <div style="width: 50px; height: 50px; background: transparent; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid #FF6B6B; position: relative;">
-                        <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 700;">K</span>
-                        <svg style="position: absolute; right: -8px; top: -8px; width: 24px; height: 24px;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" stroke="#FF6B6B" fill="none" stroke-width="0.5"/>
-                        </svg>
-                    </div>
-                    <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700;">Karama Data</span>
+            <div style="display: flex; flex-direction: column; gap: 20px; padding: 30px; border: 2px solid #488EFF; border-radius: 20px; position: relative;">
+                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                    <img src="{{ asset('public/images/logo.png') }}" alt="Karama Data" style="height: 40px; width: auto;">
+                    <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700;">Karama<br/>Data</span>
                 </div>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
@@ -859,19 +854,19 @@
             <div style="width: 0.5px; height: 215px; background: #FFFFFF; opacity: 0.2; position: absolute; left: calc(75% - 20px); top: 20px;"></div>
 
             <!-- Partners & Affiliations -->
-            <div>
-                <h4 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 30px 0;">Partners & Affiliations</h4>
-                <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div style="display: flex; flex-direction: column; gap: 20px; padding: 30px; border: 2px solid #488EFF; border-radius: 20px; position: relative;">
+                <h4 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin: 0;">Partners & Affiliations</h4>
+                <div style="display: flex; flex-direction: column; gap: 16px;">
                     <div style="display: flex; flex-direction: column; gap: 12px;">
                         <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500; margin: 0;">Supported by</p>
                         <p style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; margin: 0;">Gaza Children Village (GCV)</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 29 29" fill="none" style="width: 24px; height: 24px; margin-top: 4px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 29 29" fill="none" style="width: 28px; height: 28px; margin-top: 4px;">
                             <path d="M24.6928 7.37798L15.0542 2.54341C14.7156 2.3742 14.3044 2.3742 13.9657 2.54341L4.32714 7.37798C3.95224 7.55927 3.71037 7.92187 3.66199 8.3328C3.6499 8.46575 2.50101 21.3378 14.002 26.4745C14.1575 26.5461 14.3267 26.5832 14.4979 26.5832C14.6691 26.5832 14.8382 26.5461 14.9937 26.4745C26.4947 21.3378 25.3579 8.45367 25.3337 8.3328C25.3144 8.12991 25.2431 7.93542 25.1266 7.76815C25.01 7.60088 24.8523 7.46649 24.6686 7.37798H24.6928ZM14.51 24.0451C6.35887 20.0929 5.97187 11.6445 6.04444 9.2272L14.51 4.98487L22.9755 9.2272C23.0239 11.6324 22.5764 20.1291 14.51 24.0451Z" fill="#488EFF"/>
                             <path d="M13.2917 15.2131L11.7329 13.6423L10.0171 15.3581L13.2917 18.6206L18.9829 12.9414L17.2671 11.2256L13.2917 15.2131Z" fill="#488EFF"/>
                         </svg>
                     </div>
-                    <div style="padding: 10px 12px; border-radius: 5px; border: 1px solid #C4C4C4; display: inline-block;">
-                        <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500;">US-Incorporated LLC</span>
+                    <div style="padding: 14px 16px; border-radius: 8px; border: 1px solid #488EFF; display: block; background: transparent;">
+                        <span style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600;">US-Incorporated LLC</span>
                     </div>
                 </div>
             </div>
