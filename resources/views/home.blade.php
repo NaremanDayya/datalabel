@@ -199,7 +199,7 @@
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: #00B660; border-radius: 0 0 20px 20px;"></div>
                 </div>
 
-                <div style="position: relative; width: 370px; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
+                <div class="metric-card" style="position: relative; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
                     <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; height: 100%; padding: 31px 119px 27px 43px;">
                         <div style="color: #8B5CF6; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">0.623</div>
                         <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">RLHF Kappa score</div>
@@ -208,7 +208,7 @@
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: #8B5CF6; border-radius: 0 0 20px 20px;"></div>
                 </div>
 
-                <div style="position: relative; width: 370px; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
+                <div class="metric-card" style="position: relative; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
                     <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; height: 100%; padding: 31px 119px 27px 43px;">
                         <div style="color: #F59E0B; font-size: 56px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: 56px;">470/hr</div>
                         <div style="color: #043763; font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 500; line-height: 20px;">Team throughput</div>
