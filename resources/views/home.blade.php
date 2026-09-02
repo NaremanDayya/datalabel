@@ -833,12 +833,12 @@
     </section>
 
     <!-- Footer -->
-    <footer style="width: 100%; padding: 60px 80px; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%); border-top: 1px solid rgba(255, 255, 255, 0.1);">
-        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 60px; position: relative;">
+    <footer style="width: 100%; padding: 40px 60px; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%); border-top: 1px solid rgba(255, 255, 255, 0.1);">
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 30px; margin-bottom: 40px; position: relative;">
             <!-- About Section -->
             <div style="display: flex; flex-direction: column; gap: 20px; position: relative;">
                 <div style="width: 364px; height: 91px; background: url('{{ asset('public/images/Rectangle-119.png') }}') 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
-                <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 125%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
+                <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500; line-height: 125%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
                 <div style="display: inline-block; padding: 8px 12px; background: rgba(37, 99, 235, 0.2); border-radius: 5px; border: 1px solid #C4C4C4;">
                     <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500;">US Incorporated LLC</span>
@@ -846,11 +846,11 @@
             </div>
 
             <!-- Divider 1 -->
-            <div style="width: 0.5px; height: 215px; background: #FFFFFF; opacity: 0.2; position: absolute; left: calc(25% - 20px); top: 20px;"></div>
+            <div style="width: 0.5px; height: 150px; background: #FFFFFF; opacity: 0.2; position: absolute; left: calc(25% - 20px); top: 20px;"></div>
 
             <!-- Navigation -->
             <div>
-                <h4 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 700; margin: 0 0 30px 0;">Navigation</h4>
+                <h4 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; margin: 0 0 20px 0;">Navigation</h4>
                 <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px;">
                     <li><a href="#why-arabic" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">Why Arabic</a></li>
                     <li><a href="#results" style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; text-decoration: none;">Results</a></li>
@@ -918,7 +918,7 @@
         </div>
 
         <!-- Copyright -->
-        <div style="border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 30px; text-align: center;">
+        <div style="border-top: 1px solid rgba(255, 255, 255, 0.2); padding-top: 20px; text-align: center;">
             <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 500; line-height: 167%; letter-spacing: 0.45px; margin: 0;">© 2026 Karama Data LLC. All rights reserved. | US LLC — Domestic Ownership. Arabic AI Annotation.</p>
         </div>
     </footer>
