@@ -59,7 +59,7 @@
     <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
-            <div style="width: 590px; left: 15%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
+            <div style="width: 590px; left: 15%; top: 50%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 15%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
@@ -837,7 +837,7 @@
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 30px; margin-bottom: 40px; position: relative;">
             <!-- About Section -->
             <div style="display: flex; flex-direction: column; gap: 20px; position: relative;">
-                <div style="width: 364px; height: 91px; background: url('{{ asset('public/images/Rectangle-119.png') }}') 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
+                <div style="width: 200px; height: 50px; background: url('{{ asset('public/images/Rectangle-119.png') }}') 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
                 <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500; line-height: 125%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
                 <div style="display: inline-block; padding: 8px 12px; background: rgba(37, 99, 235, 0.2); border-radius: 5px; border: 1px solid #C4C4C4;">
