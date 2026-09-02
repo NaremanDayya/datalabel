@@ -60,12 +60,12 @@
     <!-- Hero Section - Section 1 (Figma Design) -->
     <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
-            <div style="width: 632px; left: 5%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
-            <div style="width: 590px; left: 8.65%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
+            <div style="width: 632px; left: 8.85%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
+            <div style="width: 590px; left: 8.85%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 8.85%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
-            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 22.8%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 23.5%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
             <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 8.85%; top: 92.8%; position: absolute">
