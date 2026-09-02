@@ -60,18 +60,18 @@
     <!-- Hero Section - Section 1 (Figma Design) -->
     <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
-            <div style="width: 632px; left: 8.85%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
-            <div style="width: 590px; left: 8.85%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
-            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 8.85%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+            <div style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
+            <div style="width: 590px; left: 15%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
+            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 15%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 23.5%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
-            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 8.85%; top: 94%; position: absolute">
+            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 15%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">AI & Cybersecurity</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 12px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Founded by - AI and Cybersecurity Experts</div>
+                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Founded by - AI and Cybersecurity Experts</div>
                 <!-- Icon: Shield -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 9.5%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
@@ -79,7 +79,7 @@
                     </svg>
                 </div>
             </div>
-            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 25.78%; top: 94%; position: absolute">
+            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 33%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <!-- Icon: Globe -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 8%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
@@ -88,9 +88,9 @@
                     </svg>
                 </div>
                 <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">5+ Dialects</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 12px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Arabic Dialect Variants</div>
+                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Arabic Dialect Variants</div>
             </div>
-            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 42.7%; top: 94%; position: absolute">
+            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 51%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <!-- Icon: Layers -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 8%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
@@ -101,9 +101,9 @@
                     </svg>
                 </div>
                 <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">Multi-layer</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 12px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Full QA Review Process</div>
+                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Full QA Review Process</div>
             </div>
-            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 59.6%; top: 94%; position: absolute">
+            <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 69%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <!-- Icon: Chart -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 8%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
@@ -112,7 +112,7 @@
                     </svg>
                 </div>
                 <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">RLHF Agreement</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 12px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Kappa .62</div>
+                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Kappa .62</div>
             </div>
             </div>
         </div>
@@ -228,7 +228,7 @@
                         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
                             <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">Preference Ranking</h3>
                             <div style="background: rgba(0, 182, 96, 0.2); border: 1px solid #00B660; border-radius: 20px; padding: 6px 12px;">
-                                <span style="color: #00B660; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">Above Benchmark</span>
+                                <span style="color: #00B660; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 500;">Above Benchmark</span>
                             </div>
                         </div>
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">667 items - RLHF / Model Alignment</p>
@@ -264,7 +264,7 @@
                         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
                             <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">Dialect Identification</h3>
                             <div style="background: rgba(139, 92, 246, 0.2); border: 1px solid #8B5CF6; border-radius: 20px; padding: 6px 12px;">
-                                <span style="color: #8B5CF6; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">On Par</span>
+                                <span style="color: #8B5CF6; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 500;">On Par</span>
                             </div>
                         </div>
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">960 items - MSA, Levantine, Gulf, Egyptian, Iraqi, Maghrebi</p>
@@ -300,7 +300,7 @@
                         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
                             <h3 style="color: #043763; font-size: 28px; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">Sentiment Tagging</h3>
                             <div style="background: rgba(245, 158, 11, 0.2); border: 1px solid #F59E0B; border-radius: 20px; padding: 6px 12px;">
-                                <span style="color: #F59E0B; font-size: 12px; font-family: 'Poppins', sans-serif; font-weight: 500;">Near Target</span>
+                                <span style="color: #F59E0B; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 500;">Near Target</span>
                             </div>
                         </div>
                         <p style="color: #787878; font-size: 14px; font-family: 'Poppins', sans-serif; font-weight: 400; margin: 0 0 15px 0;">667 items - RLHF / Model Alignment</p>
@@ -537,7 +537,7 @@
                             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0-6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 7c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4zm6 5H6v-2c0-1.5 3.33-2.5 6-2.5s6 1 6 2.5v2z" fill="#488EFF"/>
                         </svg>
                         <p style="color: #111C2D; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; line-height: 16px; margin: 0; text-align: center;">Stable, Highly-Qualified Workforce</p>
-                        <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 14px; margin: 0; text-align: center;">Better quality, stronger outcomes, lasting impact</p>
+                        <p style="color: #44474E; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 400; line-height: 14px; margin: 0; text-align: center;">Better quality, stronger outcomes, lasting impact</p>
                     </div>
                 </div>
             </div>
@@ -793,7 +793,7 @@
                         <!-- Author Details -->
                         <div style="display: flex; flex-direction: column; gap: 5px;">
                             <p style="color: #3265A1; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 800; line-height: 150.9%; letter-spacing: 0.48px; margin: 0;">Nareman Dayya</p>
-                            <p style="color: #3265A1; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 400; line-height: 150.9%; margin: 0;">Palestine Operations Advisor, Karama Data</p>
+                            <p style="color: #3265A1; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 400; line-height: 150.9%; margin: 0;">Palestine Operations Advisor, Karama Data</p>
                         </div>
                     </div>
                 </div>
@@ -843,7 +843,7 @@
                 <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 20px; font-weight: 500; line-height: 125%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
                 <div style="display: inline-block; padding: 8px 12px; background: rgba(37, 99, 235, 0.2); border-radius: 5px; border: 1px solid #C4C4C4;">
-                    <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500;">US Incorporated LLC</span>
+                    <span style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500;">US Incorporated LLC</span>
                 </div>
             </div>
 
@@ -905,7 +905,7 @@
                             <path d="M18 8C12.48 8 8 12.48 8 18s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm2.5-9c.83 0 1.5-.67 1.5-1.5S21.33 14 20.5 14s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm-5 0c.83 0 1.5-.67 1.5-1.5S13.33 14 12.5 14s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm2.5 6.5c2.33 0 4.31-1.46 5.11-3.5h-10.22c.8 2.04 2.78 3.5 5.11 3.5z" fill="#488EFF"/>
                         </svg>
                         <div style="display: flex; flex-direction: column; gap: 8px;">
-                            <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 500; margin: 0;">Supported by</p>
+                            <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; margin: 0;">Supported by</p>
                             <p style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 700; margin: 0;">Gaza Children Village<br/>(GCV)</p>
                         </div>
                     </div>
