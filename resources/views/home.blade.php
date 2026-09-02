@@ -71,7 +71,7 @@
             <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 15%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">AI & Cybersecurity</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Founded by - AI and Cybersecurity Experts</div>
+                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Founded by - AI and Cybersecurity Experts</div>
                 <!-- Icon: Shield -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 9.5%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
