@@ -43,17 +43,17 @@
 </head>
 <body class="bg-white text-gray-900">
     <!-- Navigation -->
-    <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
-        <div class="mx-auto px-6 py-4 flex items-center justify-between" style="max-width: 1920px;">
-            <img src="{{ asset('public/images/logo.png') }}" alt="Karama Data" class="h-12">
-            <div class="hidden md:flex items-center gap-6">
-                <a href="#why-arabic" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Why Arabic</a>
-                <a href="#results" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Results</a>
-                <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Services</a>
-                <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium text-sm">About</a>
-                <a href="#workforce" class="text-gray-700 hover:text-blue-600 font-medium text-sm">Our Workforce</a>
+    <nav style="position: fixed; top: 0; width: 100%; background: #FFFFFF; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); z-index: 50;">
+        <div style="max-width: 1920px; margin: 0 auto; padding: 16px 40px; display: flex; align-items: center; justify-content: space-between;">
+            <img src="{{ asset('public/images/logo.png') }}" alt="Karama Data" style="height: 40px;">
+            <div style="display: flex; align-items: center; gap: 40px;">
+                <a href="#why-arabic" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Why Arabic</a>
+                <a href="#results" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Results</a>
+                <a href="#services" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Services</a>
+                <a href="#about" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">About</a>
+                <a href="#workforce" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Our Workforce</a>
+                <button style="padding: 10px 24px; background: #01213D; color: white; border: none; border-radius: 6px; font-size: 14px; font-family: Poppins; font-weight: 700; cursor: pointer; transition: background 0.3s;">Get in Touch</button>
             </div>
-            <button class="bg-gray-900 text-white px-4 py-2 rounded text-sm font-bold hover:bg-gray-800">Get in Touch</button>
         </div>
     </nav>
 
