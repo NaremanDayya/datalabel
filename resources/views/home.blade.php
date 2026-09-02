@@ -29,9 +29,226 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+        @media (max-width: 768px) {
+            .metric-cards-container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 40px;
+            }
+            .metric-card {
+                height: 180px !important;
+            }
+            .metric-card div:nth-child(1) {
+                padding: 20px 20px 20px 30px !important;
+            }
+            .metric-card div:nth-child(1) > div:first-child {
+                font-size: 40px !important;
+            }
+            .metric-card div:nth-child(1) > div:nth-child(2) {
+                font-size: 16px !important;
+            }
+        }
         @media (max-width: 600px) {
             .metric-cards-container {
                 grid-template-columns: 1fr;
+            }
+        }
+        /* Tablet Responsive (768px and below) */
+        @media (max-width: 768px) {
+            /* Navigation */
+            nav {
+                position: static !important;
+            }
+            nav div {
+                padding: 12px 20px !important;
+                flex-direction: column !important;
+                gap: 8px !important;
+            }
+            nav a {
+                font-size: 12px !important;
+            }
+            /* Hero Section */
+            section:nth-of-type(1) {
+                margin-top: 60px !important;
+                margin-bottom: 40px !important;
+            }
+            /* All sections padding */
+            section {
+                padding: 40px 20px !important;
+            }
+            /* Grid layouts */
+            div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            /* Why Arabic section */
+            div[style*="grid-template-columns: 1fr 1fr; gap: 0"] {
+                grid-template-columns: 1fr !important;
+                height: auto !important;
+            }
+            div[style*="padding: 0 100px"] {
+                padding: 20px 0 !important;
+            }
+            /* Results Cards Grid */
+            div[style*="grid-template-columns: repeat(3, 1fr)"] {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            /* Services Grid */
+            div[style*="grid-template-columns: repeat(3, 1fr); gap: 30px"] {
+                grid-template-columns: 1fr !important;
+            }
+            /* Trust Cards */
+            div[style*="grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%"] {
+                grid-template-columns: 1fr !important;
+            }
+            /* Stats Section */
+            div[style*="grid-template-columns: 1fr auto 1fr"] {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            div[style*="padding: 60px"] {
+                padding: 30px !important;
+            }
+            /* Font sizes */
+            span[style*="font-size: 70px"] {
+                font-size: 40px !important;
+            }
+            span[style*="font-size: 25px"] {
+                font-size: 16px !important;
+            }
+            p[style*="font-size: 24px"] {
+                font-size: 16px !important;
+            }
+            p[style*="font-size: 25px"] {
+                font-size: 16px !important;
+            }
+            h2[style*="font-size: 70px"] {
+                font-size: 40px !important;
+            }
+            h3[style*="font-size: 35px"] {
+                font-size: 24px !important;
+            }
+            h3[style*="font-size: 28px"] {
+                font-size: 20px !important;
+            }
+            /* Divider height */
+            div[style*="width: 1px"] {
+                display: none !important;
+            }
+        }
+        /* Mobile Responsive (480px and below) */
+        @media (max-width: 480px) {
+            /* Hide nav menu */
+            nav div:nth-child(2) {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 6px !important;
+                width: 100% !important;
+            }
+            nav a {
+                font-size: 11px !important;
+            }
+            /* Hero Section - hide background image, reduce sizes */
+            div[style*="background-image: url"] {
+                background-image: none !important;
+                aspect-ratio: auto !important;
+                min-height: 600px !important;
+            }
+            /* Hero title */
+            div[style*="font-size: 70px; font-family"] {
+                font-size: 32px !important;
+                width: 90% !important;
+                left: 5% !important;
+                top: 15% !important;
+            }
+            /* Hero description */
+            div[style*="font-size: 25px; font-family: 'Poppins'"][style*="color: #B3B3B3"] {
+                font-size: 14px !important;
+                width: 90% !important;
+                left: 5% !important;
+                top: 45% !important;
+            }
+            /* Hero buttons */
+            div[style*="padding-left: 30px; padding-right: 30px; padding-top: 15px"][style*="top: 65"] {
+                width: auto !important;
+                left: 5% !important;
+                padding: 12px 20px !important;
+                font-size: 14px !important;
+            }
+            div[style*="left: 33%; top: 65"] {
+                left: 52% !important;
+                padding: 12px 20px !important;
+            }
+            /* Hero cards */
+            div[style*="width: 16%; height: 16%; left: 15%; top: 94%"] {
+                width: 20% !important;
+                height: auto !important;
+                top: 70% !important;
+                left: 5% !important;
+            }
+            div[style*="left: 33%; top: 94%"] {
+                left: 28% !important;
+            }
+            div[style*="left: 51%; top: 94%"] {
+                left: 51% !important;
+            }
+            div[style*="left: 69%; top: 94%"] {
+                left: 74% !important;
+            }
+            /* All sections */
+            section {
+                padding: 30px 15px !important;
+            }
+            /* Padding reduction */
+            div[style*="padding: 40px"] {
+                padding: 20px !important;
+            }
+            div[style*="padding: 32px"] {
+                padding: 20px !important;
+            }
+            div[style*="padding: 60px"] {
+                padding: 20px !important;
+            }
+            /* Font size reductions */
+            span[style*="font-size: 70px"] {
+                font-size: 28px !important;
+            }
+            span[style*="font-size: 64px"] {
+                font-size: 40px !important;
+            }
+            span[style*="font-size: 56px"] {
+                font-size: 32px !important;
+            }
+            span[style*="font-size: 48px"] {
+                font-size: 28px !important;
+            }
+            span[style*="font-size: 35px"] {
+                font-size: 22px !important;
+            }
+            p[style*="font-size: 35px"] {
+                font-size: 18px !important;
+            }
+            h2[style*="font-size: 70px"] {
+                font-size: 28px !important;
+            }
+            h3[style*="font-size: 48px"] {
+                font-size: 26px !important;
+            }
+            h3[style*="font-size: 35px"] {
+                font-size: 20px !important;
+            }
+            h3[style*="font-size: 28px"] {
+                font-size: 18px !important;
+            }
+            /* Max width adjustments */
+            div[style*="max-width: 1577px"] {
+                max-width: 100% !important;
+                padding: 0 15px !important;
+            }
+            /* Flex layouts */
+            div[style*="display: flex; width: 100%; padding"] {
+                flex-direction: column !important;
+                gap: 15px !important;
             }
         }
     </style>
