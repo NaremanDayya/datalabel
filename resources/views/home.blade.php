@@ -19,17 +19,17 @@
         .metric-card {
             width: 100%;
         }
-        @media (max-width: 1600px) {
+        @media (max-width: 1400px) {
             .metric-cards-container {
                 grid-template-columns: repeat(3, 1fr);
             }
         }
-        @media (max-width: 1200px) {
+        @media (max-width: 1000px) {
             .metric-cards-container {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-        @media (max-width: 768px) {
+        @media (max-width: 600px) {
             .metric-cards-container {
                 grid-template-columns: 1fr;
             }
