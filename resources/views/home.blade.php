@@ -645,15 +645,15 @@
     <!-- Annotators Section -->
     <section id="workforce" style="width: 100%; padding: 80px 170px; background: #FFFFFF;">
         <!-- Title -->
-        <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 70px; font-weight: 700; line-height: 150.9%; letter-spacing: 1.05px; margin: 0 0 60px 0;">The Quality Starts With the Annotators</h2>
+        <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 60px; font-weight: 700; line-height: 1.2; margin: 0 0 60px 0; white-space: nowrap;">The Quality Starts With the Annotators</h2>
 
-        <!-- Image & Paragraph -->
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; margin-bottom: 80px;">
-            <div>
+        <!-- Image & Paragraph Container -->
+        <div style="background: #F9FAFB; border-radius: 20px; padding: 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; border: 1px solid #E0E0E0; margin-bottom: 80px;">
+            <div style="display: flex; align-items: center; justify-content: center;">
                 <img src="{{ asset('public/images/arabic-annotators-team.png') }}" alt="Arabic Annotators Team" style="width: 100%; height: auto; border-radius: 10px; object-fit: cover;">
             </div>
-            <div>
-                <p style="color: #969696; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 400; line-height: 150.9%; letter-spacing: 1.05px; margin: 0; width: 749px;">Our annotator workforce is our primary quality asset. We invest in their training, their ownership stake, and their stability — because high-quality annotations require a workforce that is both skilled and retained.</p>
+            <div style="display: flex; align-items: center;">
+                <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 24px; font-weight: 400; line-height: 1.6; margin: 0;">Our annotator workforce is our primary quality asset. We invest in their training, their ownership stake, and their stability — because high-quality annotations require a workforce that is both skilled and retained.</p>
             </div>
         </div>
 
