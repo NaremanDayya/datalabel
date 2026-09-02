@@ -122,7 +122,7 @@
     <section id="why-arabic" style="background: #F5F5F5; padding: 100px 170px;">
         <div style="display: grid; grid-template-columns: auto 1fr; gap: 100px; align-items: center;">
             <div style="flex-shrink: 0;">
-                <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" style="width: 523px; height: 615px; border-radius: 10px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); object-fit: cover;">
+                <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" style="width: 523px; height: 615px; border-radius: 10px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); object-fit: contain; background: white;">
             </div>
             <div>
                 <div style="font-family: 'Poppins', sans-serif; margin-bottom: 40px;">
