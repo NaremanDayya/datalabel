@@ -119,17 +119,17 @@
     </div>
 
     <!-- Why Arabic Section - Figma Design -->
-    <section id="why-arabic" style="background: #F5F5F5; padding: 100px 170px;">
-        <div style="display: grid; grid-template-columns: auto 1fr; gap: 100px; align-items: center;">
-            <div style="flex-shrink: 0;">
-                <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" style="width: 380px; height: 380px; border-radius: 10px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); object-fit: contain; background: white;">
+    <section id="why-arabic" style="background: #F5F5F5; padding: 80px 0;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: center; height: 500px;">
+            <div style="display: flex; align-items: center; justify-content: center; background: #F5F5F5; padding: 0 100px;">
+                <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" style="width: 100%; max-width: 380px; height: auto; border-radius: 10px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); object-fit: contain; background: white;">
             </div>
-            <div>
+            <div style="padding: 0 100px; display: flex; flex-direction: column; justify-content: center; background: #F5F5F5;">
                 <div style="font-family: 'Poppins', sans-serif; margin-bottom: 40px;">
                     <span style="color: #043763; font-size: 70px; font-weight: 600; line-height: 1.2; display: block;">Why Arabic?</span>
                     <span style="color: #488EFF; font-size: 70px; font-weight: 600; line-height: 1.2; display: block;">Why Now?</span>
                 </div>
-                <p style="width: 923px; color: #787878; font-size: 36px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 49px; margin: 0;">Arabic is one of the most spoken languages on earth — and one of the most underserved in AI. That gap is why enterprise buyers are reaching out, and why the quality of annotation data has never mattered more.</p>
+                <p style="color: #787878; font-size: 24px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.6; margin: 0; max-width: 550px;">Arabic is one of the most spoken languages on earth — and one of the most underserved in AI. That gap is why enterprise buyers are reaching out, and why the quality of annotation data has never mattered more.</p>
             </div>
         </div>
     </section>
