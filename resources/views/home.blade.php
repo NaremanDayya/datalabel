@@ -10,30 +10,28 @@
         * { font-family: 'Poppins', sans-serif; }
         body { font-family: 'Poppins', sans-serif; }
         .metric-cards-container {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
             gap: 30px;
             width: 100%;
             margin-bottom: 60px;
-            justify-content: center;
-            flex-wrap: wrap;
         }
         .metric-card {
-            flex: 0 0 calc(25% - 23px);
-            min-width: 300px;
+            width: 100%;
         }
         @media (max-width: 1600px) {
-            .metric-card {
-                flex: 0 0 calc(33.333% - 30px);
+            .metric-cards-container {
+                grid-template-columns: repeat(3, 1fr);
             }
         }
         @media (max-width: 1200px) {
-            .metric-card {
-                flex: 0 0 calc(50% - 30px);
+            .metric-cards-container {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         @media (max-width: 768px) {
-            .metric-card {
-                flex: 0 0 100%;
+            .metric-cards-container {
+                grid-template-columns: 1fr;
             }
         }
     </style>
