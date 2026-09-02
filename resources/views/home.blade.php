@@ -68,10 +68,10 @@
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 23.5%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
-            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 8.85%; top: 92.8%; position: absolute">
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 8.85%; top: 95%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">AI & Cybersecurity</div>
-                <div style="left: 33.9%; top: 76.8%; position: absolute; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Founded by</div>
+                <div style="left: 50%; top: 76.8%; position: absolute; transform: translateX(-50%); text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Founded by - AI and Cybersecurity Experts</div>
                 <!-- Icon: Shield -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 9.5%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
@@ -79,7 +79,7 @@
                     </svg>
                 </div>
             </div>
-            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 25.78%; top: 92.8%; position: absolute">
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 25.78%; top: 95%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <!-- Icon: Globe -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 8%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
@@ -90,7 +90,7 @@
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">5+ Dialects</div>
                 <div style="left: 17.1%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Arabic Dialect Variants</div>
             </div>
-            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 42.7%; top: 92.8%; position: absolute">
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 42.7%; top: 95%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <!-- Icon: Layers -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 8%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
@@ -101,20 +101,9 @@
                     </svg>
                 </div>
                 <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">Multi-layer</div>
-                <div style="left: 23.6%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">QA Review Process</div>
+                <div style="left: 50%; top: 76.8%; position: absolute; transform: translateX(-50%); text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Full QA Review Process</div>
             </div>
-            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 59.6%; top: 92.8%; position: absolute">
-                <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
-                <!-- Icon: Arabic Only -->
-                <div style="width: 45px; height: 45px; left: 50%; top: 8%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
-                      <path d="M9.375 15L20.625 26.25M7.5 26.25L18.75 15L22.5 9.375M3.75 9.375H26.25M13.125 3.75H15M41.25 41.25L31.875 22.5L22.5 41.25M26.25 33.75H37.5" stroke="#548ED3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">Arabic Only</div>
-                <div style="left: 16.4%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">No Content Moderation</div>
-            </div>
-            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 76.56%; top: 92.8%; position: absolute">
+            <div data-property-1="Group 113" style="width: 14.6%; height: 14.4%; left: 59.6%; top: 95%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
                 <!-- Icon: Chart -->
                 <div style="width: 45px; height: 45px; left: 50%; top: 8%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
@@ -122,8 +111,8 @@
                       <path d="M22.5 30V39.375M30 27.4481V39.375M37.5 19.98V39.375M41.25 5.625L25.0388 21.8362C24.9517 21.9236 24.8482 21.9928 24.7343 22.0401C24.6204 22.0873 24.4983 22.1117 24.375 22.1117C24.2517 22.1117 24.1296 22.0873 24.0157 22.0401C23.9018 21.9928 23.7983 21.9236 23.7112 21.8362L17.5388 15.6638C17.3629 15.488 17.1245 15.3893 16.8759 15.3893C16.6273 15.3893 16.3889 15.488 16.2131 15.6638L3.75 28.125M7.5 34.6181V39.375M15 27.48V39.375" stroke="#548ED3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 900; word-wrap: break-word">Kappa 0.62</div>
-                <div style="left: 17.8%; top: 76.8%; position: absolute; text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">RLHF Agreement Score</div>
+                <div style="width: 88.6%; height: 26.8%; left: 5.7%; top: 50%; position: absolute; text-align: center; color: #F2F4F6; font-size: clamp(18px, 2vw, 25px); font-family: Poppins; font-weight: 600; word-wrap: break-word">RLHF Agreement</div>
+                <div style="left: 50%; top: 76.8%; position: absolute; transform: translateX(-50%); text-align: center; color: #548ED3; font-size: clamp(14px, 1.5vw, 17px); font-family: Poppins; font-weight: 500; word-wrap: break-word">Kappa .62</div>
             </div>
             </div>
         </div>
