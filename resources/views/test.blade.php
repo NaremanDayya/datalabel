@@ -29,9 +29,259 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+        @media (max-width: 768px) {
+            .metric-cards-container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 40px;
+            }
+            .metric-card {
+                height: 180px !important;
+            }
+            .metric-card div:nth-child(1) {
+                padding: 20px 20px 20px 30px !important;
+            }
+            .metric-card div:nth-child(1) > div:first-child {
+                font-size: 40px !important;
+            }
+            .metric-card div:nth-child(1) > div:nth-child(2) {
+                font-size: 16px !important;
+            }
+        }
         @media (max-width: 600px) {
             .metric-cards-container {
                 grid-template-columns: 1fr;
+            }
+        }
+        /* Tablet Responsive (768px and below) */
+        @media (max-width: 768px) {
+            /* Navigation */
+            nav {
+                position: static !important;
+            }
+            nav div {
+                padding: 12px 20px !important;
+                flex-direction: column !important;
+                gap: 8px !important;
+            }
+            nav a {
+                font-size: 12px !important;
+            }
+            /* Hero Section */
+            section:nth-of-type(1) {
+                margin-top: 60px !important;
+                margin-bottom: 40px !important;
+            }
+            /* All sections padding */
+            section {
+                padding: 40px 20px !important;
+            }
+            /* Grid layouts */
+            div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            /* Why Arabic section */
+            div[style*="grid-template-columns: 1fr 1fr; gap: 0"] {
+                grid-template-columns: 1fr !important;
+                height: auto !important;
+            }
+            div[style*="padding: 0 100px"] {
+                padding: 20px 0 !important;
+            }
+            /* Results Cards Grid */
+            div[style*="grid-template-columns: repeat(3, 1fr)"] {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            /* Services Grid */
+            div[style*="grid-template-columns: repeat(3, 1fr); gap: 30px"] {
+                grid-template-columns: 1fr !important;
+            }
+            /* Trust Cards */
+            div[style*="grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%"] {
+                grid-template-columns: 1fr !important;
+            }
+            /* Stats Section */
+            div[style*="grid-template-columns: 1fr auto 1fr"] {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            div[style*="padding: 60px"] {
+                padding: 30px !important;
+            }
+            /* Font sizes */
+            span[style*="font-size: 70px"] {
+                font-size: 40px !important;
+            }
+            span[style*="font-size: 25px"] {
+                font-size: 16px !important;
+            }
+            p[style*="font-size: 24px"] {
+                font-size: 16px !important;
+            }
+            p[style*="font-size: 25px"] {
+                font-size: 16px !important;
+            }
+            h2[style*="font-size: 70px"] {
+                font-size: 40px !important;
+            }
+            h3[style*="font-size: 35px"] {
+                font-size: 24px !important;
+            }
+            h3[style*="font-size: 28px"] {
+                font-size: 20px !important;
+            }
+            /* Divider height */
+            div[style*="width: 1px"] {
+                display: none !important;
+            }
+        }
+        /* Mobile Responsive (480px and below) */
+        @media (max-width: 480px) {
+            * {
+                box-sizing: border-box !important;
+            }
+            /* Hide nav menu items, show compact version */
+            nav {
+                padding: 12px 15px !important;
+            }
+            nav div {
+                flex-direction: column !important;
+                gap: 6px !important;
+            }
+            nav a {
+                font-size: 10px !important;
+                display: none !important;
+            }
+            nav button {
+                font-size: 12px !important;
+                padding: 8px 16px !important;
+            }
+            /* Hero Section - adjust hero container */
+            div[style*="width: 100%; position: relative; background: #01213D"] {
+                margin-top: 50px !important;
+                margin-bottom: 20px !important;
+                aspect-ratio: auto !important;
+                min-height: 500px !important;
+                background-image: none !important;
+            }
+            /* Hero title - smaller font, full width */
+            div[style*="width: 632px"][style*="left: 15%; top: 15%"] {
+                font-size: 24px !important;
+                width: 85% !important;
+                left: 5% !important;
+                top: 12% !important;
+                line-height: 1.2 !important;
+            }
+            /* Hero description */
+            div[style*="width: 590px"][style*="left: 15%; top: 56%"] {
+                font-size: 13px !important;
+                width: 85% !important;
+                left: 5% !important;
+                top: 40% !important;
+            }
+            /* Hero buttons - stack vertically */
+            div[style*="padding-left: 30px; padding-right: 30px; padding-top: 15px"][style*="left: 15%; top: 65.2%"],
+            div[style*="padding-left: 30px; padding-right: 30px; padding-top: 15px"][style*="left: 33%; top: 65.2%"] {
+                width: 80% !important;
+                left: 10% !important;
+                top: 55% !important;
+                padding: 10px 15px !important;
+                font-size: 12px !important;
+                display: block !important;
+                margin-bottom: 10px !important;
+            }
+            /* Hero cards - hide or make smaller */
+            div[data-property-1="Group 113"] {
+                display: none !important;
+            }
+            /* All sections padding */
+            section {
+                padding: 30px 15px !important;
+            }
+            /* Padding overrides */
+            div[style*="padding: 80px"] {
+                padding: 20px 15px !important;
+            }
+            div[style*="padding: 60px"] {
+                padding: 20px !important;
+            }
+            div[style*="padding: 40px"] {
+                padding: 20px !important;
+            }
+            div[style*="padding: 32px"] {
+                padding: 20px !important;
+            }
+            /* Font size reductions - hero section */
+            div[style*="font-size: 70px"][style*="font-weight: 700"] {
+                font-size: 28px !important;
+            }
+            /* Stats and other large text */
+            span[style*="font-size: 70px"],
+            h2[style*="font-size: 70px"],
+            div[style*="font-size: 70px"] {
+                font-size: 28px !important;
+            }
+            span[style*="font-size: 64px"] {
+                font-size: 36px !important;
+            }
+            span[style*="font-size: 56px"],
+            div[style*="font-size: 56px"] {
+                font-size: 32px !important;
+            }
+            span[style*="font-size: 48px"] {
+                font-size: 24px !important;
+            }
+            span[style*="font-size: 35px"],
+            div[style*="font-size: 35px"] {
+                font-size: 20px !important;
+            }
+            h3[style*="font-size: 35px"],
+            h3[style*="font-size: 28px"] {
+                font-size: 18px !important;
+            }
+            /* Paragraph text */
+            p[style*="font-size: 25px"],
+            p[style*="font-size: 24px"],
+            p[style*="font-size: 20px"] {
+                font-size: 14px !important;
+            }
+            /* Description text */
+            p[style*="font-size: 35px"][style*="color: #787878"] {
+                font-size: 16px !important;
+            }
+            /* Grid layouts - convert to single column */
+            div[style*="display: grid; grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            div[style*="display: grid; grid-template-columns: repeat(3, 1fr)"] {
+                grid-template-columns: 1fr !important;
+                gap: 15px !important;
+            }
+            /* Dividers hidden */
+            div[style*="width: 1px; height"] {
+                display: none !important;
+            }
+            /* Max width containers */
+            div[style*="max-width: 1577px"] {
+                max-width: 100% !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+            /* Flex direction change */
+            div[style*="display: flex; width: 100%; padding"][style*="gap: 30px"] {
+                flex-direction: column !important;
+                gap: 15px !important;
+            }
+            /* Trust and other cards */
+            div[style*="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; width: 100%"] {
+                grid-template-columns: 1fr !important;
+                gap: 15px !important;
+            }
+            /* Metric card height */
+            div[style*="height: 215px"][style*="border-radius: 20px"] {
+                height: auto !important;
+                min-height: 150px !important;
             }
         }
     </style>
@@ -59,7 +309,7 @@
     <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
-            <div style="width: 590px; left: 15%; top: 53.1%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
+            <div style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
             <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 15%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
@@ -837,7 +1087,7 @@
         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 30px; margin-bottom: 40px; position: relative;">
             <!-- About Section -->
             <div style="display: flex; flex-direction: column; gap: 20px; position: relative;">
-                <div style="width: 364px; height: 91px; background: url('{{ asset('public/images/Rectangle-119.png') }}') 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
+                <div style="width: 200px; height: 50px; background: url('{{ asset('public/images/Rectangle-119.png') }}') 0px 0.353px / 100% 99.225% no-repeat; flex-shrink: 0;"></div>
                 <p style="color: #A8C9FF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500; line-height: 125%; letter-spacing: 0.6px; margin: 0;">Native speakers. Rigorous QA. No shortcuts.</p>
                 <p style="color: #C4C4C4; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; line-height: 167%; letter-spacing: 0.6px; margin: 0;">Enterprise Arabic dialect annotation for AI companies building the next generation of Arabic-language AI systems.</p>
                 <div style="display: inline-block; padding: 8px 12px; background: rgba(37, 99, 235, 0.2); border-radius: 5px; border: 1px solid #C4C4C4;">
