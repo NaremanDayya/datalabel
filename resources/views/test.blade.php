@@ -205,46 +205,68 @@
                 padding: 15px 30px !important;
             }
 
+            /* ── Divider line above trust cards ── */
+            #hero-divider {
+                position: absolute !important;
+                left: 50% !important;
+                transform: translateX(-50%) !important;
+                top: 668px !important;
+                width: 203px !important;
+                height: 6px !important;
+                border-radius: 9px !important;
+                background: #D9D9D9 !important;
+            }
+
             /* ── Trust cards: 2×2 grid at bottom ── */
             #hero-trust-cards {
                 position: absolute !important;
                 left: 24px !important;
                 right: 24px !important;
-                top: 700px !important;
+                top: 690px !important;
                 display: grid !important;
                 grid-template-columns: 1fr 1fr !important;
-                gap: 12px !important;
+                gap: 10px !important;
                 width: calc(100% - 48px) !important;
             }
             #hero-trust-cards > div {
                 position: static !important;
-                width: 100% !important;
-                height: 120px !important;
-                border-radius: 16px !important;
+                width: 185px !important;
+                height: 79px !important;
+                border-radius: 10px !important;
+                border: 1px solid #00427C !important;
+                background: linear-gradient(180deg, #043763 7.69%, #01213D 100%) !important;
             }
             #hero-trust-cards > div > div:first-child {
-                border-radius: 16px !important;
+                display: none !important;
             }
             /* Icon inside trust card */
             #hero-trust-cards > div .trust-icon {
-                width: 30px !important;
-                height: 30px !important;
-                top: 8% !important;
-                left: 50% !important;
+                width: 24px !important;
+                height: 24px !important;
+                top: 12% !important;
+                left: 18px !important;
+                transform: none !important;
             }
             #hero-trust-cards > div .trust-icon svg {
-                width: 28px !important;
-                height: 28px !important;
+                width: 22px !important;
+                height: 22px !important;
             }
             /* Trust card title */
             #hero-trust-cards > div .trust-title {
-                font-size: 12px !important;
-                top: 38% !important;
+                font-size: 11px !important;
+                top: 40% !important;
+                left: 14px !important;
+                width: calc(100% - 16px) !important;
+                height: auto !important;
+                text-align: left !important;
             }
             /* Trust card subtitle */
             #hero-trust-cards > div .trust-subtitle {
-                font-size: 9px !important;
+                font-size: 8.5px !important;
                 top: 65% !important;
+                left: 14px !important;
+                width: calc(100% - 16px) !important;
+                text-align: left !important;
             }
             /* All sections padding */
             section {
@@ -384,6 +406,8 @@
             <div id="hero-btn-secondary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 33%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
+            <!-- Divider line (mobile only) -->
+            <div id="hero-divider"></div>
             <!-- Trust cards wrapper (mobile: 2×2 grid) -->
             <div id="hero-trust-cards">
             <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 15%; top: 94%; position: absolute">
