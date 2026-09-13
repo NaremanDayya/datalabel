@@ -477,6 +477,64 @@
                 max-width: 100% !important;
             }
             /* ══════════════════════════════
+               Result cards (Preference Ranking etc) — mobile
+               ══════════════════════════════ */
+            /* Grid → single column */
+            #results div[style*="grid-template-columns: repeat(3, 1fr)"] {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 20px !important;
+            }
+            /* Card container */
+            #results div[style*="border: 0.5px solid rgba(59, 130, 246"] {
+                border-radius: 20px !important;
+                width: 100% !important;
+            }
+            /* Card title e.g. "Preference Ranking" */
+            #results h3[style*="font-size: 28px"] {
+                font-size: 28px !important;
+                font-weight: 600 !important;
+                color: #01213D !important;
+                line-height: 40px !important;
+            }
+            /* Item count e.g. "667 items · RLHF / Model Alignment" */
+            #results p[style*="font-size: 14px"][style*="font-weight: 400"] {
+                font-size: 15px !important;
+                font-weight: 600 !important;
+                color: #787878 !important;
+                line-height: 22px !important;
+            }
+            /* Metric label e.g. "Avg accuracy", "Cohen's Kappa" */
+            #results span[style*="font-size: 22px"][style*="font-weight: 600"],
+            #results p[style*="font-size: 22px"][style*="font-weight: 600"] {
+                font-size: 17px !important;
+                font-weight: 600 !important;
+                color: #01213D !important;
+                line-height: 40px !important;
+            }
+            /* Metric value e.g. "88.6%", "0.623" */
+            #results span[style*="font-size: 22px"][style*="font-weight: 600"]:last-child,
+            #results span[style*="font-size: 35px"] {
+                font-size: 17px !important;
+                font-weight: 900 !important;
+                line-height: 40px !important;
+            }
+            /* Benchmark text e.g. "Benchmark: 83–87%" */
+            #results p[style*="font-size: 15px"][style*="font-weight: 500"] {
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                color: #787878 !important;
+                line-height: 40px !important;
+            }
+            /* "Best labeler" green note */
+            #results p[style*="color: #00A651"] {
+                font-size: 14px !important;
+                font-weight: 800 !important;
+                color: #008026 !important;
+                line-height: 40px !important;
+            }
+
+            /* ══════════════════════════════
                Quality / Results — mobile
                ══════════════════════════════ */
             #results {
