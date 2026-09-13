@@ -560,30 +560,17 @@
                 line-height: normal !important;
                 margin: 4px 0 16px 0 !important;
             }
-            /* "Best labeler" — green card 1 */
-            #results p[style*="color: #00A651"] {
+            /* "Best labeler" note — all three cards */
+            .best-labeler-note {
                 font-size: 14px !important;
                 font-weight: 800 !important;
-                color: #008026 !important;
                 line-height: normal !important;
                 margin: 0 !important;
             }
-            /* "Best labeler" — purple card 2 */
-            #results p[style*="color: #7C5BA3"] {
-                font-size: 14px !important;
-                font-weight: 800 !important;
-                color: #8B5CF6 !important;
-                line-height: normal !important;
-                margin: 0 !important;
-            }
-            /* "Best labeler" — amber card 3 */
-            #results p[style*="color: #F59E0B"] {
-                font-size: 15px !important;
-                font-weight: 800 !important;
-                color: #F59E0B !important;
-                line-height: normal !important;
-                margin: 0 !important;
-            }
+            /* Keep each card's own color */
+            .best-labeler-note[style*="color: #00A651"] { color: #008026 !important; }
+            .best-labeler-note[style*="color: #7C5BA3"] { color: #8B5CF6 !important; }
+            .best-labeler-note[style*="color: #B45309"]  { color: #F59E0B !important; font-size: 15px !important; }
 
             /* ══════════════════════════════
                Quality / Results — mobile
@@ -942,7 +929,7 @@
                             <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 8px 0 0 0; line-height: 40px;">Benchmark: 0.57–0.83 (OpenAI/NVIDIA)</p>
                         </div>
                         <div style="background: #E8F5F0; border-radius: 8px; padding: 12px 15px; margin-top: 20px;">
-                            <p style="color: #00A651; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 91.4% - No Arabic RLHF benchmark exists — first-of-kind data</p>
+                            <p class="best-labeler-note" style="color: #00A651; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 91.4% - No Arabic RLHF benchmark exists — first-of-kind data</p>
                         </div>
                     </div>
                 </div>
@@ -978,7 +965,7 @@
                             <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 8px 0 0 0; line-height: 40px;">Benchmark: 0.59 (NADI 2024, Palestinian Arabic)</p>
                         </div>
                         <div style="background: #F4ECFE; border-radius: 8px; padding: 12px 15px; margin-top: 20px;">
-                            <p style="color: #7C5BA3; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 77% - Compared against the largest Arabic dialect competition globally</p>
+                            <p class="best-labeler-note" style="color: #7C5BA3; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 77% - Compared against the largest Arabic dialect competition globally</p>
                         </div>
                     </div>
                 </div>
@@ -1014,7 +1001,7 @@
                             <p style="color: #787878; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 8px 0 0 0; line-height: 40px;">Target: 0.66–0.70 (Arabic NLP)</p>
                         </div>
                         <div style="background: #FEF3C7; border-radius: 8px; padding: 12px 15px; margin-top: 20px;">
-                            <p style="color: #B45309; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 73.2% - Guideline improvement identified & incorporated into SOP</p>
+                            <p class="best-labeler-note" style="color: #B45309; font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 500; margin: 0; line-height: 40px;">Best labeler: 73.2% - Guideline improvement identified & incorporated into SOP</p>
                         </div>
                     </div>
                 </div>
