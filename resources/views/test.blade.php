@@ -138,8 +138,8 @@
                 display: none !important;
             }
         }
-        /* ── Mobile hero nav ── */
-        #mobile-hamburger { display: none; }
+        /* ── Default: hamburger hidden, desktop links visible ── */
+        #mobile-hamburger { display: none !important; }
         #nav-desktop-links { display: flex; }
 
         /* Mobile Responsive (480px and below) */
@@ -152,7 +152,7 @@
                 height: 56px !important;
             }
             #nav-desktop-links { display: none !important; }
-            #mobile-hamburger { display: flex !important; }
+            #mobile-hamburger { display: flex !important; align-items: center; justify-content: center; }
 
             /* ── Hero container: Figma spec 443×1068, full-bleed ── */
             #hero-section {
@@ -185,7 +185,7 @@
             #hero-subtext {
                 width: calc(100% - 48px) !important;
                 left: 24px !important;
-                top: 270px !important;
+                top: 220px !important;
                 font-size: 13px !important;
                 font-weight: 400 !important;
                 color: #B3B3B3 !important;
@@ -374,8 +374,8 @@
                 <button style="padding: 10px 24px; background: #01213D; color: white; border: none; border-radius: 6px; font-size: 14px; font-family: Poppins; font-weight: 700; cursor: pointer; transition: background 0.3s;">Get in Touch</button>
             </div>
             <!-- Hamburger — mobile only -->
-            <button id="mobile-hamburger" onclick="toggleMobileMenu()" style="display: none; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; padding: 4px;" aria-label="Open menu">
-                <svg id="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#01213D" stroke-width="2.2" stroke-linecap="round">
+            <button id="mobile-hamburger" onclick="toggleMobileMenu()" style="align-items: center; justify-content: center; background: none; border: none; cursor: pointer; padding: 8px;" aria-label="Open menu">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#01213D" stroke-width="2.5" stroke-linecap="round">
                     <line x1="3" y1="6"  x2="21" y2="6"/>
                     <line x1="3" y1="12" x2="21" y2="12"/>
                     <line x1="3" y1="18" x2="21" y2="18"/>
