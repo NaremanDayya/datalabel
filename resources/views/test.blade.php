@@ -1036,6 +1036,69 @@
                 width: 24px; border-radius: 4px; background: #003A6C;
             }
 
+            /* ══════════════════════════════
+               Contact Form — mobile
+               ══════════════════════════════ */
+            #contact-section {
+                padding: 40px 16px !important;
+            }
+            #contact-section > div {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 32px !important;
+            }
+            /* Left column */
+            #contact-section h2 {
+                font-size: 32px !important;
+                font-weight: 700 !important;
+                color: #003A6C !important;
+                line-height: 1.3 !important;
+                margin: 0 !important;
+            }
+            #contact-section > div > div:first-child > div:first-child p {
+                font-size: 16px !important;
+                font-weight: 400 !important;
+                color: #787878 !important;
+                line-height: 33px !important;
+                width: 100% !important;
+                margin: 0 !important;
+            }
+            /* Contact info links */
+            #contact-section > div > div:first-child > div:nth-child(2) span,
+            #contact-section > div > div:first-child > div:nth-child(2) a {
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                color: #003A6C !important;
+                line-height: 56px !important;
+            }
+            /* Hide testimonial quote on mobile (no space) */
+            #contact-section > div > div:first-child > div:nth-child(3) {
+                display: none !important;
+            }
+            /* Form: Name+Company side by side → stacked */
+            #contact-section form > div:first-child {
+                grid-template-columns: 1fr !important;
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 20px !important;
+            }
+            /* Inputs full width */
+            #contact-section input,
+            #contact-section textarea {
+                width: 100% !important;
+                box-sizing: border-box !important;
+                font-size: 14px !important;
+            }
+            /* Submit button */
+            #contact-section button[type="submit"] {
+                width: 100% !important;
+                background: linear-gradient(90deg, #045194 0%, #042F55 100%) !important;
+                font-size: 16px !important;
+                font-weight: 700 !important;
+                border-radius: 10px !important;
+                padding: 16px !important;
+            }
+
             /* Worker Privacy card */
             #worker-privacy {
                 padding: 24px 16px !important;
@@ -1880,7 +1943,7 @@
     </section>
 
     <!-- Contact Form Section -->
-    <section style="width: 100%; padding: 80px 170px; background: #FFFFFF;">
+    <section id="contact-section" style="width: 100%; padding: 80px 170px; background: #FFFFFF;">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: stretch;">
             <!-- Left Content -->
             <div style="display: flex; flex-direction: column; gap: 40px;">
@@ -2061,6 +2124,19 @@
         function closeMobileMenu() {
             document.getElementById('mobile-menu-dropdown').style.display = 'none';
         }
+
+        // On mobile: move worker-privacy card before workforce carousel
+        (function() {
+            if (window.innerWidth > 480) return;
+            var wfSection = document.getElementById('workforce');
+            var wfCards = document.getElementById('workforce-cards');
+            var privacy = document.getElementById('worker-privacy');
+            if (!wfSection || !wfCards || !privacy) return;
+            var wfInner = wfCards.parentElement;
+            privacy.style.padding = '0';
+            privacy.style.background = 'transparent';
+            wfInner.insertBefore(privacy, wfCards);
+        })();
 
         // Workforce carousel dot sync
         (function() {
