@@ -354,6 +354,67 @@
                 height: auto !important;
                 min-height: 150px !important;
             }
+
+            /* ══════════════════════════════
+               Why Arabic section — mobile
+               ══════════════════════════════ */
+            #why-arabic {
+                background: linear-gradient(180deg, #01213D 0%, #01213D 100%) !important;
+                padding: 0 !important;
+            }
+            /* Stack image above text */
+            #why-arabic > div {
+                display: flex !important;
+                flex-direction: column !important;
+                height: auto !important;
+                grid-template-columns: unset !important;
+            }
+            /* Image container */
+            #why-arabic > div > div:first-child {
+                padding: 0 !important;
+                width: 100% !important;
+                background: transparent !important;
+            }
+            /* Image itself — Figma spec */
+            #why-arabic img {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: 448px !important;
+                object-fit: cover !important;
+                border-radius: 5px !important;
+                box-shadow: none !important;
+                background:
+                    linear-gradient(180deg, rgba(1,33,61,0.00) 50%, rgba(1,33,61,0.70) 96.32%),
+                    lightgray !important;
+                display: block !important;
+            }
+            /* Text container */
+            #why-arabic > div > div:last-child {
+                padding: 32px 24px !important;
+                background: transparent !important;
+            }
+            /* Heading: "Why Arabic?" — #043763, 40px, w600 */
+            #why-arabic span:first-child {
+                font-size: 40px !important;
+                font-weight: 600 !important;
+                color: #043763 !important;
+                line-height: 50px !important;
+            }
+            /* Heading: "Why Now?" — #488EFF, 40px, w600 */
+            #why-arabic span:last-child {
+                font-size: 40px !important;
+                font-weight: 600 !important;
+                color: #488EFF !important;
+                line-height: 50px !important;
+            }
+            /* Body paragraph */
+            #why-arabic p {
+                font-size: 20px !important;
+                font-weight: 400 !important;
+                color: #787878 !important;
+                line-height: 35px !important;
+                max-width: 100% !important;
+            }
         }
     </style>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
