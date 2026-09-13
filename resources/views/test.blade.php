@@ -164,7 +164,7 @@
                 background-color: #01213D !important;
                 background-image: url('{{ asset('public/images/Rectangle-122.png') }}') !important;
                 background-size: cover !important;
-                background-position: center -60px !important;
+                background-position: center -30px !important;
                 background-repeat: no-repeat !important;
                 position: relative !important;
                 overflow: hidden !important;
@@ -185,7 +185,7 @@
             #hero-subtext {
                 width: calc(100% - 48px) !important;
                 left: 24px !important;
-                top: 330px !important;
+                top: 270px !important;
                 font-size: 13px !important;
                 font-weight: 400 !important;
                 color: #B3B3B3 !important;
