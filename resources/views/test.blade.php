@@ -145,27 +145,26 @@
         /* ── Hero trust cards: desktop layout — 1/3 inside hero, 2/3 below ── */
         #hero-trust-cards {
             position: absolute;
-            bottom: -110px;
-            left: 50%;
-            transform: translateX(-50%);
+            bottom: -130px;
+            left: 40px;
+            right: 40px;
             display: flex;
             flex-direction: row;
-            gap: 28px;
+            gap: 24px;
             z-index: 10;
         }
         .trust-card {
-            flex: 0 0 160px;
-            width: 160px;
-            height: 160px;
+            flex: 1;
+            height: 220px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 8px;
-            padding: 16px;
+            gap: 10px;
+            padding: 20px;
             background: linear-gradient(180deg, #043763 7.69%, #01213D 100%);
             border: 1px solid rgba(0, 66, 124, 0.7);
-            border-radius: 14px;
+            border-radius: 16px;
         }
         .trust-title {
             color: #F2F4F6;
