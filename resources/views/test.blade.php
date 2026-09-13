@@ -159,7 +159,7 @@
                 aspect-ratio: unset !important;
                 width: 100% !important;
                 height: 1068px !important;
-                background: url('{{ asset('images/hero-digital-head.png') }}') lightgray -113.778px -0.444px / 139.173% 100.087% no-repeat !important;
+                background: url('{{ asset('images/Rectangle-122.png') }}') lightgray -113.778px -0.444px / 139.173% 100.087% no-repeat !important;
                 position: relative !important;
             }
 
@@ -342,7 +342,7 @@
     <!-- Navigation -->
     <nav style="position: fixed; top: 0; width: 100%; background: #FFFFFF; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); z-index: 50;">
         <div id="nav-inner" style="max-width: 1920px; margin: 0 auto; padding: 16px 40px; display: flex; align-items: center; justify-content: space-between;">
-            <img src="{{ asset('images/logo.png') }}" alt="Karama Data" style="height: 40px;">
+            <img src="{{ asset('images/Rectangle-119.png') }}" alt="Karama Data" style="height: 40px;">
             <div id="nav-desktop-links" style="display: flex; align-items: center; gap: 40px;">
                 <a href="#why-arabic" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Why Arabic</a>
                 <a href="#results" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Results</a>
@@ -352,18 +352,27 @@
                 <button style="padding: 10px 24px; background: #01213D; color: white; border: none; border-radius: 6px; font-size: 14px; font-family: Poppins; font-weight: 700; cursor: pointer; transition: background 0.3s;">Get in Touch</button>
             </div>
             <!-- Hamburger — mobile only -->
-            <button id="mobile-hamburger" style="display: none; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; padding: 4px;" aria-label="Open menu">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#01213D" stroke-width="2.2" stroke-linecap="round">
+            <button id="mobile-hamburger" onclick="toggleMobileMenu()" style="display: none; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; padding: 4px;" aria-label="Open menu">
+                <svg id="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#01213D" stroke-width="2.2" stroke-linecap="round">
                     <line x1="3" y1="6"  x2="21" y2="6"/>
                     <line x1="3" y1="12" x2="21" y2="12"/>
                     <line x1="3" y1="18" x2="21" y2="18"/>
                 </svg>
             </button>
         </div>
+        <!-- Mobile dropdown menu -->
+        <div id="mobile-menu-dropdown" style="display: none; background: #FFFFFF; border-top: 1px solid #E5E7EB; padding: 8px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <a href="#why-arabic" onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">Why Arabic</a>
+            <a href="#results"    onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">Results</a>
+            <a href="#services"   onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">Services</a>
+            <a href="#about"      onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">About</a>
+            <a href="#workforce"  onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">Our Workforce</a>
+            <a href="#contact"    onclick="closeMobileMenu()" style="display: block; margin: 12px 24px; padding: 12px; background: #01213D; color: white; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 700; border-radius: 8px; text-align: center;">Get in Touch</a>
+        </div>
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('images/hero-digital-head.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('images/Rectangle-122.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
             <div id="hero-subtext" style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
@@ -1232,6 +1241,15 @@
     </footer>
 
     <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu-dropdown');
+            const isOpen = menu.style.display !== 'none';
+            menu.style.display = isOpen ? 'none' : 'block';
+        }
+        function closeMobileMenu() {
+            document.getElementById('mobile-menu-dropdown').style.display = 'none';
+        }
+
         const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
