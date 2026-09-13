@@ -477,6 +477,43 @@
                 max-width: 100% !important;
             }
             /* ══════════════════════════════
+               Quality / Results — mobile
+               ══════════════════════════════ */
+            #results {
+                padding: 40px 20px !important;
+            }
+            /* "Quality We Can" — #043763 */
+            #results span[style*="color: #043763"] {
+                font-size: 40px !important;
+                font-weight: 700 !important;
+                color: #043763 !important;
+                line-height: 56px !important;
+                letter-spacing: -0.96px !important;
+                display: block !important;
+                text-align: center !important;
+            }
+            /* "Prove" — #488EFF */
+            #results span[style*="color: #488EFF"] {
+                font-size: 40px !important;
+                font-weight: 700 !important;
+                color: #488EFF !important;
+                line-height: 56px !important;
+                letter-spacing: -0.96px !important;
+                display: block !important;
+                text-align: center !important;
+            }
+            /* Description paragraph */
+            #results > div > div > p {
+                font-size: 20px !important;
+                font-weight: 400 !important;
+                color: #787878 !important;
+                line-height: 38px !important;
+                text-align: center !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            /* ══════════════════════════════
                Translation & MSA — mobile
                ══════════════════════════════ */
             #translation-section {
