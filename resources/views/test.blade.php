@@ -956,6 +956,98 @@
             }
 
             /* ══════════════════════════════
+               Workforce / Annotators — mobile
+               ══════════════════════════════ */
+            #workforce {
+                padding: 40px 16px !important;
+            }
+            /* Title */
+            #workforce > h2 {
+                font-size: 35px !important;
+                font-weight: 700 !important;
+                color: #003A6C !important;
+                line-height: normal !important;
+                white-space: normal !important;
+                margin: 0 0 32px 0 !important;
+            }
+            /* Image + paragraph container: stack */
+            #workforce > div:first-of-type {
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 24px 16px !important;
+                gap: 24px !important;
+                margin-bottom: 32px !important;
+            }
+            /* Image: rounded with gradient overlay via CSS */
+            #workforce img {
+                width: 100% !important;
+                height: 240px !important;
+                object-fit: cover !important;
+                border-radius: 10px !important;
+                display: block !important;
+            }
+            /* Image wrapper: position relative for pseudo-element overlay */
+            #workforce > div:first-of-type > div:first-child {
+                position: relative !important;
+            }
+            #workforce > div:first-of-type > div:first-child::after {
+                content: '' !important;
+                position: absolute !important;
+                inset: 0 !important;
+                border-radius: 10px !important;
+                background: linear-gradient(180deg, rgba(1,33,61,0.00) 24.52%, rgba(1,33,61,0.71) 100%) !important;
+                pointer-events: none !important;
+            }
+            /* Paragraph */
+            #workforce > div:first-of-type > div:last-child p {
+                font-size: 20px !important;
+                font-weight: 400 !important;
+                color: #969696 !important;
+                line-height: 30.18px !important;
+                letter-spacing: 0.6px !important;
+                margin: 0 !important;
+            }
+            /* Native / Trained / Invested cards: stack */
+            #workforce > div:last-of-type {
+                flex-direction: column !important;
+                gap: 0 !important;
+            }
+            #workforce > div:last-of-type > div {
+                border-right: none !important;
+                border-bottom: 1px solid #C4C4C4 !important;
+                padding: 24px 0 !important;
+            }
+            #workforce > div:last-of-type > div:last-child {
+                border-bottom: none !important;
+            }
+
+            /* Worker Privacy card */
+            #worker-privacy {
+                padding: 24px 16px !important;
+            }
+            #worker-privacy > div {
+                width: 100% !important;
+                height: auto !important;
+                border-radius: 15px !important;
+                border: 0.5px solid #3265A1 !important;
+                background: rgba(255,255,255,0.58) !important;
+                padding: 24px 20px !important;
+                flex-direction: column !important;
+                gap: 16px !important;
+                align-items: flex-start !important;
+            }
+            #worker-privacy h3 {
+                font-size: 20px !important;
+                font-weight: 600 !important;
+                color: #003A6C !important;
+            }
+            #worker-privacy p {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+                color: #787878 !important;
+            }
+
+            /* ══════════════════════════════
                Team Carousel — mobile
                ══════════════════════════════ */
             #team-section {
@@ -1740,7 +1832,7 @@
     </section>
 
     <!-- Worker Privacy Section -->
-    <section style="width: 100%; padding: 80px 170px; background: #F5F5F5;">
+    <section id="worker-privacy" style="width: 100%; padding: 80px 170px; background: #F5F5F5;">
         <div style="width: 1576px; height: 132px; border-radius: 15px; border: 0.5px solid #3265A1; background: rgba(255, 255, 255, 0.58); display: flex; align-items: center; gap: 30px; padding: 30px;">
             <div style="flex-shrink: 0;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
