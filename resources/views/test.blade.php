@@ -195,7 +195,7 @@
             /* ── Button 1: Start Your Project ── */
             #hero-btn-primary {
                 left: 24px !important;
-                top: 510px !important;
+                top: 580px !important;
                 width: calc(100% - 48px) !important;
                 justify-content: center !important;
                 padding: 16px 30px !important;
@@ -205,7 +205,7 @@
             /* ── Button 2: See Our Results — transparent bg, border only ── */
             #hero-btn-secondary {
                 left: 24px !important;
-                top: 582px !important;
+                top: 652px !important;
                 width: calc(100% - 48px) !important;
                 justify-content: center !important;
                 padding: 16px 30px !important;
@@ -219,7 +219,7 @@
                 position: absolute !important;
                 left: 50% !important;
                 transform: translateX(-50%) !important;
-                top: 658px !important;
+                top: 740px !important;
                 width: 203px !important;
                 height: 6px !important;
                 border-radius: 9px !important;
@@ -231,7 +231,7 @@
                 position: absolute !important;
                 left: 24px !important;
                 right: 24px !important;
-                top: 680px !important;
+                top: 762px !important;
                 display: grid !important;
                 grid-template-columns: 1fr 1fr !important;
                 gap: 10px !important;
