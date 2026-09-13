@@ -161,48 +161,70 @@
                 aspect-ratio: unset !important;
                 width: 100% !important;
                 height: 1068px !important;
-                background: url('{{ asset('public/images/Rectangle-122.png') }}') lightgray -113.778px -0.444px / 139.173% 100.087% no-repeat !important;
+                background: #01213D !important;
                 position: relative !important;
+                overflow: hidden !important;
+            }
+            /* Background image as its own layer so it sits behind content */
+            #hero-section > div:first-child {
+                position: absolute !important;
+                inset: 0 !important;
+                z-index: 0 !important;
+                background-image: url('{{ asset('public/images/Rectangle-122.png') }}') !important;
+                background-size: cover !important;
+                background-position: center top !important;
+                background-repeat: no-repeat !important;
+                opacity: 0.85 !important;
+            }
+            /* Content layer stays above */
+            #hero-section > div:last-child {
+                position: absolute !important;
+                inset: 0 !important;
+                z-index: 1 !important;
             }
 
             /* ── Headline: Poppins 40px #EFEFEF w700 ── */
             #hero-headline {
-                width: 387px !important;
+                width: calc(100% - 48px) !important;
                 left: 24px !important;
-                top: 120px !important;
+                top: 80px !important;
                 font-size: 40px !important;
                 font-weight: 700 !important;
                 color: #EFEFEF !important;
-                line-height: normal !important;
+                line-height: 1.2 !important;
             }
 
             /* ── Subtext: Poppins 13px #B3B3B3 w400 ── */
             #hero-subtext {
-                width: 343px !important;
+                width: calc(100% - 48px) !important;
                 left: 24px !important;
-                top: 430px !important;
+                top: 400px !important;
                 font-size: 13px !important;
                 font-weight: 400 !important;
                 color: #B3B3B3 !important;
-                line-height: normal !important;
+                line-height: 1.6 !important;
             }
 
             /* ── Button 1: Start Your Project ── */
             #hero-btn-primary {
                 left: 24px !important;
-                top: 530px !important;
+                top: 510px !important;
                 width: calc(100% - 48px) !important;
                 justify-content: center !important;
-                padding: 15px 30px !important;
+                padding: 16px 30px !important;
+                background: #EFEFEF !important;
             }
 
-            /* ── Button 2: See Our Results ── */
+            /* ── Button 2: See Our Results — transparent bg ── */
             #hero-btn-secondary {
                 left: 24px !important;
-                top: 600px !important;
+                top: 582px !important;
                 width: calc(100% - 48px) !important;
                 justify-content: center !important;
-                padding: 15px 30px !important;
+                padding: 16px 30px !important;
+                background: transparent !important;
+                border: 1px solid #C4C4C4 !important;
+                outline: none !important;
             }
 
             /* ── Divider line above trust cards ── */
@@ -210,7 +232,7 @@
                 position: absolute !important;
                 left: 50% !important;
                 transform: translateX(-50%) !important;
-                top: 668px !important;
+                top: 658px !important;
                 width: 203px !important;
                 height: 6px !important;
                 border-radius: 9px !important;
@@ -222,7 +244,7 @@
                 position: absolute !important;
                 left: 24px !important;
                 right: 24px !important;
-                top: 690px !important;
+                top: 680px !important;
                 display: grid !important;
                 grid-template-columns: 1fr 1fr !important;
                 gap: 10px !important;
@@ -374,7 +396,7 @@
             </button>
         </div>
         <!-- Mobile dropdown menu -->
-        <div id="mobile-menu-dropdown" style="display: none; background: #FFFFFF; border-top: 1px solid #E5E7EB; padding: 8px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <div id="mobile-menu-dropdown" style="display: none; background: #FFFFFF; border-top: 1px solid #E5E7EB; padding: 8px 0; box-shadow: 0 8px 24px rgba(0,0,0,0.15); position: relative; z-index: 999;">
             <a href="#why-arabic" onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">Why Arabic</a>
             <a href="#results"    onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">Results</a>
             <a href="#services"   onclick="closeMobileMenu()" style="display: block; padding: 14px 24px; color: #01213D; text-decoration: none; font-size: 15px; font-family: Poppins; font-weight: 500; border-bottom: 1px solid #F3F4F6;">Services</a>
@@ -385,14 +407,17 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-122.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
-        <div style="width: 100%; height: 100%; position: relative;">
-            <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
+    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320; overflow: hidden;">
+        <!-- Background image layer -->
+        <div style="position: absolute; inset: 0; z-index: 0; background-image: url('{{ asset('public/images/Rectangle-122.png') }}'); background-size: cover; background-position: center center; background-repeat: no-repeat; opacity: 0.85;"></div>
+        <!-- Content layer -->
+        <div style="width: 100%; height: 100%; position: relative; z-index: 1;">
+            <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
             <div id="hero-subtext" style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
             <div id="hero-btn-primary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 15%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
-            <div id="hero-btn-secondary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 33%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+            <div id="hero-btn-secondary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 33%; top: 65.2%; position: absolute; background: transparent; border-radius: 9px; border: 1px solid #C4C4C4; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
             <!-- Divider line (mobile only) -->
