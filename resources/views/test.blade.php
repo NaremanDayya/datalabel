@@ -1071,9 +1071,44 @@
                 color: #003A6C !important;
                 line-height: 56px !important;
             }
-            /* Hide testimonial quote on mobile (no space) */
+            /* Testimonial quote box */
             #contact-section > div > div:first-child > div:nth-child(3) {
-                display: none !important;
+                display: flex !important;
+                border-radius: 15px !important;
+                border: 1px solid #C2C1C1 !important;
+                background: rgba(250,250,250,0.70) !important;
+                padding: 20px 16px !important;
+                border-left: 1px solid #C2C1C1 !important;
+                min-height: unset !important;
+                gap: 16px !important;
+            }
+            /* Quote text */
+            #contact-section > div > div:first-child > div:nth-child(3) > p {
+                font-size: 16px !important;
+                font-weight: 600 !important;
+                color: #003A6C !important;
+                line-height: 125% !important;
+                letter-spacing: 0.48px !important;
+                width: 100% !important;
+                margin: 0 0 16px 0 !important;
+            }
+            /* Author name */
+            #contact-section > div > div:first-child > div:nth-child(3) p[style*="font-weight: 800"] {
+                font-size: 16px !important;
+                font-weight: 800 !important;
+                color: #3265A1 !important;
+                line-height: 150.9% !important;
+                letter-spacing: 0.48px !important;
+                margin: 0 !important;
+            }
+            /* Author role */
+            #contact-section > div > div:first-child > div:nth-child(3) p[style*="font-weight: 400"][style*="font-size: 14px"] {
+                font-size: 12px !important;
+                font-weight: 400 !important;
+                color: #3265A1 !important;
+                line-height: 150.9% !important;
+                letter-spacing: 0.36px !important;
+                margin: 0 !important;
             }
             /* Form: Name+Company side by side → stacked */
             #contact-section form > div:first-child {
