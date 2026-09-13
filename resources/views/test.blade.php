@@ -57,12 +57,14 @@
         @media (max-width: 768px) {
             /* Navigation */
             nav {
-                position: static !important;
+                position: fixed !important;
             }
-            nav div {
-                padding: 12px 20px !important;
-                flex-direction: column !important;
-                gap: 8px !important;
+            /* Keep nav inner row — only collapse desktop link list */
+            #nav-inner {
+                flex-direction: row !important;
+                padding: 0 20px !important;
+                height: 56px !important;
+                gap: 0 !important;
             }
             nav a {
                 font-size: 12px !important;
@@ -159,7 +161,7 @@
                 aspect-ratio: unset !important;
                 width: 100% !important;
                 height: 1068px !important;
-                background: url('{{ asset('images/Rectangle-122.png') }}') lightgray -113.778px -0.444px / 139.173% 100.087% no-repeat !important;
+                background: url('{{ asset('public/images/Rectangle-122.png') }}') lightgray -113.778px -0.444px / 139.173% 100.087% no-repeat !important;
                 position: relative !important;
             }
 
@@ -342,7 +344,7 @@
     <!-- Navigation -->
     <nav style="position: fixed; top: 0; width: 100%; background: #FFFFFF; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); z-index: 50;">
         <div id="nav-inner" style="max-width: 1920px; margin: 0 auto; padding: 16px 40px; display: flex; align-items: center; justify-content: space-between;">
-            <img src="{{ asset('images/Rectangle-119.png') }}" alt="Karama Data" style="height: 40px;">
+            <img src="{{ asset('public/images/Rectangle-119.png') }}" alt="Karama Data" style="height: 40px;">
             <div id="nav-desktop-links" style="display: flex; align-items: center; gap: 40px;">
                 <a href="#why-arabic" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Why Arabic</a>
                 <a href="#results" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Results</a>
@@ -372,7 +374,7 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('images/Rectangle-122.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-122.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
             <div id="hero-subtext" style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
