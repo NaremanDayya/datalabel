@@ -356,6 +356,50 @@
             }
 
             /* ══════════════════════════════
+               Stats section — mobile
+               ══════════════════════════════ */
+            #stats-section {
+                padding: 24px 16px !important;
+                background: #01213D !important;
+            }
+            /* Card container: stack vertically */
+            #stats-section > div {
+                display: flex !important;
+                flex-direction: column !important;
+                grid-template-columns: unset !important;
+                gap: 24px !important;
+                padding: 32px 24px !important;
+                border-radius: 16px !important;
+            }
+            /* Hide the vertical divider line */
+            #stats-section div[style*="width: 1px"] {
+                display: none !important;
+            }
+            /* Stat number: 400M+, <1% */
+            #stats-section div[style*="font-size: 70px"] {
+                font-size: 36px !important;
+                font-weight: 600 !important;
+                color: #488EFF !important;
+                margin-bottom: 8px !important;
+            }
+            /* Stat label: Arabic speakers worldwide */
+            #stats-section div[style*="font-size: 25px"][style*="font-weight: 700"] {
+                font-size: 20px !important;
+                font-weight: 700 !important;
+                color: #FFFFFF !important;
+                margin-bottom: 8px !important;
+            }
+            /* Stat description paragraph */
+            #stats-section p {
+                font-size: 16px !important;
+                font-weight: 400 !important;
+                color: #E0E3E5 !important;
+                line-height: normal !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            /* ══════════════════════════════
                Why Arabic section — mobile
                ══════════════════════════════ */
             #why-arabic {
@@ -537,7 +581,7 @@
     </section>
 
     <!-- Stats Section -->
-    <section style="background: #F5F5F5; padding: 80px 170px;">
+    <section id="stats-section" style="background: #F5F5F5; padding: 80px 170px;">
         <div style="background: linear-gradient(270deg, #01213D 0%, #003A6C 100%); border-radius: 20px; padding: 60px; display: grid; grid-template-columns: 1fr auto 1fr; gap: 60px; align-items: center; position: relative;">
             <div>
                 <div style="color: #488EFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: normal; margin-bottom: 20px; text-shadow: 0 0 30px rgba(72, 142, 255, 0.5);">400M+</div>
