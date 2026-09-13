@@ -490,48 +490,83 @@
                 border-radius: 20px !important;
                 width: 100% !important;
             }
-            /* Card title e.g. "Preference Ranking" */
+            /* Header row: title + badge */
+            #results div[style*="justify-content: space-between"][style*="margin-bottom: 20px"] {
+                display: flex !important;
+                align-items: flex-start !important;
+                gap: 8px !important;
+            }
+            /* Card title */
             #results h3[style*="font-size: 28px"] {
                 font-size: 28px !important;
                 font-weight: 600 !important;
                 color: #01213D !important;
                 line-height: 40px !important;
+                flex: 1 !important;
+                margin: 0 !important;
             }
-            /* Item count e.g. "667 items · RLHF / Model Alignment" */
+            /* "Above Benchmark" badge — compact, no wrap */
+            #results div[style*="border-radius: 20px"][style*="border: 1px solid #00B660"] {
+                white-space: nowrap !important;
+                padding: 4px 8px !important;
+                flex-shrink: 0 !important;
+                align-self: flex-start !important;
+                margin-top: 6px !important;
+            }
+            #results div[style*="border-radius: 20px"][style*="border: 1px solid #00B660"] span {
+                font-size: 11px !important;
+                font-weight: 600 !important;
+            }
+            /* Item count */
             #results p[style*="font-size: 14px"][style*="font-weight: 400"] {
                 font-size: 15px !important;
                 font-weight: 600 !important;
                 color: #787878 !important;
                 line-height: 22px !important;
+                margin-bottom: 16px !important;
             }
-            /* Metric label e.g. "Avg accuracy", "Cohen's Kappa" */
-            #results span[style*="font-size: 22px"][style*="font-weight: 600"],
+            /* Avg accuracy row — label left, value right */
+            #results div[style*="justify-content: space-between"][style*="margin-bottom: 8px"] {
+                display: flex !important;
+                justify-content: space-between !important;
+                align-items: center !important;
+            }
+            #results div[style*="justify-content: space-between"][style*="margin-bottom: 8px"] span {
+                font-size: 17px !important;
+                font-weight: 600 !important;
+                line-height: 40px !important;
+            }
+            /* Cohen's Kappa label */
             #results p[style*="font-size: 22px"][style*="font-weight: 600"] {
                 font-size: 17px !important;
                 font-weight: 600 !important;
                 color: #01213D !important;
                 line-height: 40px !important;
+                display: inline !important;
+                margin: 0 !important;
             }
-            /* Metric value e.g. "88.6%", "0.623" */
-            #results span[style*="font-size: 22px"][style*="font-weight: 600"]:last-child,
-            #results span[style*="font-size: 35px"] {
+            /* 0.623 value — float right to sit beside Cohen's Kappa label */
+            #results div[style*="justify-content: space-between"][style*="align-items: center"][style*="margin-bottom: 8px"] span[style*="font-size: 35px"],
+            #results div[style*="align-items: center"] > span[style*="font-size: 35px"] {
                 font-size: 17px !important;
                 font-weight: 900 !important;
                 line-height: 40px !important;
             }
-            /* Benchmark text e.g. "Benchmark: 83–87%" */
+            /* Benchmark text */
             #results p[style*="font-size: 15px"][style*="font-weight: 500"] {
                 font-size: 14px !important;
                 font-weight: 500 !important;
                 color: #787878 !important;
-                line-height: 40px !important;
+                line-height: normal !important;
+                margin: 4px 0 16px 0 !important;
             }
             /* "Best labeler" green note */
             #results p[style*="color: #00A651"] {
                 font-size: 14px !important;
                 font-weight: 800 !important;
                 color: #008026 !important;
-                line-height: 40px !important;
+                line-height: normal !important;
+                margin: 0 !important;
             }
 
             /* ══════════════════════════════
