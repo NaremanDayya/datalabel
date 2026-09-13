@@ -136,64 +136,113 @@
                 display: none !important;
             }
         }
+        /* ── Mobile hero nav ── */
+        #mobile-hamburger { display: none; }
+        #nav-desktop-links { display: flex; }
+
         /* Mobile Responsive (480px and below) */
         @media (max-width: 480px) {
-            * {
-                box-sizing: border-box !important;
+            * { box-sizing: border-box !important; }
+
+            /* ── Nav: logo left, hamburger right ── */
+            #nav-inner {
+                padding: 0 20px !important;
+                height: 56px !important;
             }
-            /* Hide nav menu items, show compact version */
-            nav {
-                padding: 12px 15px !important;
+            #nav-desktop-links { display: none !important; }
+            #mobile-hamburger { display: flex !important; }
+
+            /* ── Hero container: Figma spec 443×1068, full-bleed ── */
+            #hero-section {
+                margin-top: 56px !important;
+                margin-bottom: 0 !important;
+                aspect-ratio: unset !important;
+                width: 100% !important;
+                height: 1068px !important;
+                background: url('{{ asset('images/hero-digital-head.png') }}') lightgray -113.778px -0.444px / 139.173% 100.087% no-repeat !important;
+                position: relative !important;
             }
-            nav div {
-                flex-direction: column !important;
-                gap: 6px !important;
+
+            /* ── Headline: Poppins 40px #EFEFEF w700 ── */
+            #hero-headline {
+                width: 387px !important;
+                left: 24px !important;
+                top: 120px !important;
+                font-size: 40px !important;
+                font-weight: 700 !important;
+                color: #EFEFEF !important;
+                line-height: normal !important;
             }
-            nav a {
-                font-size: 10px !important;
-                display: none !important;
-            }
-            nav button {
-                font-size: 12px !important;
-                padding: 8px 16px !important;
-            }
-            /* Hero Section - adjust hero container */
-            div[style*="width: 100%; position: relative; background: #01213D"] {
-                margin-top: 50px !important;
-                margin-bottom: 20px !important;
-                aspect-ratio: auto !important;
-                min-height: 500px !important;
-                background-image: none !important;
-            }
-            /* Hero title - smaller font, full width */
-            div[style*="width: 632px"][style*="left: 15%; top: 15%"] {
-                font-size: 24px !important;
-                width: 85% !important;
-                left: 5% !important;
-                top: 12% !important;
-                line-height: 1.2 !important;
-            }
-            /* Hero description */
-            div[style*="width: 590px"][style*="left: 15%; top: 56%"] {
+
+            /* ── Subtext: Poppins 13px #B3B3B3 w400 ── */
+            #hero-subtext {
+                width: 343px !important;
+                left: 24px !important;
+                top: 430px !important;
                 font-size: 13px !important;
-                width: 85% !important;
-                left: 5% !important;
-                top: 40% !important;
+                font-weight: 400 !important;
+                color: #B3B3B3 !important;
+                line-height: normal !important;
             }
-            /* Hero buttons - stack vertically */
-            div[style*="padding-left: 30px; padding-right: 30px; padding-top: 15px"][style*="left: 15%; top: 65.2%"],
-            div[style*="padding-left: 30px; padding-right: 30px; padding-top: 15px"][style*="left: 33%; top: 65.2%"] {
-                width: 80% !important;
-                left: 10% !important;
-                top: 55% !important;
-                padding: 10px 15px !important;
+
+            /* ── Button 1: Start Your Project ── */
+            #hero-btn-primary {
+                left: 24px !important;
+                top: 530px !important;
+                width: calc(100% - 48px) !important;
+                justify-content: center !important;
+                padding: 15px 30px !important;
+            }
+
+            /* ── Button 2: See Our Results ── */
+            #hero-btn-secondary {
+                left: 24px !important;
+                top: 600px !important;
+                width: calc(100% - 48px) !important;
+                justify-content: center !important;
+                padding: 15px 30px !important;
+            }
+
+            /* ── Trust cards: 2×2 grid at bottom ── */
+            #hero-trust-cards {
+                position: absolute !important;
+                left: 24px !important;
+                right: 24px !important;
+                top: 700px !important;
+                display: grid !important;
+                grid-template-columns: 1fr 1fr !important;
+                gap: 12px !important;
+                width: calc(100% - 48px) !important;
+            }
+            #hero-trust-cards > div {
+                position: static !important;
+                width: 100% !important;
+                height: 120px !important;
+                border-radius: 16px !important;
+            }
+            #hero-trust-cards > div > div:first-child {
+                border-radius: 16px !important;
+            }
+            /* Icon inside trust card */
+            #hero-trust-cards > div .trust-icon {
+                width: 30px !important;
+                height: 30px !important;
+                top: 8% !important;
+                left: 50% !important;
+            }
+            #hero-trust-cards > div .trust-icon svg {
+                width: 28px !important;
+                height: 28px !important;
+            }
+            /* Trust card title */
+            #hero-trust-cards > div .trust-title {
                 font-size: 12px !important;
-                display: block !important;
-                margin-bottom: 10px !important;
+                top: 38% !important;
             }
-            /* Hero cards - hide or make smaller */
-            div[data-property-1="Group 113"] {
-                display: none !important;
+            /* Trust card subtitle */
+            #hero-trust-cards > div .trust-subtitle {
+                font-size: 9px !important;
+                top: 65% !important;
             }
             /* All sections padding */
             section {
@@ -292,9 +341,9 @@
 <body class="bg-white text-gray-900">
     <!-- Navigation -->
     <nav style="position: fixed; top: 0; width: 100%; background: #FFFFFF; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); z-index: 50;">
-        <div style="max-width: 1920px; margin: 0 auto; padding: 16px 40px; display: flex; align-items: center; justify-content: space-between;">
-            <img src="{{ asset('public/images/logo.png') }}" alt="Karama Data" style="height: 40px;">
-            <div style="display: flex; align-items: center; gap: 40px;">
+        <div id="nav-inner" style="max-width: 1920px; margin: 0 auto; padding: 16px 40px; display: flex; align-items: center; justify-content: space-between;">
+            <img src="{{ asset('images/logo.png') }}" alt="Karama Data" style="height: 40px;">
+            <div id="nav-desktop-links" style="display: flex; align-items: center; gap: 40px;">
                 <a href="#why-arabic" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Why Arabic</a>
                 <a href="#results" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Results</a>
                 <a href="#services" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Services</a>
@@ -302,26 +351,35 @@
                 <a href="#workforce" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Our Workforce</a>
                 <button style="padding: 10px 24px; background: #01213D; color: white; border: none; border-radius: 6px; font-size: 14px; font-family: Poppins; font-weight: 700; cursor: pointer; transition: background 0.3s;">Get in Touch</button>
             </div>
+            <!-- Hamburger — mobile only -->
+            <button id="mobile-hamburger" style="display: none; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; padding: 4px;" aria-label="Open menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#01213D" stroke-width="2.2" stroke-linecap="round">
+                    <line x1="3" y1="6"  x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-76.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('images/hero-digital-head.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
         <div style="width: 100%; height: 100%; position: relative;">
-            <div style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
-            <div style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
-            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 15%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+            <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
+            <div id="hero-subtext" style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
+            <div id="hero-btn-primary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 15%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
-            <div style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 33%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+            <div id="hero-btn-secondary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 33%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
+            <!-- Trust cards wrapper (mobile: 2×2 grid) -->
+            <div id="hero-trust-cards">
             <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 15%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
-                <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">AI & Cybersecurity</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Founded by - AI and Cybersecurity Experts</div>
-                <!-- Icon: Shield -->
-                <div style="width: 45px; height: 45px; left: 50%; top: 9.5%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
+                <div class="trust-title" style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">AI & Cybersecurity</div>
+                <div class="trust-subtitle" style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Founded by - AI and Cybersecurity Experts</div>
+                <div class="trust-icon" style="width: 45px; height: 45px; left: 50%; top: 9.5%; position: absolute; transform: translateX(-50%); display: flex; align-items: center; justify-content: center;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
                       <path d="M37.5 8.36875L37.4813 9.8875L37.485 18.0831L37.4944 20.32C37.5431 29.9538 32.3137 35.8619 28.0256 39.0812L27.0563 39.775L25.7006 40.6469L24.8869 41.1156L24.1706 41.5019L23.0794 42.025L22.5413 42.25L21.9769 42.0138L21.4725 41.7812L20.8388 41.4663L19.8862 40.9506L18.795 40.2944L17.8425 39.6644C13.5919 36.7281 7.93687 31.0731 7.52437 21.6325V21.625H11.3194C11.8387 28.3862 15.3412 33.4938 20.6906 37.2794L21.75 37.9956L22.5525 38.5L22.7531 38.38L24.0131 37.5363C29.7863 33.4806 33.3544 28.1688 33.7181 20.98L33.75 19.6075L33.7331 16.4181L33.7275 11.0275L22.5638 8.5L18.75 9.3625V5.66688L22.5394 4.75L37.5 8.36875ZM12.1125 9.53125L16.875 11.3125L12.1125 13.0938L10.3125 17.875L8.53125 13.0938L3.75 11.3125L8.53125 9.53125L10.3125 4.75L12.1125 9.53125Z" fill="#548ED3"/>
                     </svg>
@@ -335,8 +393,8 @@
                       <path d="M37.5469 35.1958C37.5557 35.1826 37.5688 35.1694 37.5776 35.1562C40.4561 31.7329 42.1875 27.3208 42.1875 22.5C42.1875 17.6792 40.4561 13.2671 37.582 9.84375C37.5732 9.83057 37.5601 9.82178 37.5513 9.80859C37.5029 9.75146 37.459 9.69873 37.4106 9.646C37.3931 9.62402 37.3755 9.60645 37.3579 9.58447L37.1777 9.37793L37.1733 9.37354C37.1074 9.29883 37.0371 9.22412 36.9712 9.14941L36.9668 9.14502C36.8262 8.99561 36.6855 8.84619 36.5405 8.70117L36.5361 8.69678L36.3252 8.48584L36.312 8.47266C36.2461 8.40674 36.1802 8.34521 36.1143 8.28369C36.0923 8.26172 36.0703 8.23975 36.0439 8.21777C36 8.17383 35.9561 8.13428 35.9121 8.09473C35.8989 8.08154 35.8813 8.06836 35.8682 8.05078C32.3613 4.79883 27.6636 2.8125 22.5 2.8125C17.3364 2.8125 12.6387 4.79883 9.12744 8.05078C9.11426 8.06396 9.09668 8.07715 9.0835 8.09473C9.03955 8.13428 8.99561 8.17822 8.95166 8.22217C8.92969 8.24414 8.90772 8.26611 8.88135 8.28809C8.81543 8.34961 8.74951 8.41553 8.68359 8.47705L8.67041 8.49023L8.45947 8.70117L8.45508 8.70557C8.31006 8.85059 8.16943 9 8.02881 9.14941L8.02441 9.15381C7.9541 9.22852 7.88818 9.30322 7.82227 9.37793L7.81787 9.38232C7.75635 9.44824 7.69482 9.51855 7.6377 9.58887C7.62012 9.61084 7.60254 9.62842 7.58496 9.65039C7.53662 9.70313 7.49268 9.76025 7.44434 9.81299C7.43555 9.82617 7.42236 9.83496 7.41357 9.84815C4.54395 13.2671 2.8125 17.6792 2.8125 22.5C2.8125 27.3208 4.54395 31.7329 7.41797 35.1562C7.42676 35.1694 7.43994 35.1826 7.44873 35.1958L7.58496 35.3584C7.60254 35.3804 7.62012 35.3979 7.6377 35.4199L7.81787 35.6265C7.81787 35.6309 7.82227 35.6309 7.82227 35.6353C7.88818 35.71 7.9541 35.7847 8.02441 35.855L8.02881 35.8594C8.16943 36.0088 8.31006 36.1582 8.45068 36.3032L8.45508 36.3076C8.52539 36.3779 8.59131 36.4482 8.66162 36.5142L8.6748 36.5273C8.81982 36.6724 8.96924 36.813 9.11865 36.9492C12.6387 40.2012 17.3364 42.1875 22.5 42.1875C27.6636 42.1875 32.3613 40.2012 35.8726 36.9492C36.0223 36.812 36.1688 36.6713 36.312 36.5273L36.3252 36.5142C36.3955 36.4438 36.4658 36.3779 36.5317 36.3076L36.5361 36.3032C36.6812 36.1582 36.8218 36.0088 36.958 35.8594L36.9624 35.855C37.0283 35.7803 37.0986 35.71 37.1646 35.6353C37.1646 35.6309 37.1689 35.6309 37.1689 35.6265C37.2305 35.5605 37.292 35.4902 37.3491 35.4199C37.3667 35.3979 37.3843 35.3804 37.4019 35.3584C37.4515 35.3054 37.4999 35.2512 37.5469 35.1958ZM37.7271 28.9292C37.1206 30.3618 36.3208 31.689 35.3452 32.8931C34.2465 31.9435 33.0452 31.1195 31.7637 30.4365C32.2734 28.3755 32.5898 26.1123 32.6733 23.7305H38.9795C38.8477 25.5278 38.4258 27.2725 37.7271 28.9292ZM38.9795 21.2695H32.6733C32.5898 18.8877 32.2734 16.6245 31.7637 14.5635C33.0513 13.8779 34.251 13.0518 35.3452 12.1069C37.4659 14.7172 38.7344 17.9153 38.9795 21.2695ZM28.9292 7.27295C30.6738 8.01123 32.2603 9.03076 33.6577 10.314C32.8459 11.0052 31.9721 11.6201 31.0474 12.1509C30.3574 10.1733 29.4741 8.45508 28.4458 7.07959C28.6084 7.14111 28.771 7.20703 28.9292 7.27295ZM24.9478 38.061C24.5435 38.3774 24.1392 38.6191 23.7305 38.7817V30.6299C25.4742 30.7515 27.1889 31.1398 28.8149 31.7812C28.4502 32.8623 28.0283 33.8599 27.5405 34.7607C26.7759 36.1846 25.8794 37.3228 24.9478 38.061ZM27.5405 10.2393C28.0239 11.1445 28.4502 12.1421 28.8149 13.2187C27.1889 13.8602 25.4742 14.2485 23.7305 14.3701V6.22266C24.1348 6.38525 24.5435 6.62256 24.9478 6.94336C25.8794 7.67725 26.7759 8.81543 27.5405 10.2393ZM23.7305 28.1646V23.7305H30.2124C30.1421 25.6729 29.9004 27.5581 29.4961 29.3467L29.4829 29.3994C27.6387 28.7001 25.6993 28.2837 23.7305 28.1646ZM23.7305 21.2695V16.8354C25.7432 16.7124 27.6768 16.2861 29.4829 15.6006L29.4961 15.6533C29.9004 17.4419 30.1421 19.3228 30.2124 21.2695H23.7305ZM21.2695 23.7305V28.1646C19.2568 28.2876 17.3232 28.7139 15.5171 29.3994L15.5039 29.3467C15.0996 27.5581 14.8579 25.6772 14.7876 23.7305H21.2695ZM14.7876 21.2695C14.8579 19.3271 15.0996 17.4419 15.5039 15.6533L15.5171 15.6006C17.3232 16.2861 19.2524 16.7124 21.2695 16.8354V21.2695H14.7876ZM21.2695 30.6299V38.7773C20.8652 38.6147 20.4565 38.3774 20.0522 38.0566C19.1206 37.3228 18.2197 36.1802 17.4551 34.7563C16.9717 33.8511 16.5454 32.8535 16.1807 31.7769C17.8154 31.1353 19.5161 30.7529 21.2695 30.6299ZM21.2695 14.3701C19.5258 14.2485 17.8111 13.8602 16.1851 13.2187C16.5498 12.1377 16.9717 11.1401 17.4595 10.2393C18.2241 8.81543 19.1206 7.67285 20.0566 6.93896C20.4609 6.62256 20.8652 6.38086 21.2739 6.21826V14.3701H21.2695ZM16.0708 7.27295C16.2334 7.20703 16.3916 7.14111 16.5542 7.07959C15.5259 8.45508 14.6426 10.1733 13.9526 12.1509C13.0298 11.6235 12.1553 11.0083 11.3423 10.314C12.7397 9.03076 14.3262 8.01123 16.0708 7.27295ZM7.27295 16.0708C7.87939 14.6382 8.6792 13.311 9.65479 12.1069C10.749 13.0518 11.9487 13.8779 13.2363 14.5635C12.7266 16.6245 12.4102 18.8877 12.3267 21.2695H6.02051C6.15234 19.4722 6.57422 17.7275 7.27295 16.0708ZM6.02051 23.7305H12.3267C12.4102 26.1123 12.7266 28.3755 13.2363 30.4365C11.9548 31.1195 10.7535 31.9435 9.65479 32.8931C7.53411 30.2828 6.26558 27.0847 6.02051 23.7305ZM16.0708 37.7271C14.3262 36.9888 12.7397 35.9692 11.3423 34.686C12.1553 33.9917 13.0298 33.3809 13.9526 32.8491C14.6426 34.8267 15.5259 36.5449 16.5542 37.9204C16.3916 37.8589 16.229 37.793 16.0708 37.7271ZM28.9292 37.7271C28.7666 37.793 28.6084 37.8589 28.4458 37.9204C29.4741 36.5449 30.3574 34.8267 31.0474 32.8491C31.9702 33.3765 32.8447 33.9917 33.6577 34.686C32.268 35.9639 30.6684 36.9926 28.9292 37.7271Z" fill="#548ED3"/>
                     </svg>
                 </div>
-                <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">5+ Dialects</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Arabic Dialect Variants</div>
+                <div class="trust-title" style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">5+ Dialects</div>
+                <div class="trust-subtitle" style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Arabic Dialect Variants</div>
             </div>
             <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 51%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
@@ -348,8 +406,8 @@
                       <path d="M22.5 4.74365L41.25 14.1187L22.5 23.4936L3.75 14.1187L22.5 4.74365Z" fill="#548ED3"/>
                     </svg>
                 </div>
-                <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">Multi-layer</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Full QA Review Process</div>
+                <div class="trust-title" style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">Multi-layer</div>
+                <div class="trust-subtitle" style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Full QA Review Process</div>
             </div>
             <div data-property-1="Group 113" style="width: 16%; height: 16%; left: 69%; top: 94%; position: absolute">
                 <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #043763 8%, #01213D 100%); border-radius: 20px;"></div>
@@ -359,10 +417,10 @@
                       <path d="M22.5 30V39.375M30 27.4481V39.375M37.5 19.98V39.375M41.25 5.625L25.0388 21.8362C24.9517 21.9236 24.8482 21.9928 24.7343 22.0401C24.6204 22.0873 24.4983 22.1117 24.375 22.1117C24.2517 22.1117 24.1296 22.0873 24.0157 22.0401C23.9018 21.9928 23.7983 21.9236 23.7112 21.8362L17.5388 15.6638C17.3629 15.488 17.1245 15.3893 16.8759 15.3893C16.6273 15.3893 16.3889 15.488 16.2131 15.6638L3.75 28.125M7.5 34.6181V39.375M15 27.48V39.375" stroke="#548ED3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                <div style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">RLHF Agreement</div>
-                <div style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Kappa .62</div>
+                <div class="trust-title" style="width: 90%; height: 25%; left: 5%; top: 35%; position: absolute; text-align: center; color: #F2F4F6; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 1.3; word-wrap: break-word">RLHF Agreement</div>
+                <div class="trust-subtitle" style="width: 90%; left: 5%; top: 62%; position: absolute; text-align: center; color: #548ED3; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 1.4; word-wrap: break-word">Kappa .62</div>
             </div>
-            </div>
+            </div>{{-- /hero-trust-cards --}}
         </div>
     </div>
 
