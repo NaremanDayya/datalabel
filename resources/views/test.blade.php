@@ -560,18 +560,6 @@
                 line-height: normal !important;
                 margin: 4px 0 16px 0 !important;
             }
-            /* "Best labeler" note — all three cards */
-            .best-labeler-note {
-                font-size: 14px !important;
-                font-weight: 800 !important;
-                line-height: 40px !important;
-                margin: 0 !important;
-            }
-            /* Keep each card's own color */
-            .best-labeler-note[style*="color: #00A651"] { color: #008026 !important; }
-            .best-labeler-note[style*="color: #7C5BA3"] { color: #8B5CF6 !important; }
-            .best-labeler-note[style*="color: #B45309"]  { color: #F59E0B !important; font-size: 15px !important; }
-
             /* ══════════════════════════════
                Quality / Results — mobile
                ══════════════════════════════ */
@@ -689,6 +677,17 @@
                 line-height: normal !important;
                 margin: 0 !important;
             }
+
+            /* "Best labeler" notes — after Results rules so specificity order wins */
+            #results p.best-labeler-note {
+                font-size: 14px !important;
+                font-weight: 800 !important;
+                line-height: 40px !important;
+                margin: 0 !important;
+            }
+            #results p.best-labeler-note[style*="color: #00A651"] { color: #008026 !important; }
+            #results p.best-labeler-note[style*="color: #7C5BA3"] { color: #8B5CF6 !important; }
+            #results p.best-labeler-note[style*="color: #B45309"] { color: #F59E0B !important; }
 
             /* ══════════════════════════════
                Services Section — mobile
