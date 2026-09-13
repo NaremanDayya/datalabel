@@ -1396,7 +1396,7 @@
             <div class="metric-cards-container">
                 <!-- Card 1: Tasks completed (blue) -->
                 <div class="metric-card" style="position: relative; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none" style="position: absolute; top: 20px; right: 20px; opacity: 0.85;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none" style="position: absolute; top: 20px; left: 43px; opacity: 0.85;">
                         <circle cx="20.5" cy="20.5" r="18" stroke="#488EFF" stroke-width="2.5" fill="none"/>
                         <path d="M13 20.5l5.5 5.5 9.5-10" stroke="#488EFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
                     </svg>
@@ -1410,7 +1410,7 @@
 
                 <!-- Card 2: Top accuracy (green) -->
                 <div class="metric-card" style="position: relative; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none" style="position: absolute; top: 20px; right: 20px; opacity: 0.85;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none" style="position: absolute; top: 20px; left: 43px; opacity: 0.85;">
                         <path d="M25.4277 10.1709V12.7136H33.801L22.8849 23.6297L17.4269 18.1717C17.1885 17.9333 16.8652 17.7994 16.5281 17.7994C16.191 17.7994 15.8676 17.9333 15.6292 18.1717L2.54297 31.2579L4.34069 33.0556L16.5281 20.8682L21.9861 26.3262C22.2245 26.5646 22.5478 26.6985 22.8849 26.6985C23.2221 26.6985 23.5454 26.5646 23.7838 26.3262L35.5987 14.5114V22.8846H38.1414V10.1709H25.4277Z" fill="#0CD247"/>
                     </svg>
                     <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; height: 100%; padding: 31px 119px 27px 43px;">
@@ -1423,7 +1423,7 @@
 
                 <!-- Card 3: RLHF Kappa (purple) -->
                 <div class="metric-card" style="position: relative; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none" style="position: absolute; top: 20px; right: 20px; opacity: 0.85;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none" style="position: absolute; top: 20px; left: 43px; opacity: 0.85;">
                         <path d="M22.4043 18.6587L24.5973 31.0004C24.6218 31.1457 24.6014 31.295 24.5388 31.4285C24.4762 31.5619 24.3744 31.673 24.2469 31.747C24.1194 31.821 23.9724 31.8542 23.8255 31.8424C23.6785 31.8305 23.5388 31.7741 23.4248 31.6807L18.2426 27.7912C17.9924 27.6043 17.6885 27.5033 17.3763 27.5033C17.064 27.5033 16.7601 27.6043 16.5099 27.7912L11.3191 31.6792C11.2052 31.7725 11.0655 31.8288 10.9188 31.8407C10.7721 31.8526 10.6252 31.8194 10.4978 31.7456C10.3704 31.6719 10.2686 31.561 10.2058 31.4279C10.143 31.2947 10.1224 31.1456 10.1466 31.0004L12.3381 18.6587" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M17.3707 20.2654C22.1674 20.2654 26.0559 16.3769 26.0559 11.5802C26.0559 6.78351 22.1674 2.89502 17.3707 2.89502C12.574 2.89502 8.68555 6.78351 8.68555 11.5802C8.68555 16.3769 12.574 20.2654 17.3707 20.2654Z" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
@@ -1437,7 +1437,7 @@
 
                 <!-- Card 4: Team throughput (orange) — lightning bolt for speed/volume -->
                 <div class="metric-card" style="position: relative; height: 215px; border-radius: 20px; overflow: hidden; border: 0.5px solid rgba(0, 88, 190, 0.34); background: linear-gradient(180deg, rgba(255, 255, 255, 0.43) 0%, rgba(238, 245, 255, 0.34) 50%, rgba(153, 192, 255, 0.26) 100%);">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none" style="position: absolute; top: 20px; right: 20px; opacity: 0.85;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none" style="position: absolute; top: 20px; left: 43px; opacity: 0.85;">
                         <path d="M21 3L5 21h13l-1 14 16-18H20L21 3z" fill="#F59E0B"/>
                     </svg>
                     <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; height: 100%; padding: 31px 119px 27px 43px;">
