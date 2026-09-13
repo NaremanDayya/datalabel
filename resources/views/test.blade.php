@@ -753,6 +753,95 @@
                 margin: 0 !important;
                 padding-top: 0 !important;
             }
+
+            /* ══════════════════════════════
+               About / Enterprise Trust — mobile
+               ══════════════════════════════ */
+            #about {
+                padding: 40px 16px !important;
+                background: #F5F5F5 !important;
+            }
+            #about > div {
+                gap: 32px !important;
+            }
+            /* Section heading h2 */
+            #about h2 {
+                font-size: 35px !important;
+                font-weight: 700 !important;
+                color: #043763 !important;
+                line-height: normal !important;
+                margin: 0 !important;
+                max-width: 100% !important;
+            }
+            #about h2 span {
+                font-size: 35px !important;
+                font-weight: 700 !important;
+                color: #488EFF !important;
+            }
+            /* Section sub-paragraph */
+            #about > div > div:first-child p {
+                font-size: 20px !important;
+                font-weight: 400 !important;
+                color: #787878 !important;
+                line-height: normal !important;
+                margin: 0 !important;
+                max-width: 100% !important;
+            }
+            /* "A structure built on trust and compliance" h3 */
+            #about h3 {
+                font-size: 35px !important;
+                font-weight: 700 !important;
+                color: #043763 !important;
+                line-height: 57.6px !important;
+                letter-spacing: -0.48px !important;
+                margin: 0 !important;
+            }
+            /* Trust cards: single column */
+            #about div[style*="grid-template-columns: repeat(3, 1fr)"] {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 16px !important;
+            }
+            /* Each trust card */
+            #about div[style*="grid-template-columns: repeat(3, 1fr)"] > div {
+                border-radius: 15px !important;
+                border: 1px solid #C4C6CF !important;
+                background: #FFFFFF !important;
+                padding: 32px !important;
+                gap: 12px !important;
+                box-shadow: 0 4px 24px 0 rgba(0, 26, 77, 0.08) !important;
+            }
+            /* Number 01/02/03 */
+            #about div[style*="font-size: 64px"] {
+                font-size: 64px !important;
+                font-weight: 700 !important;
+                color: #488EFF !important;
+                line-height: 64px !important;
+                letter-spacing: -1.28px !important;
+            }
+            /* Card title h4 */
+            #about h4 {
+                font-size: 24px !important;
+                font-weight: 800 !important;
+                color: #01213D !important;
+                line-height: 33.6px !important;
+                margin: 0 !important;
+            }
+            /* Card body */
+            #about div[style*="grid-template-columns: repeat(3, 1fr)"] > div p {
+                font-size: 20px !important;
+                font-weight: 400 !important;
+                color: #44474E !important;
+                line-height: 25.6px !important;
+                margin: 0 !important;
+            }
+            /* Icon container */
+            #about div[style*="grid-template-columns: repeat(3, 1fr)"] > div svg[style*="position: absolute"] {
+                width: 24px !important;
+                height: 24px !important;
+                top: 20px !important;
+                right: 20px !important;
+            }
         }
     </style>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
