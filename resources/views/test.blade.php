@@ -161,26 +161,13 @@
                 aspect-ratio: unset !important;
                 width: 100% !important;
                 height: 1068px !important;
-                background: #01213D !important;
-                position: relative !important;
-                overflow: hidden !important;
-            }
-            /* Background image as its own layer so it sits behind content */
-            #hero-section > div:first-child {
-                position: absolute !important;
-                inset: 0 !important;
-                z-index: 0 !important;
+                background-color: #01213D !important;
                 background-image: url('{{ asset('public/images/Rectangle-122.png') }}') !important;
                 background-size: cover !important;
                 background-position: center top !important;
                 background-repeat: no-repeat !important;
-                opacity: 0.85 !important;
-            }
-            /* Content layer stays above */
-            #hero-section > div:last-child {
-                position: absolute !important;
-                inset: 0 !important;
-                z-index: 1 !important;
+                position: relative !important;
+                overflow: hidden !important;
             }
 
             /* ── Headline: Poppins 40px #EFEFEF w700 ── */
@@ -215,7 +202,7 @@
                 background: #EFEFEF !important;
             }
 
-            /* ── Button 2: See Our Results — transparent bg ── */
+            /* ── Button 2: See Our Results — transparent bg, border only ── */
             #hero-btn-secondary {
                 left: 24px !important;
                 top: 582px !important;
@@ -223,8 +210,8 @@
                 justify-content: center !important;
                 padding: 16px 30px !important;
                 background: transparent !important;
-                border: 1px solid #C4C4C4 !important;
-                outline: none !important;
+                outline: 1px solid #C4C4C4 !important;
+                outline-offset: -1px !important;
             }
 
             /* ── Divider line above trust cards ── */
@@ -407,17 +394,14 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320; overflow: hidden;">
-        <!-- Background image layer -->
-        <div style="position: absolute; inset: 0; z-index: 0; background-image: url('{{ asset('public/images/Rectangle-122.png') }}'); background-size: cover; background-position: center center; background-repeat: no-repeat; opacity: 0.85;"></div>
-        <!-- Content layer -->
-        <div style="width: 100%; height: 100%; position: relative; z-index: 1;">
-            <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word;">Your Arabic AI is only as good as the humans who train it .</div>
+    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-122.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+        <div style="width: 100%; height: 100%; position: relative;">
+            <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
             <div id="hero-subtext" style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
             <div id="hero-btn-primary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 15%; top: 65.2%; position: absolute; background: #EFEFEF; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: #01213D; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">Start Your Project</div>
             </div>
-            <div id="hero-btn-secondary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 33%; top: 65.2%; position: absolute; background: transparent; border-radius: 9px; border: 1px solid #C4C4C4; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
+            <div id="hero-btn-secondary" style="padding-left: 30px; padding-right: 30px; padding-top: 15px; padding-bottom: 15px; left: 33%; top: 65.2%; position: absolute; border-radius: 9px; outline: 1px #C4C4C4 solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; cursor: pointer;">
                 <div style="color: white; font-size: clamp(14px, 1.5vw, 20px); font-family: Poppins; font-weight: 700; word-wrap: break-word">See Our Results</div>
             </div>
             <!-- Divider line (mobile only) -->
