@@ -842,6 +842,108 @@
                 top: 20px !important;
                 right: 20px !important;
             }
+
+            /* ══════════════════════════════
+               Partnership Section — mobile
+               ══════════════════════════════ */
+            #partnership {
+                padding: 40px 16px !important;
+            }
+            #partnership > div {
+                gap: 32px !important;
+            }
+            /* "Stronger together for lasting impact" h2 */
+            #partnership h2 {
+                font-size: 35px !important;
+                font-weight: 700 !important;
+                color: #043763 !important;
+                line-height: 57.6px !important;
+                letter-spacing: -0.48px !important;
+                margin: 0 !important;
+            }
+            /* Partnership paragraph */
+            #partnership > div > div[style*="gap: 80px"] > div:first-child p {
+                font-size: 20px !important;
+                font-weight: 400 !important;
+                color: #787878 !important;
+                line-height: 50.6px !important;
+                margin: 0 !important;
+            }
+            /* Description + diagram row: stack vertically */
+            #partnership > div > div[style*="gap: 80px"] {
+                flex-direction: column !important;
+                gap: 32px !important;
+                align-items: flex-start !important;
+            }
+            /* Description box: auto size */
+            #partnership > div > div[style*="gap: 80px"] > div:first-child {
+                width: 100% !important;
+                height: auto !important;
+            }
+            /* Diagram wrapper: stack circles + arrow + box vertically */
+            #partnership > div > div[style*="gap: 80px"] > div:last-child {
+                flex-direction: column !important;
+                align-items: center !important;
+                width: 100% !important;
+                gap: 16px !important;
+            }
+            /* Circles row: keep side by side */
+            #partnership div[style*="border-radius: 50%"] {
+                width: 140px !important;
+                height: 140px !important;
+            }
+
+            /* Payment & Regional Access box */
+            #payment-access {
+                width: 100% !important;
+                height: auto !important;
+                flex-direction: column !important;
+                padding: 24px 20px !important;
+                gap: 20px !important;
+                background: #FFFFFF !important;
+                border: 1px solid #E6E6E6 !important;
+                box-shadow: none !important;
+            }
+            #payment-access > div:first-child {
+                width: 100% !important;
+                gap: 12px !important;
+            }
+            /* h3 Payment & Regional Access */
+            #payment-access h3 {
+                font-size: 24px !important;
+                font-weight: 700 !important;
+                color: #003A6C !important;
+                line-height: 50px !important;
+                margin: 0 !important;
+            }
+            /* paragraph */
+            #payment-access p {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+                color: #969696 !important;
+                line-height: 33px !important;
+                margin: 0 !important;
+            }
+            /* GCV logo image div */
+            #payment-access > div:last-child {
+                width: 100% !important;
+                height: 114px !important;
+                border-radius: 15px !important;
+                border: 1px solid #E6E6E6 !important;
+                background-color: #FFFFFF !important;
+            }
+
+            /* "Start Your Project" button in Team section */
+            #partnership ~ section button[style*="linear-gradient"] {
+                width: 228px !important;
+                height: 48px !important;
+                padding: 18px 30px !important;
+                border-radius: 10px !important;
+                background: linear-gradient(90deg, #0360B1 0%, #003A6C 100%) !important;
+                font-size: 16px !important;
+                font-weight: 700 !important;
+                color: #FFFFFF !important;
+            }
         }
     </style>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -1324,7 +1426,7 @@
     </section>
 
     <!-- Partnership Section -->
-    <section style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
+    <section id="partnership" style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
         <div style="width: 100%; max-width: 1577px; margin: 0 auto; display: flex; flex-direction: column; gap: 60px;">
             <!-- Main Title -->
             <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Stronger together for lasting impact</h2>
@@ -1372,7 +1474,7 @@
             </div>
 
             <!-- Payment & Regional Access Box -->
-            <div style="display: flex; width: 1574px; height: 308px; padding: 39px 10px 39px 46px; align-items: center; gap: 10px; border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.53); box-shadow: 0 0 20px 0 #043763; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%);">
+            <div id="payment-access" style="display: flex; width: 1574px; height: 308px; padding: 39px 10px 39px 46px; align-items: center; gap: 10px; border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.53); box-shadow: 0 0 20px 0 #043763; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%);">
                 <!-- Left Content -->
                 <div style="display: flex; flex-direction: column; gap: 20px; width: 788px; flex-shrink: 0;">
                     <h3 style="color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 35px; font-weight: 700; line-height: 50px; margin: 0;">Payment & Regional Access</h3>
