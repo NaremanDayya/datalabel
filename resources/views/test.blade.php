@@ -402,7 +402,7 @@
                Why Arabic section — mobile
                ══════════════════════════════ */
             #why-arabic {
-                background: linear-gradient(180deg, #01213D 0%, #01213D 100%) !important;
+                background: #F5F5F5 !important;
                 padding: 0 !important;
             }
             /* Stack image above text */
@@ -440,10 +440,11 @@
                 background: linear-gradient(180deg, rgba(1,33,61,0.00) 50%, rgba(1,33,61,0.70) 96.32%) !important;
                 pointer-events: none !important;
             }
-            /* Text container — no background, inherits section dark bg */
+            /* Text container */
             #why-arabic > div > div:last-child {
                 padding: 32px 24px !important;
-                background: transparent !important;
+                background: #F5F5F5 !important;
+                margin-top: 16px !important;
             }
             /* Heading: "Why Arabic?" — #043763, 40px, w600 */
             #why-arabic span:first-child {
