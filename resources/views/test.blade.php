@@ -880,17 +880,27 @@
                 width: 100% !important;
                 height: auto !important;
             }
-            /* Diagram wrapper: stack circles + arrow + box vertically */
+            /* Diagram wrapper: wrap so circles stay side-by-side, arrow+box go below */
             #partnership > div > div[style*="gap: 80px"] > div:last-child {
-                flex-direction: column !important;
+                flex-direction: row !important;
+                flex-wrap: wrap !important;
                 align-items: center !important;
+                justify-content: center !important;
                 width: 100% !important;
-                gap: 16px !important;
+                gap: 12px !important;
             }
-            /* Circles row: keep side by side */
-            #partnership div[style*="border-radius: 50%"] {
-                width: 140px !important;
-                height: 140px !important;
+            /* Arrow → rotated to point down, full width so it breaks to its own row */
+            #partnership > div > div[style*="gap: 80px"] > div:last-child > div[style*="font-size: 28px"] {
+                width: 100% !important;
+                text-align: center !important;
+                transform: rotate(90deg) !important;
+                font-size: 28px !important;
+            }
+            /* Result box: full width on its own row */
+            #partnership > div > div[style*="gap: 80px"] > div:last-child > div[style*="border-radius: 15px"][style*="border: 1px solid #0061A5"] {
+                width: 100% !important;
+                height: auto !important;
+                padding: 20px !important;
             }
 
             /* Payment & Regional Access box */
