@@ -412,14 +412,17 @@
                 flex-direction: column !important;
                 height: auto !important;
                 grid-template-columns: unset !important;
+                background: transparent !important;
             }
-            /* Image container */
+            /* Image container — becomes the styled block */
             #why-arabic > div > div:first-child {
                 padding: 0 !important;
                 width: 100% !important;
+                height: 448px !important;
                 background: transparent !important;
+                position: relative !important;
             }
-            /* Image itself — Figma spec */
+            /* Image itself */
             #why-arabic img {
                 width: 100% !important;
                 max-width: 100% !important;
@@ -427,12 +430,18 @@
                 object-fit: cover !important;
                 border-radius: 5px !important;
                 box-shadow: none !important;
-                background:
-                    linear-gradient(180deg, rgba(1,33,61,0.00) 50%, rgba(1,33,61,0.70) 96.32%),
-                    lightgray !important;
                 display: block !important;
             }
-            /* Text container */
+            /* Gradient overlay on top of image */
+            #why-arabic > div > div:first-child::after {
+                content: '' !important;
+                position: absolute !important;
+                inset: 0 !important;
+                border-radius: 5px !important;
+                background: linear-gradient(180deg, rgba(1,33,61,0.00) 50%, rgba(1,33,61,0.70) 96.32%) !important;
+                pointer-events: none !important;
+            }
+            /* Text container — no background, inherits section dark bg */
             #why-arabic > div > div:last-child {
                 padding: 32px 24px !important;
                 background: transparent !important;
