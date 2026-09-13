@@ -360,14 +360,13 @@
                ══════════════════════════════ */
             #stats-section {
                 padding: 24px 16px !important;
-                background: #01213D !important;
             }
             /* Card container: stack vertically */
             #stats-section > div {
                 display: flex !important;
                 flex-direction: column !important;
                 grid-template-columns: unset !important;
-                gap: 24px !important;
+                gap: 40px !important;
                 padding: 32px 24px !important;
                 border-radius: 16px !important;
             }
