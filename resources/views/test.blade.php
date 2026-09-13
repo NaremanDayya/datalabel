@@ -142,6 +142,46 @@
         #mobile-hamburger { display: none !important; }
         #nav-desktop-links { display: flex; }
 
+        /* ── Hero trust cards: desktop layout ── */
+        #hero-trust-cards {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+        }
+        .trust-card {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 20px 16px;
+            background: linear-gradient(180deg, #043763 7.69%, #01213D 100%);
+            border-top: 1px solid rgba(0, 66, 124, 0.6);
+            border-right: 1px solid rgba(0, 66, 124, 0.4);
+        }
+        .trust-card:last-child { border-right: none; }
+        .trust-title {
+            color: #F2F4F6;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            line-height: 1.3;
+        }
+        .trust-subtitle {
+            color: #548ED3;
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            text-align: center;
+            line-height: 1.3;
+        }
+
         /* Mobile Responsive (480px and below) */
         @media (max-width: 480px) {
             * { box-sizing: border-box !important; }
