@@ -1264,7 +1264,7 @@
     </nav>
 
     <!-- Hero Section - Section 1 (Figma Design) -->
-    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-122.png') }}'); background-size: contain; background-position: right center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320;">
+    <div id="hero-section" style="width: 100%; position: relative; background: #01213D; background-image: url('{{ asset('public/images/Rectangle-122.png') }}'); background-size: cover; background-position: center center; background-repeat: no-repeat; margin-top: 60px; margin-bottom: 80px; aspect-ratio: 1920 / 1320; overflow: hidden;">
         <div style="width: 100%; height: 100%; position: relative;">
             <div id="hero-headline" style="width: 632px; left: 15%; top: 15%; position: absolute; color: #FFFFFF; font-size: 70px; font-family: 'Poppins', sans-serif; font-weight: 700; line-height: normal; word-wrap: break-word; z-index: 10;">Your Arabic AI is only as good as the humans who train it .</div>
             <div id="hero-subtext" style="width: 590px; left: 15%; top: 56%; position: absolute; color: #B3B3B3; font-size: 25px; font-family: 'Poppins', sans-serif; font-weight: 400; line-height: normal; word-wrap: break-word;">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
