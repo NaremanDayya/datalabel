@@ -376,6 +376,7 @@
                 border-radius: 16px !important;
                 padding: 28px 24px !important;
                 margin-bottom: 16px !important;
+                background: linear-gradient(270deg, #01213D 0%, #003A6C 100%) !important;
             }
             /* Hide the vertical divider line */
             #stats-section div[style*="width: 1px"] {
