@@ -623,6 +623,42 @@
             }
 
             /* ══════════════════════════════
+               CTA Banner — mobile
+               ══════════════════════════════ */
+            #cta-banner {
+                padding: 0 16px !important;
+                margin-top: 24px !important;
+            }
+            /* Banner box: stack text above button */
+            #cta-banner > div > div:first-child {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                padding: 24px 20px !important;
+                gap: 20px !important;
+            }
+            /* Banner paragraph */
+            #cta-banner p[style*="font-size: 20px"] {
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                color: #FFFFFF !important;
+                line-height: 31px !important;
+            }
+            /* "Request a Pilot" button */
+            #cta-banner button {
+                width: 198px !important;
+                height: 48px !important;
+                padding: 0 20px !important;
+                border-radius: 10px !important;
+                background: linear-gradient(180deg, #4A83E1 0%, #2858A7 100%) !important;
+                font-size: 16px !important;
+                font-weight: 700 !important;
+                color: #FFFFFF !important;
+                line-height: normal !important;
+                align-self: center !important;
+                white-space: nowrap !important;
+            }
+
+            /* ══════════════════════════════
                Translation & MSA — mobile
                ══════════════════════════════ */
             #translation-section {
@@ -987,7 +1023,7 @@
     </section>
 
     <!-- CTA Banner Section -->
-    <section style="width: 100%; margin-top: 40px; padding: 0 40px; background: #FFFFFF;">
+    <section id="cta-banner" style="width: 100%; margin-top: 40px; padding: 0 40px; background: #FFFFFF;">
         <div style="width: 100%; display: flex; flex-direction: column; gap: 50px; max-width: 1577px; margin: 0 auto;">
             <!-- Banner -->
             <div style="display: flex; width: 100%; padding: 24px 32px; align-items: center; gap: 20px; border-radius: 10px; background: linear-gradient(270deg, #01213D 22.23%, #003A6C 96.32%); justify-content: space-between;">
