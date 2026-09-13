@@ -689,6 +689,70 @@
                 line-height: normal !important;
                 margin: 0 !important;
             }
+
+            /* ══════════════════════════════
+               Services Section — mobile
+               ══════════════════════════════ */
+            /* Section heading (inside #cta-banner) */
+            #cta-banner h2 {
+                font-size: 35px !important;
+                font-weight: 800 !important;
+                color: #043763 !important;
+                line-height: normal !important;
+                margin: 0 !important;
+            }
+            #cta-banner > div > div:last-child p {
+                font-size: 20px !important;
+                font-weight: 400 !important;
+                color: #787878 !important;
+                line-height: 30px !important;
+                margin: 0 !important;
+            }
+            /* Services grid: single column */
+            #services {
+                padding: 24px 16px !important;
+            }
+            #services > div {
+                gap: 16px !important;
+            }
+            #services div[style*="grid-template-columns"] {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 16px !important;
+            }
+            /* Card */
+            #services > div > div > div {
+                border-radius: 15px !important;
+                border: 0.5px solid #DBDBDB !important;
+                background: rgba(255,255,255,0.56) !important;
+                padding: 24px 20px !important;
+                gap: 12px !important;
+            }
+            /* Card title h3 */
+            #services h3 {
+                font-size: 24px !important;
+                font-weight: 700 !important;
+                color: #01213D !important;
+                line-height: 38px !important;
+                margin: 0 !important;
+            }
+            /* Blue subtitle */
+            #services p[style*="color: #1C72FF"] {
+                font-size: 12px !important;
+                font-weight: 500 !important;
+                color: #1C72FF !important;
+                line-height: 23px !important;
+                margin: 0 !important;
+            }
+            /* Gray body */
+            #services p[style*="color: #787878"] {
+                font-size: 14px !important;
+                font-weight: 500 !important;
+                color: #787878 !important;
+                line-height: 30px !important;
+                margin: 0 !important;
+                padding-top: 0 !important;
+            }
         }
     </style>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
