@@ -564,7 +564,7 @@
             .best-labeler-note {
                 font-size: 14px !important;
                 font-weight: 800 !important;
-                line-height: normal !important;
+                line-height: 40px !important;
                 margin: 0 !important;
             }
             /* Keep each card's own color */
