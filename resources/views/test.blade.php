@@ -560,11 +560,27 @@
                 line-height: normal !important;
                 margin: 4px 0 16px 0 !important;
             }
-            /* "Best labeler" green note */
+            /* "Best labeler" — green card 1 */
             #results p[style*="color: #00A651"] {
                 font-size: 14px !important;
                 font-weight: 800 !important;
                 color: #008026 !important;
+                line-height: normal !important;
+                margin: 0 !important;
+            }
+            /* "Best labeler" — purple card 2 */
+            #results p[style*="color: #7C5BA3"] {
+                font-size: 14px !important;
+                font-weight: 800 !important;
+                color: #8B5CF6 !important;
+                line-height: normal !important;
+                margin: 0 !important;
+            }
+            /* "Best labeler" — amber card 3 */
+            #results p[style*="color: #F59E0B"] {
+                font-size: 15px !important;
+                font-weight: 800 !important;
+                color: #F59E0B !important;
                 line-height: normal !important;
                 margin: 0 !important;
             }
