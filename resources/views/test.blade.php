@@ -361,14 +361,21 @@
             #stats-section {
                 padding: 24px 16px !important;
             }
-            /* Card container: stack vertically */
+            /* Card container: two separate cards with gap */
             #stats-section > div {
                 display: flex !important;
                 flex-direction: column !important;
                 grid-template-columns: unset !important;
-                gap: 40px !important;
-                padding: 32px 24px !important;
+                gap: 0 !important;
+                padding: 0 !important;
+                border-radius: 0 !important;
+                background: transparent !important;
+            }
+            /* Each stat box */
+            #stats-section > div > div:not([style*="width: 1px"]) {
                 border-radius: 16px !important;
+                padding: 28px 24px !important;
+                margin-bottom: 16px !important;
             }
             /* Hide the vertical divider line */
             #stats-section div[style*="width: 1px"] {
