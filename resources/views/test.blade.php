@@ -1007,23 +1007,39 @@
                 letter-spacing: 0.6px !important;
                 margin: 0 !important;
             }
-            /* Native / Trained / Invested cards: stack */
-            #workforce > div:last-of-type {
-                flex-direction: column !important;
+            /* Native / Trained / Invested — horizontal snap carousel */
+            #workforce-cards {
+                overflow-x: scroll !important;
+                scroll-snap-type: x mandatory !important;
+                -webkit-overflow-scrolling: touch !important;
+                scrollbar-width: none !important;
                 gap: 0 !important;
+                align-items: stretch !important;
             }
-            #workforce > div:last-of-type > div {
+            #workforce-cards::-webkit-scrollbar { display: none !important; }
+            #workforce-cards > div {
+                flex: 0 0 100% !important;
+                min-width: 100% !important;
+                scroll-snap-align: start !important;
                 border-right: none !important;
-                border-bottom: 1px solid #C4C4C4 !important;
-                padding: 24px 0 !important;
-            }
-            #workforce > div:last-of-type > div:last-child {
                 border-bottom: none !important;
+                padding: 24px 8px !important;
+                box-sizing: border-box !important;
+            }
+            /* Dot indicators */
+            #workforce-dots { display: flex !important; }
+            .wf-dot {
+                width: 8px; height: 8px; border-radius: 50%;
+                background: #D0D5DD; transition: all 0.3s ease; cursor: pointer;
+            }
+            .wf-dot-active {
+                width: 24px; border-radius: 4px; background: #003A6C;
             }
 
             /* Worker Privacy card */
             #worker-privacy {
                 padding: 24px 16px !important;
+                background: #F5F5F5 !important;
             }
             #worker-privacy > div {
                 width: 100% !important;
@@ -1032,19 +1048,22 @@
                 border: 0.5px solid #3265A1 !important;
                 background: rgba(255,255,255,0.58) !important;
                 padding: 24px 20px !important;
-                flex-direction: column !important;
+                flex-direction: row !important;
                 gap: 16px !important;
-                align-items: flex-start !important;
+                align-items: center !important;
+                display: flex !important;
             }
             #worker-privacy h3 {
-                font-size: 20px !important;
+                font-size: 18px !important;
                 font-weight: 600 !important;
                 color: #003A6C !important;
+                margin: 0 !important;
             }
             #worker-privacy p {
-                font-size: 16px !important;
+                font-size: 14px !important;
                 font-weight: 500 !important;
                 color: #787878 !important;
+                margin: 0 !important;
             }
 
             /* ══════════════════════════════
@@ -1761,7 +1780,7 @@
             </div>
         </div>
 
-            <div style="display: flex; gap: 0; width: 100%; align-items: flex-start;">
+            <div id="workforce-cards" style="display: flex; gap: 0; width: 100%; align-items: flex-start;">
                 <!-- Native Card -->
                 <div style="flex: 1; padding: 40px; display: flex; gap: 30px; border-right: 1px solid #C4C4C4;">
                     <!-- Icon Circle -->
@@ -1827,6 +1846,12 @@
                         <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 400; line-height: 1.6; margin: 0;">Our annotators are invested in outcomes — producing measurably lower error rates and better data for our clients</p>
                     </div>
                 </div>
+            </div>
+            <!-- Workforce carousel dots (mobile only) -->
+            <div id="workforce-dots" style="display: none; justify-content: center; gap: 8px; margin-top: 16px;">
+                <span class="wf-dot wf-dot-active"></span>
+                <span class="wf-dot"></span>
+                <span class="wf-dot"></span>
             </div>
         </div>
     </section>
@@ -2036,6 +2061,24 @@
         function closeMobileMenu() {
             document.getElementById('mobile-menu-dropdown').style.display = 'none';
         }
+
+        // Workforce carousel dot sync
+        (function() {
+            var grid = document.getElementById('workforce-cards');
+            var dots = document.querySelectorAll('.wf-dot');
+            if (!grid || !dots.length) return;
+            grid.addEventListener('scroll', function() {
+                var index = Math.round(grid.scrollLeft / grid.offsetWidth);
+                dots.forEach(function(d, i) {
+                    d.classList.toggle('wf-dot-active', i === index);
+                });
+            }, { passive: true });
+            dots.forEach(function(dot, i) {
+                dot.addEventListener('click', function() {
+                    grid.scrollTo({ left: i * grid.offsetWidth, behavior: 'smooth' });
+                });
+            });
+        })();
 
         // Team carousel dot sync
         (function() {
