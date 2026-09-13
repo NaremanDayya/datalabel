@@ -155,6 +155,7 @@
         }
         .trust-card {
             flex: 1;
+            aspect-ratio: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1274,7 +1275,7 @@
     <!-- Navigation -->
     <nav style="position: fixed; top: 0; width: 100%; background: #FFFFFF; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); z-index: 50;">
         <div id="nav-inner" style="max-width: 1920px; margin: 0 auto; padding: 16px 40px; display: flex; align-items: center; justify-content: space-between;">
-            <img src="{{ asset('public/images/Rectangle-119.png') }}" alt="Karama Data" style="height: 40px;">
+            <img src="{{ asset('public/images/logo.png') }}" alt="Karama Data" style="height: 40px;">
             <div id="nav-desktop-links" style="display: flex; align-items: center; gap: 40px;">
                 <a href="#why-arabic" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Why Arabic</a>
                 <a href="#results" style="color: #505050; text-decoration: none; font-size: 14px; font-family: Poppins; font-weight: 500; transition: color 0.3s;">Results</a>
