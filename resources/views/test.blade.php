@@ -954,6 +954,68 @@
                 font-weight: 700 !important;
                 color: #FFFFFF !important;
             }
+
+            /* ══════════════════════════════
+               Team Carousel — mobile
+               ══════════════════════════════ */
+            #team-section {
+                padding: 40px 16px !important;
+            }
+            #team-section > div {
+                gap: 24px !important;
+            }
+            #team-section h2 {
+                font-size: 28px !important;
+                font-weight: 700 !important;
+                color: #003A6C !important;
+                line-height: 1.3 !important;
+                margin: 0 !important;
+            }
+            /* Convert grid to horizontal scroll carousel */
+            #team-grid {
+                display: flex !important;
+                flex-direction: row !important;
+                overflow-x: scroll !important;
+                scroll-snap-type: x mandatory !important;
+                -webkit-overflow-scrolling: touch !important;
+                gap: 16px !important;
+                padding-bottom: 8px !important;
+                scrollbar-width: none !important;
+            }
+            #team-grid::-webkit-scrollbar {
+                display: none !important;
+            }
+            /* Each card snaps to full width */
+            #team-grid > div {
+                flex: 0 0 calc(100% - 32px) !important;
+                width: calc(100% - 32px) !important;
+                min-width: calc(100% - 32px) !important;
+                height: auto !important;
+                scroll-snap-align: start !important;
+                border-radius: 19px !important;
+                border: 2px solid #A3C6FF !important;
+                background: rgba(255, 255, 255, 0.38) !important;
+                padding: 24px !important;
+                box-sizing: border-box !important;
+                box-shadow: 0 4px 20px rgba(0, 58, 108, 0.10) !important;
+            }
+            /* Dot indicators */
+            #team-dots {
+                display: flex !important;
+            }
+            .team-dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: #D0D5DD;
+                transition: all 0.3s ease;
+                cursor: pointer;
+            }
+            .team-dot-active {
+                width: 24px;
+                border-radius: 4px;
+                background: #003A6C;
+            }
         }
     </style>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -1498,7 +1560,7 @@
     </section>
 
     <!-- Team Section -->
-    <section style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
+    <section id="team-section" style="width: 100%; padding: 80px 40px; background: #FFFFFF;">
         <div style="width: 100%; max-width: 1577px; margin: 0 auto; display: flex; flex-direction: column; gap: 60px;">
             <!-- Start Project Button -->
             <button style="padding: 12px 24px; border-radius: 10px; background: linear-gradient(90deg, #0360B1 0%, #003A6C 216.05%); border: none; cursor: pointer; color: #FFFFFF; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 600; line-height: 20px; transition: background 0.3s; width: fit-content;">
@@ -1509,7 +1571,7 @@
             <h2 style="color: #003A6C; font-family: 'Poppins', sans-serif; font-size: 48px; font-weight: 700; line-height: normal; margin: 0;">Meet the people behind Karama Data</h2>
 
             <!-- Team Grid -->
-            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; width: 100%;">
+            <div id="team-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; width: 100%;">
                 <!-- Laura Mather Card -->
                 <div style="width: 382px; height: 304px; padding: 24px; border-radius: 19px; border: 2px solid #A3C6FF; background: rgba(255, 255, 255, 0.38); display: flex; flex-direction: column; gap: 16px;">
                     <div style="display: flex; justify-content: space-between; align-items: flex-start;">
@@ -1581,6 +1643,13 @@
                     </div>
                     <p style="color: #787878; font-family: 'Poppins', sans-serif; font-size: 17px; font-weight: 500; line-height: 27.6px; margin: 0;">CEO of Gaza Children Village</p>
                 </div>
+            </div>
+            <!-- Carousel dots (mobile only) -->
+            <div id="team-dots" style="display: none; justify-content: center; gap: 8px; margin-top: 16px;">
+                <span class="team-dot team-dot-active"></span>
+                <span class="team-dot"></span>
+                <span class="team-dot"></span>
+                <span class="team-dot"></span>
             </div>
         </div>
     </section>
@@ -1875,6 +1944,24 @@
         function closeMobileMenu() {
             document.getElementById('mobile-menu-dropdown').style.display = 'none';
         }
+
+        // Team carousel dot sync
+        (function() {
+            var grid = document.getElementById('team-grid');
+            var dots = document.querySelectorAll('.team-dot');
+            if (!grid || !dots.length) return;
+            grid.addEventListener('scroll', function() {
+                var index = Math.round(grid.scrollLeft / grid.offsetWidth);
+                dots.forEach(function(d, i) {
+                    d.classList.toggle('team-dot-active', i === index);
+                });
+            }, { passive: true });
+            dots.forEach(function(dot, i) {
+                dot.addEventListener('click', function() {
+                    grid.scrollTo({ left: i * grid.offsetWidth, behavior: 'smooth' });
+                });
+            });
+        })();
 
         const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
         const observer = new IntersectionObserver((entries) => {
