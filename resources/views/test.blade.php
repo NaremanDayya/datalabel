@@ -164,7 +164,7 @@
                 background-color: #01213D !important;
                 background-image: url('{{ asset('public/images/Rectangle-122.png') }}') !important;
                 background-size: cover !important;
-                background-position: center top !important;
+                background-position: center -60px !important;
                 background-repeat: no-repeat !important;
                 position: relative !important;
                 overflow: hidden !important;
@@ -195,7 +195,7 @@
             /* ── Button 1: Start Your Project ── */
             #hero-btn-primary {
                 left: 24px !important;
-                top: 580px !important;
+                top: 650px !important;
                 width: calc(100% - 48px) !important;
                 justify-content: center !important;
                 padding: 16px 30px !important;
@@ -205,7 +205,7 @@
             /* ── Button 2: See Our Results — transparent bg, border only ── */
             #hero-btn-secondary {
                 left: 24px !important;
-                top: 652px !important;
+                top: 724px !important;
                 width: calc(100% - 48px) !important;
                 justify-content: center !important;
                 padding: 16px 30px !important;
@@ -219,7 +219,7 @@
                 position: absolute !important;
                 left: 50% !important;
                 transform: translateX(-50%) !important;
-                top: 740px !important;
+                top: 810px !important;
                 width: 203px !important;
                 height: 6px !important;
                 border-radius: 9px !important;
@@ -231,7 +231,7 @@
                 position: absolute !important;
                 left: 24px !important;
                 right: 24px !important;
-                top: 762px !important;
+                top: 832px !important;
                 display: grid !important;
                 grid-template-columns: 1fr 1fr !important;
                 gap: 10px !important;
