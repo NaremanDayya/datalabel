@@ -174,7 +174,7 @@
             #hero-headline {
                 width: calc(100% - 48px) !important;
                 left: 24px !important;
-                top: 80px !important;
+                top: 30px !important;
                 font-size: 40px !important;
                 font-weight: 700 !important;
                 color: #EFEFEF !important;
@@ -185,7 +185,7 @@
             #hero-subtext {
                 width: calc(100% - 48px) !important;
                 left: 24px !important;
-                top: 400px !important;
+                top: 330px !important;
                 font-size: 13px !important;
                 font-weight: 400 !important;
                 color: #B3B3B3 !important;
