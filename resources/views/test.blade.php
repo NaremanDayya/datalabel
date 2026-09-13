@@ -475,6 +475,50 @@
                 line-height: 35px !important;
                 max-width: 100% !important;
             }
+            /* ══════════════════════════════
+               Translation & MSA — mobile
+               ══════════════════════════════ */
+            #translation-section {
+                padding: 24px 16px !important;
+            }
+            /* Outer card */
+            #translation-section > div {
+                display: flex !important;
+                flex-direction: column !important;
+                grid-template-columns: unset !important;
+                gap: 20px !important;
+                padding: 20px 16px !important;
+            }
+            /* Swap order: image div goes first */
+            #translation-section > div > div:last-child {
+                order: -1 !important;
+            }
+            /* Image */
+            #translation-section img {
+                width: 100% !important;
+                height: 240px !important;
+                object-fit: cover !important;
+                border-radius: 10px !important;
+            }
+            /* Text boxes column */
+            #translation-section > div > div:first-child {
+                gap: 16px !important;
+            }
+            /* Each text box */
+            #translation-section h3 {
+                font-size: 24px !important;
+                font-weight: 700 !important;
+                color: #003A6C !important;
+                margin-bottom: 10px !important;
+                margin-top: 0 !important;
+            }
+            #translation-section p {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+                color: #787878 !important;
+                line-height: normal !important;
+                margin: 0 !important;
+            }
         }
     </style>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -614,7 +658,7 @@
     </section>
 
     <!-- Translation & MSA Section - Figma Design -->
-    <section style="background: #F5F5F5; padding: 80px 170px;">
+    <section id="translation-section" style="background: #F5F5F5; padding: 80px 170px;">
         <div style="background: #FFFFFF; border-radius: 20px; padding: 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: stretch; border: 1px solid #E0E0E0;">
             <div style="display: flex; flex-direction: column; gap: 30px; justify-content: center;">
                 <div style="background: #F9FAFB; padding: 40px 30px; border-radius: 10px; border-left: 13px solid #2970C5;">
