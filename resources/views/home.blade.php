@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Karama Data — Native-speaker Arabic dialect annotation for AI companies. Your Arabic AI is only as good as the humans who train it. NLP, ASR, RLHF. US LLC.">
     <title>Karama Data | Arabic AI Data Annotation</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg viewBox='0 0 40 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='46' rx='8' fill='%230f2040'/%3E%3Cline x1='11' y1='6' x2='11' y2='40' stroke='white' stroke-width='8' stroke-linecap='round'/%3E%3Cline x1='15' y1='23' x2='34' y2='6' stroke='white' stroke-width='7' stroke-linecap='round'/%3E%3Cline x1='15' y1='23' x2='34' y2='40' stroke='%233b82f6' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='15' cy='23' r='5' fill='%2306b6d4'/%3E%3C/svg%3E">
+    <link rel="icon" href="{{ asset('public/favicon.ico') }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('public/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('public/favicon-192x192.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public/apple-touch-icon.png') }}">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
