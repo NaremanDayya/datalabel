@@ -40,8 +40,7 @@
 
             /* Layout */
             --nav-h: 3.5rem;
-            --container: 87.5rem;          /* 1400px */
-            --container-narrow: 75rem;     /* 1200px */
+            --container: 80rem;            /* 1280px — one width for every section */
             --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);       /* 16 → 40px */
             --section-y: clamp(3rem, 2rem + 4vw, 6rem);          /* 48 → 96px */
             --gap: clamp(1rem, 0.75rem + 1.25vw, 2rem);          /* 16 → 32px */
@@ -95,10 +94,12 @@
             margin-inline: auto;
             padding-inline: var(--gutter);
         }
-        .container--narrow { max-width: var(--container-narrow); }
         .section { padding-block: var(--section-y); }
         .section--soft { background: var(--surface-soft); }
         .section--white { background: #FFFFFF; }
+        .section--flush-top { padding-top: 0; }
+        /* Cards that share one soft band sit closer together than separate sections */
+        #why-arabic, #stats-section { padding-bottom: var(--stack); }
         .stack { display: flex; flex-direction: column; gap: var(--stack); }
 
         /* ---------- 3. Typography helpers ---------- */
@@ -277,7 +278,7 @@
         .why__media { display: flex; justify-content: center; }
         .why__img {
             width: 100%;
-            max-width: 23.75rem;
+            max-width: 30rem;
             border-radius: 10px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
             background: #FFFFFF;
@@ -287,7 +288,7 @@
         .why__title span { display: block; }
         .why__text { max-width: 34rem; }
         @media (min-width: 768px) {
-            .why__grid { grid-template-columns: 1fr 1fr; }
+            .why__grid { grid-template-columns: 5fr 6fr; }
         }
 
         /* ---------- 8. Stats ---------- */
@@ -424,8 +425,10 @@
         }
 
         /* ---------- 11. Banners / CTA ---------- */
-        .cta { padding-top: 2.5rem; }
-        .cta__stack { display: flex; flex-direction: column; gap: clamp(2rem, 1.5rem + 2.5vw, 3.125rem); }
+        /* The benchmark banner belongs to the results above it: short gap before, full section gap after */
+        #results { padding-bottom: clamp(2rem, 1.5rem + 2vw, 3rem); }
+        .cta { padding-top: 0; }
+        .cta__stack { display: flex; flex-direction: column; gap: var(--section-y); }
         .banner {
             display: flex;
             flex-direction: column;
@@ -446,7 +449,8 @@
         }
 
         /* ---------- 12. Services ---------- */
-        .services { padding-block: clamp(2rem, 1.5rem + 2.5vw, 3.75rem) var(--section-y); }
+        /* Short bottom gap so the pricing banner reads as the close of the services block */
+        .services { padding-block: var(--stack) clamp(2rem, 1.5rem + 2vw, 3rem); }
         .services__grid { display: grid; grid-template-columns: 1fr; gap: var(--gap); }
         .service {
             display: flex;
@@ -473,7 +477,7 @@
 
         /* ---------- 13. About / Enterprise trust ---------- */
         .about__title { max-width: 56rem; }
-        .about__lead { color: var(--text-muted); font-size: clamp(1.125rem, 1rem + 0.8vw, 1.75rem); font-weight: 400; line-height: 1.5; max-width: 80rem; }
+        .about__lead { color: var(--text-muted); font-size: var(--fs-lead); font-weight: 400; line-height: 1.6; max-width: 56rem; }
         .trust-grid { display: grid; grid-template-columns: 1fr; gap: var(--gap); }
         .trust-item {
             position: relative;
@@ -493,10 +497,10 @@
         }
 
         /* ---------- 14. Partnership ---------- */
-        .partner__title { color: var(--navy-800); font-size: var(--fs-h3); font-weight: 700; line-height: 1.3; }
+        .partner__title { color: var(--navy-800); font-size: var(--fs-h2); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
         .partner__row { display: flex; flex-direction: column; align-items: center; gap: clamp(1.5rem, 1rem + 2vw, 5rem); }
         .partner__desc { display: flex; flex-direction: column; justify-content: center; width: 100%; }
-        .partner__text { color: var(--text-muted); font-size: var(--fs-lead); font-weight: 400; line-height: 1.8; }
+        .partner__text { color: var(--text-muted); font-size: var(--fs-lead); font-weight: 400; line-height: 1.7; }
         .diagram { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.75rem; width: 100%; }
         .diagram__circle {
             position: relative;
@@ -565,15 +569,19 @@
         }
         @media (min-width: 1024px) {
             .partner__row { flex-direction: row; }
-            .partner__desc { flex: 0 1 40%; }
-            .diagram { flex: 1 1 0; }
+            .partner__desc { flex: 0 1 45%; }
+            .diagram { flex: 1 1 0; justify-content: flex-end; }
             .payment { flex-direction: row; align-items: center; gap: 2rem; }
             .payment__logo { width: 40%; flex-shrink: 0; }
         }
 
         /* ---------- 15. Team ---------- */
-        .team__stack { display: flex; flex-direction: column; gap: clamp(1.5rem, 1rem + 2vw, 3.75rem); }
-        .team__title { color: var(--navy-800); font-size: clamp(1.75rem, 1.4rem + 1.2vw, 3rem); font-weight: 700; line-height: 1.2; }
+        /* Mobile: title → button → cards → dots. Tablet+: title and button share one row above the cards. */
+        .team__stack { display: flex; flex-direction: column; gap: clamp(1.5rem, 1rem + 2vw, 2.5rem); }
+        .team__title { order: 1; color: var(--navy-800); font-size: var(--fs-h2); font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; }
+        .team__cta { order: 2; align-self: flex-start; }
+        .team-grid { order: 3; }
+        .team__stack .dots { order: 4; }
         .team-grid {
             display: flex;
             gap: 1rem;
@@ -615,7 +623,17 @@
         .team-dot, .wf-dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #D0D5DD; transition: all 0.3s ease; cursor: pointer; }
         .team-dot-active, .wf-dot-active { width: 1.5rem; border-radius: 4px; background: var(--navy-800); }
         @media (min-width: 768px) {
-            .team-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gap); overflow: visible; scroll-snap-type: none; padding-bottom: 0; }
+            .team__stack {
+                display: grid;
+                grid-template-columns: 1fr auto;
+                grid-template-areas: "title cta" "cards cards";
+                align-items: center;
+                column-gap: 2rem;
+                row-gap: var(--stack);
+            }
+            .team__title { grid-area: title; }
+            .team__cta { grid-area: cta; align-self: center; }
+            .team-grid { grid-area: cards; display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gap); overflow: visible; scroll-snap-type: none; padding-bottom: 0; }
             .team-card { flex: auto; }
             .dots { display: none; }
         }
@@ -712,7 +730,16 @@
         .quote__meta { display: flex; flex-direction: column; gap: 0.3125rem; }
         .quote__name { color: #3265A1; font-size: 1rem; font-weight: 800; line-height: 1.5; letter-spacing: 0.03em; }
         .quote__role { color: #3265A1; font-size: 0.875rem; font-weight: 400; line-height: 1.5; }
-        .form { display: flex; flex-direction: column; gap: 1.25rem; }
+        /* The form sits in a soft card so it carries the same visual weight as the text column beside it */
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            padding: var(--card-pad);
+            border-radius: var(--radius);
+            border: 1px solid var(--line);
+            background: var(--surface-tint);
+        }
         .form__row { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
         .field { display: flex; flex-direction: column; gap: 0.5rem; }
         .field label { color: var(--navy-800); font-size: 0.875rem; font-weight: 600; }
@@ -880,7 +907,7 @@
 
     <!-- Why Arabic Section - Figma Design -->
     <section id="why-arabic" class="section section--soft">
-        <div class="why__grid container container--narrow">
+        <div class="why__grid container">
             <div class="why__media">
                 <img src="{{ asset('public/images/human-ai-interaction.png') }}" alt="Why Arabic" class="why__img">
             </div>
@@ -895,8 +922,8 @@
     </section>
 
     <!-- Stats Section -->
-    <section id="stats-section" class="section section--soft" style="padding-top: 0;">
-        <div class="container container--narrow">
+    <section id="stats-section" class="section section--soft section--flush-top">
+        <div class="container">
             <div class="stats__card">
                 <div>
                     <div class="stats__num">400M+</div>
@@ -914,8 +941,8 @@
     </section>
 
     <!-- Translation & MSA Section - Figma Design -->
-    <section id="translation-section" class="section section--soft" style="padding-top: 0;">
-        <div class="container container--narrow">
+    <section id="translation-section" class="section section--soft section--flush-top">
+        <div class="container">
             <div class="split-card">
                 <div class="callouts">
                     <div class="callout">
@@ -936,7 +963,7 @@
 
     <!-- Quality Section - Figma Design -->
     <section id="results" class="section section--white">
-        <div class="container container--narrow">
+        <div class="container">
             <div class="results__head">
                 <div>
                     <div class="title-xl" style="margin-bottom: 1.25rem;">
@@ -1218,7 +1245,7 @@
     </section>
 
     <!-- Bottom CTA -->
-    <section class="section section--white" style="padding-top: 0;">
+    <section class="section section--white section--flush-top">
         <div class="container">
             <div class="banner">
                 <p class="banner__text">We price for quality, not volume. Engagements are scoped based on dialect requirements, QA depth, and throughput needs — not race-to-the-bottom per-task rates. Contact us to discuss your project.</p>
@@ -1344,7 +1371,7 @@
     <section id="team-section" class="section section--white">
         <div class="team__stack container">
             <!-- Start Project Button -->
-            <button class="btn btn--grad" style="align-self: flex-start;">
+            <button class="btn btn--grad team__cta">
                 Start Your Project →
             </button>
 
@@ -1437,7 +1464,7 @@
 
     <!-- Annotators Section -->
     <section id="workforce" class="section section--white">
-        <div class="container container--narrow">
+        <div class="container">
             <!-- Title -->
             <h2 class="workforce__title">The Quality Starts With the Annotators</h2>
 
@@ -1529,7 +1556,7 @@
 
     <!-- Worker Privacy Section -->
     <section id="worker-privacy" class="section section--soft">
-        <div class="container container--narrow">
+        <div class="container">
             <div class="privacy__card">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none" class="privacy__icon">
@@ -1554,7 +1581,7 @@
 
     <!-- Contact Form Section -->
     <section id="contact-section" class="section section--white">
-        <div class="contact__grid container container--narrow">
+        <div class="contact__grid container">
             <!-- Left Content -->
             <div class="contact__info">
                 <!-- Title and Description -->
