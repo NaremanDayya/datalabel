@@ -819,7 +819,7 @@
                 <a href="#services" class="nav__link">Services</a>
                 <a href="#about" class="nav__link">About</a>
                 <a href="#workforce" class="nav__link">Our Workforce</a>
-                <button class="btn btn--navy">Get in Touch</button>
+                <a href="#contact-section" class="btn btn--navy" style="text-decoration: none;">Get in Touch</a>
             </div>
             <!-- Hamburger — mobile / tablet only -->
             <button id="mobile-hamburger" class="nav__burger" onclick="toggleMobileMenu()" aria-label="Open menu">
@@ -837,7 +837,7 @@
             <a href="#services"   onclick="closeMobileMenu()" class="nav__menu-link">Services</a>
             <a href="#about"      onclick="closeMobileMenu()" class="nav__menu-link">About</a>
             <a href="#workforce"  onclick="closeMobileMenu()" class="nav__menu-link">Our Workforce</a>
-            <a href="#contact"    onclick="closeMobileMenu()" class="nav__menu-cta">Get in Touch</a>
+            <a href="#contact-section" onclick="closeMobileMenu()" class="nav__menu-cta">Get in Touch</a>
         </div>
     </nav>
 
