@@ -847,12 +847,12 @@
             <div class="hero__content">
                 <div id="hero-headline" class="hero__title">Your Arabic AI is only as good as the humans who train it .</div>
                 <div id="hero-subtext" class="hero__subtitle">91% accuracy, benchmarked against published research. US-incorporated. No shortcuts.</div>
-                <div id="hero-btn-primary" class="hero__btn btn btn--light">
+                <a href="#contact-section" id="hero-btn-primary" class="hero__btn btn btn--light" style="text-decoration: none;">
                     <div>Start Your Project</div>
-                </div>
-                <div id="hero-btn-secondary" class="hero__btn btn btn--ghost">
+                </a>
+                <a href="#results" id="hero-btn-secondary" class="hero__btn btn btn--ghost" style="text-decoration: none;">
                     <div>See Our Results</div>
-                </div>
+                </a>
             </div>
             <!-- Divider line (mobile only) -->
             <div id="hero-divider" class="hero__divider"></div>
