@@ -1,0 +1,113 @@
+{
+  "name": "Karama Data — Contact Form",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "karama-contact",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0001-0001-0001-000000000001",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "karama-contact"
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $input.first().json.body ?? $input.first().json;\n\nconst name    = body.name    || '—';\nconst company = body.company || '—';\nconst email   = body.email   || '—';\nconst message = body.message || '—';\n\nconst html = `\n<div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;\">\n  <div style=\"background: #01213D; padding: 24px 32px; border-radius: 8px 8px 0 0;\">\n    <h2 style=\"color: #ffffff; margin: 0; font-size: 20px;\">New Project Inquiry — Karama Data</h2>\n  </div>\n  <div style=\"border: 1px solid #e0e0e0; border-top: none; padding: 32px; border-radius: 0 0 8px 8px;\">\n    <table style=\"width: 100%; border-collapse: collapse;\">\n      <tr>\n        <td style=\"padding: 10px 0; color: #666; font-size: 14px; width: 130px;\">Name</td>\n        <td style=\"padding: 10px 0; color: #01213D; font-weight: 600;\">${name}</td>\n      </tr>\n      <tr style=\"border-top: 1px solid #f0f0f0;\">\n        <td style=\"padding: 10px 0; color: #666; font-size: 14px;\">Company</td>\n        <td style=\"padding: 10px 0; color: #01213D; font-weight: 600;\">${company}</td>\n      </tr>\n      <tr style=\"border-top: 1px solid #f0f0f0;\">\n        <td style=\"padding: 10px 0; color: #666; font-size: 14px;\">Email</td>\n        <td style=\"padding: 10px 0;\"><a href=\"mailto:${email}\" style=\"color: #488EFF;\">${email}</a></td>\n      </tr>\n      <tr style=\"border-top: 1px solid #f0f0f0;\">\n        <td style=\"padding: 10px 0; color: #666; font-size: 14px; vertical-align: top;\">Message</td>\n        <td style=\"padding: 10px 0; color: #01213D; white-space: pre-wrap;\">${message}</td>\n      </tr>\n    </table>\n    <div style=\"margin-top: 24px; padding-top: 16px; border-top: 1px solid #f0f0f0; font-size: 12px; color: #999;\">\n      Submitted via karamadata.ai\n    </div>\n  </div>\n</div>\n`;\n\nreturn [{ json: { name, company, email, message, html } }];"
+      },
+      "id": "a1b2c3d4-0002-0002-0002-000000000002",
+      "name": "Format Email",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "fromEmail": "no-reply@karamadata.ai",
+        "toEmail": "nanadaya166@gmail.com",
+        "subject": "=New inquiry from {{$json.name}} — {{$json.company}}",
+        "emailFormat": "html",
+        "message": "={{$json.html}}",
+        "options": {
+          "replyTo": "={{$json.email}}"
+        }
+      },
+      "id": "a1b2c3d4-0003-0003-0003-000000000003",
+      "name": "Send Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [760, 300],
+      "credentials": {
+        "smtp": {
+          "id": "YOUR_SMTP_CREDENTIAL_ID",
+          "name": "SMTP — configure in n8n credentials"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={ \"ok\": true }",
+        "options": {
+          "responseCode": 200,
+          "responseHeaders": {
+            "entries": [
+              { "name": "Access-Control-Allow-Origin", "value": "*" }
+            ]
+          }
+        }
+      },
+      "id": "a1b2c3d4-0004-0004-0004-000000000004",
+      "name": "Respond OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [1020, 220]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={ \"ok\": false }",
+        "options": {
+          "responseCode": 500,
+          "responseHeaders": {
+            "entries": [
+              { "name": "Access-Control-Allow-Origin", "value": "*" }
+            ]
+          }
+        }
+      },
+      "id": "a1b2c3d4-0005-0005-0005-000000000005",
+      "name": "Respond Error",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [1020, 400]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [{ "node": "Format Email", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format Email": {
+      "main": [
+        [{ "node": "Send Email", "type": "main", "index": 0 }]
+      ]
+    },
+    "Send Email": {
+      "main": [
+        [{ "node": "Respond OK", "type": "main", "index": 0 }]
+      ],
+      "error": [
+        [{ "node": "Respond Error", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
