@@ -1632,35 +1632,69 @@
 
             <!-- Right Form -->
             <div>
-                <form class="form">
+                <form class="form" id="contact-form">
                     <!-- Name and Company Row -->
                     <div class="form__row">
                         <div class="field">
                             <label>Your Name <span class="req">*</span></label>
-                            <input type="text" placeholder="Jane Smith">
+                            <input type="text" name="name" placeholder="Jane Smith" required>
                         </div>
                         <div class="field">
                             <label>Company <span class="req">*</span></label>
-                            <input type="text" placeholder="Acme AI Inc.">
+                            <input type="text" name="company" placeholder="Acme AI Inc." required>
                         </div>
                     </div>
 
                     <!-- Email -->
                     <div class="field">
                         <label>Work Email <span class="req">*</span></label>
-                        <input type="email" placeholder="jane@yourcompany.com">
+                        <input type="email" name="email" placeholder="jane@yourcompany.com" required>
                     </div>
 
                     <!-- Project Description -->
                     <div class="field">
                         <label>Project Description <span class="req">*</span></label>
-                        <textarea placeholder="Tell us about your annotation needs — dialect requirements, volume, task type, timeline..."></textarea>
+                        <textarea name="message" placeholder="Tell us about your annotation needs — dialect requirements, volume, task type, timeline..." required></textarea>
                     </div>
 
                     <!-- Submit Button -->
-                    <button type="submit" class="form__submit">Start Your Project</button>
-                    <p class="form__hint">We respond to all inquiries within one business day.</p>
+                    <button type="submit" class="form__submit" id="contact-submit">Start Your Project</button>
+                    <p class="form__hint" id="contact-hint">We respond to all inquiries within one business day.</p>
                 </form>
+                <script>
+                document.getElementById('contact-form').addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    const btn  = document.getElementById('contact-submit');
+                    const hint = document.getElementById('contact-hint');
+                    const data = Object.fromEntries(new FormData(this));
+
+                    btn.disabled = true;
+                    btn.textContent = 'Sending…';
+                    hint.style.color = '';
+                    hint.textContent = 'We respond to all inquiries within one business day.';
+
+                    try {
+                        const res = await fetch('YOUR_N8N_WEBHOOK_URL', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(data)
+                        });
+                        if (res.ok) {
+                            btn.textContent = 'Sent!';
+                            hint.style.color = '#00B660';
+                            hint.textContent = 'Thank you — we\'ll be in touch within one business day.';
+                            this.reset();
+                        } else {
+                            throw new Error('server');
+                        }
+                    } catch {
+                        btn.disabled = false;
+                        btn.textContent = 'Start Your Project';
+                        hint.style.color = '#e53e3e';
+                        hint.textContent = 'Something went wrong — please email us directly at hello@karamadata.ai';
+                    }
+                });
+                </script>
             </div>
         </div>
     </section>
