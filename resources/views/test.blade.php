@@ -1683,19 +1683,20 @@
                             },
                             body: JSON.stringify(data)
                         });
-                        if (res.ok) {
+                        const json = await res.json().catch(() => ({}));
+                        if (res.ok && json.ok) {
                             btn.textContent = 'Sent!';
                             hint.style.color = '#00B660';
                             hint.textContent = 'Thank you — we\'ll be in touch within one business day.';
                             this.reset();
                         } else {
-                            throw new Error('server');
+                            throw new Error('HTTP ' + res.status + ' — ' + JSON.stringify(json));
                         }
-                    } catch {
+                    } catch (err) {
                         btn.disabled = false;
                         btn.textContent = 'Start Your Project';
                         hint.style.color = '#e53e3e';
-                        hint.textContent = 'Something went wrong — please email us directly at hello@karamadata.ai';
+                        hint.textContent = 'Error: ' + err.message;
                     }
                 });
                 </script>
