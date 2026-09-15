@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Karama Data - Arabic AI Annotation</title>
     <link rel="icon" href="{{ asset('public/favicon.ico') }}" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('public/favicon-32x32.png') }}">
@@ -1674,9 +1675,12 @@
                     hint.textContent = 'We respond to all inquiries within one business day.';
 
                     try {
-                        const res = await fetch('https://n8n.taktek.co/webhook/karama-contact', {
+                        const res = await fetch('/contact', {
                             method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+                            },
                             body: JSON.stringify(data)
                         });
                         if (res.ok) {

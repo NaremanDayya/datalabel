@@ -3,22 +3,26 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\ContactInquiry;
+use Illuminate\Support\Facades\Http;
 
 class ContactController extends Controller
 {
     public function send(Request $request)
     {
         $validated = $request->validate([
-            'name'        => 'required|string|max:100',
-            'company'     => 'required|string|max:150',
-            'email'       => 'required|email|max:150',
-            'description' => 'required|string|max:2000',
+            'name'    => 'required|string|max:100',
+            'company' => 'required|string|max:150',
+            'email'   => 'required|email|max:150',
+            'message' => 'required|string|max:2000',
         ]);
 
-        Mail::to(config('mail.contact_address'))->send(new ContactInquiry($validated));
+        $response = Http::timeout(10)
+            ->post('https://n8n.taktek.co/webhook/karama-contact', $validated);
 
-        return back()->with('success', 'Your inquiry has been received. We\'ll be in touch shortly.');
+        if ($response->successful()) {
+            return response()->json(['ok' => true]);
+        }
+
+        return response()->json(['ok' => false], 500);
     }
 }
