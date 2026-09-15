@@ -1674,7 +1674,7 @@
                     hint.textContent = 'We respond to all inquiries within one business day.';
 
                     try {
-                        const res = await fetch('YOUR_N8N_WEBHOOK_URL', {
+                        const res = await fetch('https://n8n.taktek.co/webhook/karama-contact', {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify(data)
